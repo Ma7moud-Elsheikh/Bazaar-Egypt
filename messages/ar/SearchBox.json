@@ -1,0 +1,19 @@
+{
+    "label": "ابحث في المتجر",
+    "placeholder": "ابحث عن منتج: فخار، نحاس، شال...",
+    "clear": "مسح",
+    "open": "فتح البحث",
+    "close": "إغلاق البحث",
+    "suggestionsLabel": "اقتراحات البحث",
+    "recentTitle": "آخر عمليات البحث",
+    "clearRecent": "مسح الكل",
+    "popularTitle": "الأكثر بحثًا",
+    "popularList": ["فخار", "نحاس", "شال", "وسادة مطرزة", "هدايا"],
+    "queriesTitle": "اقتراحات",
+    "craftsTitle": "الحرف",
+    "productsTitle": "المنتجات",
+    "inCraft": "في {name}",
+    "searchAll": "ابحث عن «{q}» في كل المتجر",
+    "noSuggestions": "مفيش اقتراحات. اضغط Enter للبحث.",
+    "resultsAnnounce": "{count, plural, =0 {لا توجد اقتراحات} one {اقتراح واحد} two {اقتراحان} few {{count} اقتراحات} many {{count} اقتراحًا} other {{count} اقتراح}}"
+}

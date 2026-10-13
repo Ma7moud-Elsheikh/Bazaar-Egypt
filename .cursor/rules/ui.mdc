@@ -1,0 +1,21 @@
+---
+description: Component and page conventions
+globs: app/**/*.tsx,components/**/*.tsx
+alwaysApply: false
+---
+
+- Folders: `components/ui` (primitives), `layout`, `home`, `shop`, `product`, `cart`, `checkout`.
+- File names are kebab-case. Components use named exports. Default exports only for pages and layouts.
+- Reuse `components/ui` primitives before creating new ones.
+- Type all props. No `any`.
+- Style with Tailwind classes only. No inline styles and no CSS modules.
+- Client components receive data as props from Server Components. Do not fetch inside client components.
+- Loading and empty states are required for every list. Provide `loading.tsx` and `error.tsx` per route when the route fetches data.
+- Animations: transform and opacity only, with `duration-300 ease-craft`. Wrap motion-heavy effects in `motion-safe:`.
+
+- Client components never import `lib/api` or `lib/search/engine`. They fetch through route handlers in `app/api/*` and receive light payload types (see `lib/search/suggest-payload.ts`).
+- Combobox/listbox patterns: `role=combobox` on the input with `aria-activedescendant`, options are `role=option` (never put buttons inside options), Esc closes, arrow keys navigate.
+
+
+- Product page lives in `app/[locale]/shop/[slug]/page.tsx` and `components/product/*`. Gallery, purchase panel and similar interactive parts are small client components. Description, accordion, artisan story and reviews are Server Components.
+- Use native `<details>` for accordions, native `<dialog>` for lightboxes and drawers, and CSS `scroll-snap` for carousels. No UI libraries.

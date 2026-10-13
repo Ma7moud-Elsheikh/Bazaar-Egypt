@@ -1,0 +1,55 @@
+---
+description: Project-wide rules for Bazaar Egypt
+alwaysApply: true
+---
+
+# Bazaar Egypt (بازار مصر)
+
+Crafts-only e-commerce store, frontend only (a separate backend dev will build the real API).
+
+## Stack
+
+Next.js 16 App Router, TypeScript strict, Tailwind v4 (tokens in `app/globals.css`), next-intl (`ar` default, `en`), zod. No `src/` folder. Alias `@/*` points to the project root.
+
+## Hard rules
+
+- Server Components by default. Add "use client" only for interactivity.
+- Never add a dependency without asking first.
+- Data comes ONLY from `import { api } from "@/lib/api"`. Never import `data/*.json` or call `fetch` for catalog data in components.
+- Every user-facing string lives in `messages/ar.json` AND `messages/en.json`. Never hardcode text in JSX.
+- Use `Link`, `useRouter`, `usePathname`, `redirect` from `@/i18n/navigation`, never from `next/link` or `next/navigation`.
+- Pages and layouts: `params` is a Promise. Call `setRequestLocale(locale)` first.
+- Localized data fields are `{ ar, en }`: render with `localize()` from `@/lib/utils/format`. Prices with `formatPrice()`.
+
+## RTL
+
+- Use logical utilities only: `ms-* me-* ps-* pe-* start-* end-* text-start text-end`. Never `ml/mr/pl/pr/left/right`.
+- Flip directional icons with the `rtl:` variant.
+- No `tracking-*` and no `italic` on Arabic text.
+
+## Design
+
+- Use semantic tokens: `bg-surface`, `bg-surface-2`, `text-fg`, `text-muted`, `border-line`, `bg-brand text-on-brand`, `text-accent`. No raw hex in components.
+- Dark sections: `data-theme="dark"` on the section. Light for shop pages, dark for hero and artisan stories.
+- Fonts: `font-display`, `font-body`, `font-accent` only.
+- Glass surfaces: `glass` (follows data-theme), `glass-smoke` (navbar only), `glass-dark` (always dark). Buttons: `btn-primary` (glossy brand) and `btn-glass`, always combined with sizing classes (`inline-flex h-11 items-center justify-center px-6 text-sm font-semibold`).
+- Glass needs detail behind it. Put glass over images or `<AmbientBackground />` (parent: `relative isolate overflow-hidden`), never over a flat color. Max 3 glass layers on screen.
+- Never put `bg-*` on the same element as `glass`/`btn-glass`/`btn-primary` (they own the background).
+- `text-copper` on light backgrounds is for large text and decoration only. Use `text-accent` for small text.
+
+## Quality
+
+- Semantic HTML, visible `:focus-visible`, touch targets at least 44px, respect `prefers-reduced-motion`.
+- Images: `next/image` with width and height from data. No hotlinked images.
+- Every page exports `generateMetadata` with a localized title and description.
+- Work in small steps. Do not touch files outside the task. Before finishing run `npx tsc --noEmit` and `npm run build`.
+- Pages and `not-found` never render `<main>` (the layout does). Pages that are not full-bleed heroes start with `pt-28` to clear the fixed header.
+- Cart state lives in `lib/cart/cart-store.ts` (`useCart`, `cartActions`). Never create a second cart store.
+- Next 16: never use the `priority` prop on `next/image` (deprecated). Use `loading="eager"` for above-the-fold images and `preload` only for the single LCP hero.
+- Listing pages read filters from `searchParams` (parse with a helper like `lib/utils/shop-url.ts`). Filtered or sorted URLs are `noindex, follow`. Every page uses `buildAlternates()` from `lib/seo.ts` for canonical and hreflang.
+
+- Cart totals are always computed with `computeTotals()` from `lib/shipping/totals.ts` (never re-implement the math in a component). Cart, checkout and the server-side order pricing must use the same function.
+- Personal pages (`/cart`, `/checkout`, `/order/*`) export `robots: { index: false, follow: false }`.
+
+- Mutations (placing orders, forms) go through Server Actions in `lib/actions/*` that re-validate everything with zod and never trust client prices. Client-side validation is for UX only and uses translation keys, never hardcoded messages.
+- Phone numbers are normalized with `normalizeEgyptPhone()` from `lib/utils/phone.ts` before validation and storage.

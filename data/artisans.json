@@ -1,0 +1,410 @@
+[
+    {
+        "id": "artisan-hag-hashem",
+        "slug": "hag-hashem",
+        "name": {
+            "ar": "الحاج هاشم القناوي",
+            "en": "Hag Hashem Al-Qenawi"
+        },
+        "craftId": "craft-pottery",
+        "governorate": {
+            "slug": "qena",
+            "name": {
+                "ar": "قنا",
+                "en": "Qena"
+            }
+        },
+        "bio": {
+            "ar": "شيخ الفخارين في جراس بقنا، يبدع في صناعة الفخار المسامي والقلل التقليدية منذ عقود.",
+            "en": "Master potter from Garas, Qena, specializing in porous clay cooling vessels for decades."
+        },
+        "story": {
+            "ar": "تعلم الحاج هاشم صنع الفخار من والده في عمر الثامنة على ضفاف النيل. يمتلك خبرة واسعة في معرفة خلطات الطمي النيلي وكيفية حرق الفخار في الأفران البلدي للحصول على مسامية فائقة تنعش الماء.",
+            "en": "Hag Hashem learned pottery from his father at age eight along the Nile banks. He is a custodian of traditional clay mixing and wood-firing techniques that keep water naturally cool."
+        },
+        "portrait": {
+            "src": "/images/artisans/hag-hashem.webp",
+            "alt": {
+                "ar": "بورتريه للحاج هاشم القناوي بجانب العجلة الفخارية",
+                "en": "Portrait of Hag Hashem Al-Qenawi beside his pottery wheel"
+            },
+            "width": 800,
+            "height": 800
+        },
+        "yearsOfExperience": 42
+    },
+    {
+        "id": "artisan-mona-fayoum",
+        "slug": "mona-fayoum",
+        "name": {
+            "ar": "منى الفايومي",
+            "en": "Mona Al-Fayoumi"
+        },
+        "craftId": "craft-pottery",
+        "governorate": {
+            "slug": "faiyum",
+            "name": {
+                "ar": "الفيوم",
+                "en": "Faiyum"
+            }
+        },
+        "bio": {
+            "ar": "خزافة من قرية تونس بالفيوم، تدمج بين طلاء الجلاز العصري والأشكال الفخارية الريفية.",
+            "en": "Ceramist from Tunis Village, Faiyum, blending modern glaze artwork with rural pottery forms."
+        },
+        "story": {
+            "ar": "نشأت منى في قرية تونس وتلمذت على يد الخزافين الأجانب والمحليين هناك. تتميز بأعمالها ذات الطابع النباتي والألوان الزاهية المأخوذة من طبيعة بحيرة قارون ورسومات الريف.",
+            "en": "Raised in Tunis Village, Mona trained under master potters to create vivid, botanically inspired glazed ceramics that celebrate rural Faiyum scenery."
+        },
+        "portrait": {
+            "src": "/images/artisans/mona-fayoum.webp",
+            "alt": {
+                "ar": "بورتريه لمنى الفايومي داخل ورشة الخزف الخاص بها",
+                "en": "Portrait of Mona Al-Fayoumi inside her ceramics workshop"
+            },
+            "width": 800,
+            "height": 800
+        },
+        "yearsOfExperience": 16
+    },
+    {
+        "id": "artisan-usta-moustafa",
+        "slug": "usta-moustafa",
+        "name": {
+            "ar": "الأسطى مصطفى النحاس",
+            "en": "Usta Moustafa Al-Nahhas"
+        },
+        "craftId": "craft-copperware",
+        "governorate": {
+            "slug": "cairo",
+            "name": {
+                "ar": "القاهرة",
+                "en": "Cairo"
+            }
+        },
+        "bio": {
+            "ar": "حرفي نحاس بقسم الجمالية في القاهرة، متدرب على أصول النقش والآركيت الإسلامي.",
+            "en": "Coppersmith in El-Gamaleya, Cairo, specialized in traditional Islamic engraving."
+        },
+        "story": {
+            "ar": "يعمل الأسطى مصطفى في خان الخليلي منذ طفولته، حيث يقضي عشرات الساعات لنقش الأطباق والنحاسيات بالمطرقة والإزميل، متمسكًا بالزخارف الهندسية والكتابة العربية الكلاسيكية.",
+            "en": "Working in Khan el-Khalili since childhood, Usta Moustafa spends countless hours hammering intricate geometric patterns and Arabic calligraphy into solid copper sheets."
+        },
+        "portrait": {
+            "src": "/images/artisans/usta-moustafa.webp",
+            "alt": {
+                "ar": "بورتريه للأسطى مصطفى أثناء نقشه على صينية نحاسية",
+                "en": "Portrait of Usta Moustafa hand-engraving a brass tray"
+            },
+            "width": 800,
+            "height": 800
+        },
+        "yearsOfExperience": 35
+    },
+    {
+        "id": "artisan-karim-al-seini",
+        "slug": "karim-al-seini",
+        "name": {
+            "ar": "كريم الصيني",
+            "en": "Karim El-Seini"
+        },
+        "craftId": "craft-copperware",
+        "governorate": {
+            "slug": "cairo",
+            "name": {
+                "ar": "القاهرة",
+                "en": "Cairo"
+            }
+        },
+        "bio": {
+            "ar": "فنان طرأ وتلميع نحاس معاصر، يحول المعادن إلى وحدات إضاءة وديكورات مودرن بأصالة شرقية.",
+            "en": "Metal artisan specializing in contemporary hand-hammered copper lighting and home accents."
+        },
+        "story": {
+            "ar": "ورث كريم ورشة أجداده بالقرب من باب زويلة، وقام بتطوير التصاميم لتناسب البيوت الحديثة دون أن يفقد قطع النحاس هويتها الشرقية الثقيلة والدافئة.",
+            "en": "Inheriting his family workshop near Bab Zuweila, Karim modernized heritage coppersmithing to design sleek yet soulful brass home accessories."
+        },
+        "portrait": {
+            "src": "/images/artisans/karim-al-seini.webp",
+            "alt": {
+                "ar": "بورتريه لكريم الصيني بين وحدات إضاءة نحاسية",
+                "en": "Portrait of Karim El-Seini standing amongst brass pendants"
+            },
+            "width": 800,
+            "height": 800
+        },
+        "yearsOfExperience": 14
+    },
+    {
+        "id": "artisan-am-metwally",
+        "slug": "am-metwally",
+        "name": {
+            "ar": "عم متولي الأخميمي",
+            "en": "Am Metwally Al-Akhmimi"
+        },
+        "craftId": "craft-weaving",
+        "governorate": {
+            "slug": "sohag",
+            "name": {
+                "ar": "سوهاج",
+                "en": "Sohag"
+            }
+        },
+        "bio": {
+            "ar": "شيخ النساجين بمدينة أخميم بسوهاج، متخصص في الغزل اليدوي والشيلان القطنية.",
+            "en": "Master handloom weaver from Akhmim, Sohag, famous for fine cotton wraps and textiles."
+        },
+        "story": {
+            "ar": "تعد عائلة عم متولي من أعرق عائلات النسيج في أخميم. تحرك يداه ورجلاه النول الخشبي بإيقاع متناسق ليحول خيوط القطن المصري إلى شيلان ومفارش ناعمة تدوم لسنوات.",
+            "en": "Deeply rooted in Akhmim's centuries-old weaving community, Am Metwally operates handlooms with rhythmic precision, producing exquisite heritage fabrics."
+        },
+        "portrait": {
+            "src": "/images/artisans/am-metwally.webp",
+            "alt": {
+                "ar": "بورتريه لعم متولي يجلس أمام نول خشب تقليدي",
+                "en": "Portrait of Am Metwally seated at his heritage wooden loom"
+            },
+            "width": 800,
+            "height": 800
+        },
+        "yearsOfExperience": 38
+    },
+    {
+        "id": "artisan-zeinab-sohag",
+        "slug": "zeinab-sohag",
+        "name": {
+            "ar": "زينب النساجة",
+            "en": "Zeinab Al-Nassaja"
+        },
+        "craftId": "craft-weaving",
+        "governorate": {
+            "slug": "sohag",
+            "name": {
+                "ar": "سوهاج",
+                "en": "Sohag"
+            }
+        },
+        "bio": {
+            "ar": "نساجة ومبتكرة لمفارش الكليم اليدوي المعاصر باستخدام ألياف القطن والكتان.",
+            "en": "Handloom artisan crafting contemporary flatweave rugs and textiles using raw cotton and linen."
+        },
+        "story": {
+            "ar": "تدربت زينب في المبادرات المحلية لإحياء تراث أخميم، واستطاعت مزج الخيوط الطبيعية بألوان محايدة وتصاميم هندسية تناسب الديكورات المعاصرة.",
+            "en": "Trained through local heritage revival initiatives, Zeinab blends natural fibers with earthy palettes to bring historic weaving into modern homes."
+        },
+        "portrait": {
+            "src": "/images/artisans/zeinab-sohag.webp",
+            "alt": {
+                "ar": "بورتريه لزينب النساجة تعرض كليم قطني ملفوف",
+                "en": "Portrait of Zeinab holding a freshly woven cotton throw"
+            },
+            "width": 800,
+            "height": 800
+        },
+        "yearsOfExperience": 11
+    },
+    {
+        "id": "artisan-um-suleiman",
+        "slug": "um-suleiman",
+        "name": {
+            "ar": "أم سليمان السيناوية",
+            "en": "Um Suleiman Al-Sinawiyya"
+        },
+        "craftId": "craft-embroidery",
+        "governorate": {
+            "slug": "north-sinai",
+            "name": {
+                "ar": "شمال سيناء",
+                "en": "North Sinai"
+            }
+        },
+        "bio": {
+            "ar": "رائدة جمعية تطريز بدوي ب العريش، تحفظ الوحدات الزخرفية للثوب السيناوي الأصيل.",
+            "en": "Leader of an embroidery collective in Arish, preserving ancestral Bedouin stitching patterns."
+        },
+        "story": {
+            "ar": "تقود أم سليمان مجموعة من السيدات البدوية في شمال سيناء، حيث يطرزن العباءات والوسائد يدويًا بغرز الماركة الدقيقة، مع الحفاظ على معاني وقصص كل وحدة زخرفية.",
+            "en": "Um Suleiman directs a community of Bedouin women in North Sinai, hand-stitching heritage cushions and apparel while keeping cultural storytelling alive."
+        },
+        "portrait": {
+            "src": "/images/artisans/um-suleiman.webp",
+            "alt": {
+                "ar": "بورتريه لأم سليمان ترتدي الثوب البدوية المطرز",
+                "en": "Portrait of Um Suleiman in traditional embroidered Sinai attire"
+            },
+            "width": 800,
+            "height": 800
+        },
+        "yearsOfExperience": 30
+    },
+    {
+        "id": "artisan-fatma-siwa",
+        "slug": "fatma-siwa",
+        "name": {
+            "ar": "فاطمة السيوية",
+            "en": "Fatma Al-Siwiyya"
+        },
+        "craftId": "craft-embroidery",
+        "governorate": {
+            "slug": "matrouh",
+            "name": {
+                "ar": "مطروح",
+                "en": "Matrouh"
+            }
+        },
+        "bio": {
+            "ar": "مؤرخة ومطرزة حِرَفية من واحة سيوة، متخصصة في التطريز بألوان الشمس والتراب.",
+            "en": "Artisan embroiderer from Siwa Oasis specializing in vibrant silk threads on linen."
+        },
+        "story": {
+            "ar": "تستخدم فاطمة خيوط الحرير الملونة بألوان الواحة الزاهية كالأصفر والبرتقالي والأخضر لزخرفة الشيلان والإكسسوارات التراثية بروح أزيغية مصرية أصيلة.",
+            "en": "Fatma employs silk threads colored in desert sun tones to embroider traditional Siwan motifs that reflect rich Amazigh-Egyptian heritage."
+        },
+        "portrait": {
+            "src": "/images/artisans/fatma-siwa.webp",
+            "alt": {
+                "ar": "بورتريه لفاطمة السيوية تطرز قطعة شال يدويًا",
+                "en": "Portrait of Fatma Al-Siwiyya hand-stitching a brightly colored shawl"
+            },
+            "width": 800,
+            "height": 800
+        },
+        "yearsOfExperience": 18
+    },
+    {
+        "id": "artisan-amm-gamal",
+        "slug": "amm-gamal",
+        "name": {
+            "ar": "عم جمال الصدفي",
+            "en": "Amm Gamal Al-Sadafi"
+        },
+        "craftId": "craft-woodwork",
+        "governorate": {
+            "slug": "cairo",
+            "name": {
+                "ar": "القاهرة",
+                "en": "Cairo"
+            }
+        },
+        "bio": {
+            "ar": "معلم تطعيم بالصدف بخان الخليلي، يحول خشب السرسوع إلى صناديق وطاولات فاخرة.",
+            "en": "Master marquetry artisan in Khan el-Khalili specializing in mother-of-pearl inlay work."
+        },
+        "story": {
+            "ar": "يقضي عم جمال يومه في تقطيع الصدف الطبيعي بدقة متناهية وإلصاقه على ألواح خشب الزان والسرسوع ليتشكل موزاييك صدفي دقيق يزين الصناديق الشرقية الأيقونية.",
+            "en": "Amm Gamal painstakingly cuts and sets raw sea mother-of-pearl into hardwoods, continuing Cairo's celebrated tradition of inlaid marquetry furniture and boxes."
+        },
+        "portrait": {
+            "src": "/images/artisans/amm-gamal.webp",
+            "alt": {
+                "ar": "بورتريه لعم جمال يمسك بإزميل تطعيم الصدف",
+                "en": "Portrait of Amm Gamal inspecting inlaid mother-of-pearl wooden panel"
+            },
+            "width": 800,
+            "height": 800
+        },
+        "yearsOfExperience": 40
+    },
+    {
+        "id": "artisan-tarek-damietta",
+        "slug": "tarek-damietta",
+        "name": {
+            "ar": "طارق الدمياطي",
+            "en": "Tarek Al-Damiati"
+        },
+        "craftId": "craft-woodwork",
+        "governorate": {
+            "slug": "damietta",
+            "name": {
+                "ar": "دمياط",
+                "en": "Damietta"
+            }
+        },
+        "bio": {
+            "ar": "خرّاط خشبي من دمياط، يحول جذوع الأخشاب الصلبة إلى أوانٍ وأطباق تقديم منزلية.",
+            "en": "Woodturner from Damietta, hand-carving functional serving bowls from native timbers."
+        },
+        "story": {
+            "ar": "يعتمد طارق على مهارة الخراط اليدوية لتشكيل الخشب الطبيعي دون تدخل آلي كامل، مستفيدًا من خبرة قلعة الأثاث والنجارة بدمياط في معالجة الأخشاب القيمة.",
+            "en": "Hailing from Egypt's woodworking capital, Tarek turns raw hardwood blocks into smooth, organic bowls that highlight natural grain textures."
+        },
+        "portrait": {
+            "src": "/images/artisans/tarek-damietta.webp",
+            "alt": {
+                "ar": "بورتريه لطارق الدمياطي داخل ورشة الخراطة الخشبية",
+                "en": "Portrait of Tarek Al-Damiati operating a wood turning lathe"
+            },
+            "width": 800,
+            "height": 800
+        },
+        "yearsOfExperience": 19
+    },
+    {
+        "id": "artisan-sheikh-hassan-glass",
+        "slug": "sheikh-hassan-glass",
+        "name": {
+            "ar": "الشيخ حسن الزجاج",
+            "en": "Sheikh Hassan Al-Zaggag"
+        },
+        "craftId": "craft-glass-mosaic",
+        "governorate": {
+            "slug": "cairo",
+            "name": {
+                "ar": "القاهرة",
+                "en": "Cairo"
+            }
+        },
+        "bio": {
+            "ar": "نفّاخ زجاج يدوي بمنطقة القرافة بالقاهرة، يستبدل القوالب بالنفخ الحر أمام اللهب.",
+            "en": "Free-blow glassblower working near Cairo's historic City of the Dead furnace district."
+        },
+        "story": {
+            "ar": "يقف الشيخ حسن أمام الفرن المتوهج لنفخ الزجاج الذائب وتحويله إلى دوراق وقناديل شفافة خفيفة تحمل فقاعات هواء صغيرة تميز الزجاج اليدوي الأصيل.",
+            "en": "Sheikh Hassan braves intense furnace heat to blow molten glass into charming, delicate vessels filled with characteristic artisanal air bubbles."
+        },
+        "portrait": {
+            "src": "/images/artisans/sheikh-hassan-glass.webp",
+            "alt": {
+                "ar": "بورتريه للشيخ حسن يحمل أنبوب نفخ الزجاج أمام الفرن",
+                "en": "Portrait of Sheikh Hassan holding a glassblowing iron in his workshop"
+            },
+            "width": 800,
+            "height": 800
+        },
+        "yearsOfExperience": 45
+    },
+    {
+        "id": "artisan-nermine-mosaic",
+        "slug": "nermine-mosaic",
+        "name": {
+            "ar": "نرمين الموزاييك",
+            "en": "Nermine Al-Mosaic"
+        },
+        "craftId": "craft-glass-mosaic",
+        "governorate": {
+            "slug": "alexandria",
+            "name": {
+                "ar": "الإسكندرية",
+                "en": "Alexandria"
+            }
+        },
+        "bio": {
+            "ar": "فنانة موزاييك معاصرة، تدمج قطع الزجاج الملون في وحدات إضاءة وديكورات جدارية.",
+            "en": "Glass mosaic artist crafting colorful lamps and vibrant decorative glass wall panels."
+        },
+        "story": {
+            "ar": "تستوحي نرمين تصميماتها من زرقة البحر السكندري والتراث المتوسطي، حيث تقطع الزجاج الملون يدويًا وترتبه حبة بحبة لصنع مصابيح ومجسمات ضوئية مبهجة.",
+            "en": "Drawing inspiration from the Mediterranean coast, Nermine hand-cuts and arranges stained glass tesserae to craft glowing mosaic lamps."
+        },
+        "portrait": {
+            "src": "/images/artisans/nermine-mosaic.webp",
+            "alt": {
+                "ar": "بورتريه لنرمين تجمع قطع الزجاج الملون على فانوس موزاييك",
+                "en": "Portrait of Nermine setting stained glass pieces onto a mosaic lamp"
+            },
+            "width": 800,
+            "height": 800
+        },
+        "yearsOfExperience": 12
+    }
+]

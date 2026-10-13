@@ -1,0 +1,77 @@
+{
+    "freeShippingThreshold": 1500,
+    "returnDays": 14,
+    "giftWrapPrice": 50,
+    "zones": [
+        { "id": "greater-cairo", "fee": 50, "etaDays": { "min": 1, "max": 2 } },
+        { "id": "delta", "fee": 65, "etaDays": { "min": 2, "max": 3 } },
+        { "id": "canal", "fee": 70, "etaDays": { "min": 2, "max": 3 } },
+        { "id": "upper-egypt", "fee": 80, "etaDays": { "min": 3, "max": 5 } },
+        { "id": "remote", "fee": 110, "etaDays": { "min": 4, "max": 7 } }
+    ],
+    "governorates": [
+        { "slug": "cairo", "name": { "ar": "القاهرة", "en": "Cairo" }, "zoneId": "greater-cairo" },
+        { "slug": "giza", "name": { "ar": "الجيزة", "en": "Giza" }, "zoneId": "greater-cairo" },
+        {
+            "slug": "qalyubia",
+            "name": { "ar": "القليوبية", "en": "Qalyubia" },
+            "zoneId": "greater-cairo"
+        },
+        {
+            "slug": "alexandria",
+            "name": { "ar": "الإسكندرية", "en": "Alexandria" },
+            "zoneId": "delta"
+        },
+        { "slug": "beheira", "name": { "ar": "البحيرة", "en": "Beheira" }, "zoneId": "delta" },
+        {
+            "slug": "kafr-el-sheikh",
+            "name": { "ar": "كفر الشيخ", "en": "Kafr El Sheikh" },
+            "zoneId": "delta"
+        },
+        { "slug": "gharbia", "name": { "ar": "الغربية", "en": "Gharbia" }, "zoneId": "delta" },
+        { "slug": "monufia", "name": { "ar": "المنوفية", "en": "Monufia" }, "zoneId": "delta" },
+        { "slug": "dakahlia", "name": { "ar": "الدقهلية", "en": "Dakahlia" }, "zoneId": "delta" },
+        { "slug": "sharqia", "name": { "ar": "الشرقية", "en": "Sharqia" }, "zoneId": "delta" },
+        { "slug": "damietta", "name": { "ar": "دمياط", "en": "Damietta" }, "zoneId": "delta" },
+        { "slug": "port-said", "name": { "ar": "بورسعيد", "en": "Port Said" }, "zoneId": "canal" },
+        { "slug": "suez", "name": { "ar": "السويس", "en": "Suez" }, "zoneId": "canal" },
+        {
+            "slug": "ismailia",
+            "name": { "ar": "الإسماعيلية", "en": "Ismailia" },
+            "zoneId": "canal"
+        },
+        { "slug": "faiyum", "name": { "ar": "الفيوم", "en": "Faiyum" }, "zoneId": "upper-egypt" },
+        {
+            "slug": "beni-suef",
+            "name": { "ar": "بني سويف", "en": "Beni Suef" },
+            "zoneId": "upper-egypt"
+        },
+        { "slug": "minya", "name": { "ar": "المنيا", "en": "Minya" }, "zoneId": "upper-egypt" },
+        { "slug": "assiut", "name": { "ar": "أسيوط", "en": "Assiut" }, "zoneId": "upper-egypt" },
+        { "slug": "sohag", "name": { "ar": "سوهاج", "en": "Sohag" }, "zoneId": "upper-egypt" },
+        { "slug": "qena", "name": { "ar": "قنا", "en": "Qena" }, "zoneId": "upper-egypt" },
+        { "slug": "luxor", "name": { "ar": "الأقصر", "en": "Luxor" }, "zoneId": "upper-egypt" },
+        { "slug": "aswan", "name": { "ar": "أسوان", "en": "Aswan" }, "zoneId": "upper-egypt" },
+        {
+            "slug": "red-sea",
+            "name": { "ar": "البحر الأحمر", "en": "Red Sea" },
+            "zoneId": "remote"
+        },
+        {
+            "slug": "new-valley",
+            "name": { "ar": "الوادي الجديد", "en": "New Valley" },
+            "zoneId": "remote"
+        },
+        { "slug": "matrouh", "name": { "ar": "مطروح", "en": "Matrouh" }, "zoneId": "remote" },
+        {
+            "slug": "north-sinai",
+            "name": { "ar": "شمال سيناء", "en": "North Sinai" },
+            "zoneId": "remote"
+        },
+        {
+            "slug": "south-sinai",
+            "name": { "ar": "جنوب سيناء", "en": "South Sinai" },
+            "zoneId": "remote"
+        }
+    ]
+}

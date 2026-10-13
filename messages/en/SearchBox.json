@@ -1,0 +1,19 @@
+{
+    "label": "Search the shop",
+    "placeholder": "Search products: pottery, copper, shawl...",
+    "clear": "Clear",
+    "open": "Open search",
+    "close": "Close search",
+    "suggestionsLabel": "Search suggestions",
+    "recentTitle": "Recent searches",
+    "clearRecent": "Clear all",
+    "popularTitle": "Popular searches",
+    "popularList": ["pottery", "copper", "shawl", "embroidered cushion", "gifts"],
+    "queriesTitle": "Suggestions",
+    "craftsTitle": "Crafts",
+    "productsTitle": "Products",
+    "inCraft": "In {name}",
+    "searchAll": "Search for “{q}” in the whole shop",
+    "noSuggestions": "No suggestions. Press Enter to search.",
+    "resultsAnnounce": "{count, plural, =0 {No suggestions} one {# suggestion} other {# suggestions}}"
+}

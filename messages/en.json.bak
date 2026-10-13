@@ -1,0 +1,118 @@
+{
+    "Metadata": {
+        "siteName": "Bazaar Egypt",
+        "title": "Bazaar Egypt | Authentic Egyptian Handmade Crafts",
+        "description": "A store for authentic Egyptian handmade crafts: copperware, pottery, textiles, embroidery and woodwork. Every piece carries the story of its maker."
+    },
+    "Common": {
+        "brand": "Bazaar Egypt",
+        "skipToContent": "Skip to content",
+        "switchLanguage": "العربية",
+        "switchLanguageLabel": "Switch to English"
+    },
+    "Nav": {
+        "home": "Home",
+        "shop": "Shop",
+        "crafts": "Crafts",
+        "artisans": "Artisans",
+        "about": "About",
+        "openMenu": "Open menu",
+        "closeMenu": "Close menu",
+        "mainNavigation": "Main navigation"
+    },
+    "Cart": {
+        "title": "Shopping cart",
+        "open": "Open cart",
+        "openWithCount": "Open cart, {count, plural, one {# item} other {# items}}",
+        "close": "Close cart",
+        "emptyTitle": "Your cart is empty",
+        "emptyText": "Start by discovering handmade pieces that carry their maker's story.",
+        "continueShopping": "Continue shopping",
+        "subtotal": "Subtotal",
+        "shippingNote": "Shipping and payment method come next.",
+        "checkout": "Checkout",
+        "remove": "Remove {name} from cart",
+        "increase": "Increase quantity of {name}",
+        "decrease": "Decrease quantity of {name}",
+        "addToCart": "Add to cart",
+        "addNamedToCart": "Add {name} to cart",
+        "soldOut": "Sold out"
+    },
+    "Footer": {
+        "tagline": "Authentic Egyptian crafts, from their makers' hands to your home.",
+        "quote": "Craft is not a job, it is an identity",
+        "shopTitle": "Shop",
+        "shopAll": "All products",
+        "crafts": "Crafts",
+        "artisans": "Artisans",
+        "supportTitle": "Support",
+        "shipping": "Shipping and delivery",
+        "returns": "Returns and exchanges",
+        "faq": "FAQ",
+        "contact": "Contact us",
+        "legalTitle": "Legal",
+        "privacy": "Privacy policy",
+        "terms": "Terms and conditions",
+        "rights": "All rights reserved",
+        "builtBy": "Designed and built by"
+    },
+    "NotFound": {
+        "title": "Page not found",
+        "text": "The link may have changed or the page is no longer available. Let's get you back to the bazaar.",
+        "home": "Back to home"
+    },
+    "Home": {
+        "eyebrow": "Egyptian crafts",
+        "title": "Bazaar Egypt",
+        "subtitle": "A marketplace for authentic Egyptian handmade crafts. Every piece carries the story of its maker.",
+        "quote": "Craft is not a job, it is an identity",
+        "designLab": "Open the design lab"
+    },
+    "Shop": {
+        "metaTitle": "Shop",
+        "metaDescription": "Shop authentic Egyptian handmade crafts: pottery, copperware, textiles, embroidery, woodwork and mosaic glass, straight from the hands of their makers.",
+        "eyebrow": "Shop",
+        "title": "Handmade crafts from all over Egypt",
+        "subtitle": "Discover pieces made by artisans, each one carrying its maker's story.",
+        "searchLabel": "Search the shop",
+        "searchPlaceholder": "Search for a product or craft...",
+        "governorateLabel": "Governorate",
+        "allGovernorates": "All governorates",
+        "sortLabel": "Sort by",
+        "sort": {
+            "newest": "Newest",
+            "popular": "Most popular",
+            "price-asc": "Price: low to high",
+            "price-desc": "Price: high to low"
+        },
+        "minPrice": "Min price (EGP)",
+        "maxPrice": "Max price (EGP)",
+        "apply": "Apply",
+        "reset": "Clear filters",
+        "crafts": "Crafts",
+        "allCrafts": "All crafts",
+        "listLabel": "Product list",
+        "resultsCount": "{count, plural, =0 {No products} one {# product} other {# products}}",
+        "emptyTitle": "No results",
+        "emptyText": "Try different search words or clear the filters."
+    },
+    "Product": {
+        "badges": {
+            "new": "New",
+            "bestseller": "Bestseller",
+            "limited": "Limited stock",
+            "giftable": "Great for gifts"
+        },
+        "discount": "{percent}% off",
+        "soldOut": "Sold out",
+        "madeToOrder": "Made to order",
+        "rating": "Rated {rating} out of 5 from {count} reviews"
+    },
+    "Pagination": {
+        "label": "Pagination",
+        "previous": "Previous page",
+        "next": "Next page",
+        "page": "Page {page}",
+        "currentPage": "Current page, {page}"
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "label": "Pagination",
+  "previous": "Previous page",
+  "next": "Next page",
+  "page": "Page {page}",
+  "currentPage": "Current page, {page}"
+}

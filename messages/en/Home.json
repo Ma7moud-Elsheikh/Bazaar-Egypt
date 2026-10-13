@@ -1,0 +1,72 @@
+{
+  "heroEyebrow": "Authentic Egyptian handmade crafts",
+  "heroTitle": "Handmade crafts from all over Egypt",
+  "heroSubtitle": "Pieces made by artisans from Upper Egypt to the Delta, delivered to your door. Each one tells its maker's story.",
+  "ctaShop": "Shop now",
+  "ctaGifts": "Gift guide",
+  "searchLabel": "Search the shop",
+  "searchPlaceholder": "Search products: pottery, copper, shawl...",
+  "searchCta": "Search",
+  "popularLabel": "Popular searches:",
+  "popularList": ["pottery", "copper", "shawl", "embroidered cushion", "gifts"],
+  "craftsLabel": "Shop by craft",
+  "trustLabel": "Why shop at Bazaar Egypt",
+  "trustHandmade": "Authentic handmade",
+  "trustHandmadeText": "From the hands of real artisans",
+  "trustDelivery": "Delivery to every governorate",
+  "trustDeliveryText": "Time and cost by your governorate",
+  "trustCod": "Cash on delivery",
+  "trustCodText": "Pay when your order arrives",
+  "trustReturns": "{days}-day returns",
+  "trustReturnsText": "From the delivery date",
+  "shelvesTitle": "Our picks for you",
+  "shelvesSubtitle": "The most popular pieces, the latest arrivals, and gift ideas.",
+  "shelvesLabel": "Product shelves",
+  "tabBestsellers": "Bestsellers",
+  "tabNew": "New arrivals",
+  "tabGifts": "Gift ideas",
+  "viewAll": "View all",
+  "seeGiftGuide": "See the gift guide",
+  "artisansEyebrow": "Artisan stories",
+  "artisansTitle": "Behind every piece, a pair of hands with a story",
+  "artisansSubtitle": "Meet the people who make the pieces you choose.",
+  "artisanMeta": "{craft} · {governorate}",
+  "artisanCta": "Read the story",
+  "allArtisans": "All artisans",
+  "giftsEyebrow": "Gifts",
+  "giftsTitle": "Gifts for every occasion",
+  "giftsSubtitle": "Handmade pieces that make a difference, available gift-wrapped.",
+  "occasions": {
+    "wedding": { "title": "Wedding gifts", "text": "Engraved copperware that lasts generations" },
+    "newHome": { "title": "New home", "text": "Pottery that warms up a home" },
+    "corporate": { "title": "Corporate gifts", "text": "Boxes and inlaid woodwork" },
+    "ramadan": { "title": "Ramadan", "text": "Lanterns and colored glass" }
+  },
+  "govEyebrow": "From everywhere",
+  "govTitle": "Shop by governorate",
+  "govSubtitle": "Every governorate has a craft it is known for.",
+  "faqTitle": "Frequently asked questions",
+  "faqAll": "All frequently asked questions",
+  "faq": {
+    "delivery": {
+      "q": "How long does delivery take and how much does it cost?",
+      "a": "We deliver to every governorate in Egypt. Delivery time and cost are shown for your governorate on the product page and in the cart."
+    },
+    "cod": {
+      "q": "Can I pay on delivery?",
+      "a": "Yes, cash on delivery is available. You pay the courier in cash when your order arrives."
+    },
+    "returns": {
+      "q": "What if I do not like the piece?",
+      "a": "The return window is {days} days from the delivery date. Details are on the returns page."
+    },
+    "custom": {
+      "q": "Can I order a custom design?",
+      "a": "Our artisans accept custom requests. Message us on WhatsApp and tell us what you have in mind."
+    }
+  },
+  "supportTitle": "Need help?",
+  "supportText": "Reach us on WhatsApp and we will help you.",
+  "supportCta": "Chat on WhatsApp",
+  "whatsappMessage": "Hello Bazaar Egypt, I have a question"
+}

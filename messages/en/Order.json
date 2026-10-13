@@ -1,0 +1,22 @@
+{
+    "pageTitle": "Order received",
+    "title": "Your order is received",
+    "subtitle": "Thank you for trusting Bazaar Egypt.",
+    "orderNumber": "Order number",
+    "loading": "Loading order details...",
+    "contactNote": "We will review your order and contact you on {phone} if we need any details.",
+    "contactNoteGeneric": "We will review your order and contact you if we need any details.",
+    "missingDetails": "Order details are shown on the same device you placed the order from. Keep your order number.",
+    "nextTitle": "What happens now?",
+    "step1": "We review and prepare your order.",
+    "step2": "It arrives between {from} and {to}.",
+    "step2Generic": "We ship your order to your address within the announced times.",
+    "step3Cod": "Pay {total} to the courier on delivery.",
+    "step3Other": "Payment method: {method}.",
+    "summaryTitle": "Order details",
+    "shipTo": "Delivering to",
+    "payment": "Payment method",
+    "continueShopping": "Continue shopping",
+    "whatsapp": "Send your order number on WhatsApp",
+    "whatsappMessage": "Hello Bazaar Egypt, this is my order number: {id}"
+}

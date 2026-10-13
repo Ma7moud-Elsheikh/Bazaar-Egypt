@@ -1,0 +1,15 @@
+---
+description: Data layer and API contract rules
+globs: lib/**/*.ts,data/**/*.json,docs/**/*.md
+alwaysApply: false
+---
+
+- `lib/schemas/*` is the single source of truth for the API contract. Types come from `z.infer`.
+- Changing a field means updating together: the schema, `data/*.json`, `lib/api/mock.ts` if needed, and `docs/api-contract.md`.
+- `lib/api/mock.ts` and `lib/api/http.ts` must keep the exact `CatalogApi` signatures in `lib/api/types.ts`.
+- Responses from the real API are validated with zod. Never trust the shape.
+- Prices are numbers in EGP. Dates are ISO 8601 strings. Slugs are kebab-case English.
+- Secrets never go in `NEXT_PUBLIC_*` variables.
+
+
+- `lib/api` and `lib/search` are server-only (they read data files). Client components never import them: they call route handlers under `app/api/*`.

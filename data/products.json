@@ -1,0 +1,3031 @@
+[
+  {
+    "id": "prod-001",
+    "slug": "traditional-qena-olla-pitcher",
+    "name": {
+      "ar": "قلة قناوية تقليدية لتبريد الماء",
+      "en": "Traditional Qena Clay Water Olla"
+    },
+    "summary": {
+      "ar": "وعاء فخاري مسامي مصنوع يدويًا لتبريد مياه الشرب طبيعيًا.",
+      "en": "Handcrafted porous clay pitcher that naturally cools drinking water."
+    },
+    "description": {
+      "ar": "صُنعت هذه القلة في قرية جراس بقنا من طمي النيل المنقى بدقة عالية. تعمل المسام الطبيعية للفخار على ترشيح المياه وتبريدها دون حاجة للكهرباء.",
+      "en": "Crafted in Garas, Qena from purified Nile clay using ancient potters' techniques. The natural clay porosity filters and cools water naturally without electricity."
+    },
+    "story": {
+      "ar": "قام الحاج هاشم بتشكيل هذه القلة على عجلة الفخار الخشبية وحرقها في الفران البلدي كعادة أجداده.",
+      "en": "Hag Hashem hand-shaped this vessel on his foot-powered wheel and fired it in a traditional wood kiln."
+    },
+    "price": 240,
+    "compareAtPrice": 290,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/traditional-qena-olla-pitcher-1.webp",
+        "alt": {
+          "ar": "قلة فخارية مسامية تقليدية من قنا",
+          "en": "Traditional Qena porous clay water pitcher"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/traditional-qena-olla-pitcher-2.webp",
+        "alt": {
+          "ar": "تفاصيل فوهة القلة الفخارية القناوية",
+          "en": "Detail view of the hand-turned clay pitcher spout"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/traditional-qena-olla-pitcher-3.webp",
+        "alt": {
+          "ar": "قلة قناوية تقليدية لتبريد الماء بالمقياس",
+          "en": "Traditional Qena Clay Water Olla shown to scale"
+        },
+        "width": 1200,
+        "height": 1500,
+        "kind": "scale"
+      },
+      {
+        "src": "/images/products/traditional-qena-olla-pitcher-4.webp",
+        "alt": {
+          "ar": "قلة قناوية تقليدية لتبريد الماء في الاستخدام",
+          "en": "Traditional Qena Clay Water Olla in use"
+        },
+        "width": 1200,
+        "height": 1500,
+        "kind": "lifestyle"
+      }
+    ],
+    "craftId": "craft-pottery",
+    "artisanId": "artisan-hag-hashem",
+    "governorate": {
+      "slug": "qena",
+      "name": {
+        "ar": "قنا",
+        "en": "Qena"
+      }
+    },
+    "materials": [
+      {
+        "ar": "طمي نيل طبيعي",
+        "en": "Natural Nile Clay"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 16,
+      "heightCm": 32,
+      "depthCm": 16,
+      "weightGrams": 1100
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 18,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 4.8,
+    "reviewCount": 42,
+    "badges": [
+      "bestseller",
+      "giftable"
+    ],
+    "createdAt": "2026-06-12T10:00:00Z"
+  },
+  {
+    "id": "prod-002",
+    "slug": "faiyum-glazed-ceramic-serving-bowl",
+    "name": {
+      "ar": "سلطانية خزف مطلي رسم نيل الفيوم",
+      "en": "Faiyum Hand-Glazed Ceramic Serving Bowl"
+    },
+    "summary": {
+      "ar": "طبق تقديم خزفي مزين برسوم ريفية وملون بألوان مبهجة.",
+      "en": "Hand-glazed ceramic serving bowl featuring rural Nile flora motifs."
+    },
+    "description": {
+      "ar": "سلطانية تقديم مصنوعة يدويًا في الفيوم ومطلية بطبقة جلاز خالية من الرصاص وآمنة للطعام. تتميز بالزخارف النباتية المستوحاة من الطبيعة المحيطة بريف مصر.",
+      "en": "Hand-thrown ceramic serving bowl glazed with food-safe lead-free colors in Faiyum. Inspired by lush rural vegetation and lake wildlife motifs."
+    },
+    "story": {
+      "ar": "رسمت منى الفايومي هذه الرسوم يدويًا بالفرشاة قبل إدخال القطعة للفرن الحراري عالي الحرارة.",
+      "en": "Mona hand-painted these botanical patterns with fine brushes before high-temperature glaze firing."
+    },
+    "price": 680,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/faiyum-glazed-ceramic-serving-bowl-1.webp",
+        "alt": {
+          "ar": "سلطانية خزفية ملونة مطلي من الفيوم",
+          "en": "Hand-glazed colorful ceramic serving bowl from Faiyum"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/faiyum-glazed-ceramic-serving-bowl-2.webp",
+        "alt": {
+          "ar": "منظر علوي للرسوم النباتية على السلطانية الخزفية",
+          "en": "Top view of hand-painted floral motifs on ceramic bowl"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/faiyum-glazed-ceramic-serving-bowl-3.webp",
+        "alt": {
+          "ar": "سلطانية خزف مطلي رسم نيل الفيوم بالمقياس",
+          "en": "Faiyum Hand-Glazed Ceramic Serving Bowl shown to scale"
+        },
+        "width": 1200,
+        "height": 1500,
+        "kind": "scale"
+      },
+      {
+        "src": "/images/products/faiyum-glazed-ceramic-serving-bowl-4.webp",
+        "alt": {
+          "ar": "سلطانية خزف مطلي رسم نيل الفيوم في الاستخدام",
+          "en": "Faiyum Hand-Glazed Ceramic Serving Bowl in use"
+        },
+        "width": 1200,
+        "height": 1500,
+        "kind": "lifestyle"
+      }
+    ],
+    "craftId": "craft-pottery",
+    "artisanId": "artisan-mona-fayoum",
+    "governorate": {
+      "slug": "faiyum",
+      "name": {
+        "ar": "الفيوم",
+        "en": "Faiyum"
+      }
+    },
+    "materials": [
+      {
+        "ar": "طين خزفي وجلاز أملس آمن للطعام",
+        "en": "Ceramic Clay & Food-Safe Glaze"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 26,
+      "heightCm": 10,
+      "depthCm": 26,
+      "weightGrams": 1300
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 10,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 4.9,
+    "reviewCount": 29,
+    "badges": [
+      "new",
+      "giftable"
+    ],
+    "createdAt": "2026-07-01T14:30:00Z"
+  },
+  {
+    "id": "prod-003",
+    "slug": "hand-carved-terracotta-planter-pot",
+    "name": {
+      "ar": "أصيص زرع فخاري محفور يدويًا",
+      "en": "Hand-Carved Terracotta Garden Planter"
+    },
+    "summary": {
+      "ar": "أصيص فخار طبيعي محفور بنقوش هندسية للمنزل والحدائق.",
+      "en": "Natural terracotta planter pot with hand-carved geometric pattern."
+    },
+    "description": {
+      "ar": "أصيص فخاري متين مسامي يسمح لتنفس جذور النباتات وتصريف المياه الزائدة. محفور يدويًا بنقوش بارزة تضيف لمسة تراثية أصيلة للحدائق والمساحات الداخلية.",
+      "en": "Durable terracotta planter pot allowing plant roots to breathe natively. Hand-carved with relief patterns to adorn indoor balconies and garden spaces."
+    },
+    "story": {
+      "ar": "يحفر الحاج هاشم كل خط وثقب في الطين وهو ما يزال رطبًا قبل ترك الأصيص ليجف تحت شمس الصعيد.",
+      "en": "Hag Hashem hand-carves each line while the raw clay is moist before natural sun-drying in Qena."
+    },
+    "price": 380,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/hand-carved-terracotta-planter-pot-1.webp",
+        "alt": {
+          "ar": "أصيص زرع فخاري محفور بنقوش ريفية",
+          "en": "Hand-carved terracotta pot with relief patterns"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/hand-carved-terracotta-planter-pot-2.webp",
+        "alt": {
+          "ar": "أصيص زرع يحتوي على نبات منزلي",
+          "en": "Terracotta planter with green houseplant"
+        },
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "craftId": "craft-pottery",
+    "artisanId": "artisan-hag-hashem",
+    "governorate": {
+      "slug": "qena",
+      "name": {
+        "ar": "قنا",
+        "en": "Qena"
+      }
+    },
+    "materials": [
+      {
+        "ar": "فخار أحمر طبيعي",
+        "en": "Red Terracotta Clay"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 22,
+      "heightCm": 24,
+      "depthCm": 22,
+      "weightGrams": 2100
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 14,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 4.6,
+    "reviewCount": 18,
+    "badges": [],
+    "createdAt": "2026-06-20T11:15:00Z"
+  },
+  {
+    "id": "prod-004",
+    "slug": "faiyum-decorative-ceramic-wall-plate",
+    "name": {
+      "ar": "طبق حائط خزفي معلق بالرسوم السيوية",
+      "en": "Faiyum Decorative Glazed Wall Plate"
+    },
+    "summary": {
+      "ar": "طبق خزفي معلق مزين يدويًا بألوان زاهية كقطعة فنية جدارية.",
+      "en": "Hand-painted ceramic decorative plate designed for wall display."
+    },
+    "description": {
+      "ar": "قطعة فنية جدارية مصممة للتعليق بسهولة، تتميز بتداخل الألوان والرسومات الشرقية المبهجة. تعكس المهارة الفائقة في تطبيق طبقات الطلاء الخزفي الفريد.",
+      "en": "Vibrant wall display artwork ready with hanging wire. Showcases multi-layered glazing and heritage symbolism meticulously detailed by hand."
+    },
+    "story": {
+      "ar": "صممت منى هذا الطبق مستوحية رسوماته من طيور الفيوم المهاجرة ونباتات البردي.",
+      "en": "Mona designed this statement piece inspired by migratory birds and papyrus plants along Lake Qarun."
+    },
+    "price": 850,
+    "compareAtPrice": 1050,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/faiyum-decorative-ceramic-wall-plate-1.webp",
+        "alt": {
+          "ar": "طبق خزفي ملون معلق على حائط",
+          "en": "Decorative wall-mounted hand-glazed ceramic plate"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/faiyum-decorative-ceramic-wall-plate-2.webp",
+        "alt": {
+          "ar": "تفاصيل طلاء الخزف المزخرف يدويًا",
+          "en": "Close-up of glazed detail on ceramic plate"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/faiyum-decorative-ceramic-wall-plate-3.webp",
+        "alt": {
+          "ar": "طبق حائط خزفي معلق بالرسوم السيوية بالمقياس",
+          "en": "Faiyum Decorative Glazed Wall Plate shown to scale"
+        },
+        "width": 1200,
+        "height": 1500,
+        "kind": "scale"
+      },
+      {
+        "src": "/images/products/faiyum-decorative-ceramic-wall-plate-4.webp",
+        "alt": {
+          "ar": "طبق حائط خزفي معلق بالرسوم السيوية في الاستخدام",
+          "en": "Faiyum Decorative Glazed Wall Plate in use"
+        },
+        "width": 1200,
+        "height": 1500,
+        "kind": "lifestyle"
+      }
+    ],
+    "craftId": "craft-pottery",
+    "artisanId": "artisan-mona-fayoum",
+    "governorate": {
+      "slug": "faiyum",
+      "name": {
+        "ar": "الفيوم",
+        "en": "Faiyum"
+      }
+    },
+    "materials": [
+      {
+        "ar": "خزف مزجج وطلاء ملون",
+        "en": "Glazed Clay & Mineral Pigments"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 30,
+      "heightCm": 30,
+      "depthCm": 4,
+      "weightGrams": 1500
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 7,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 4.9,
+    "reviewCount": 35,
+    "badges": [
+      "bestseller",
+      "giftable"
+    ],
+    "createdAt": "2026-07-10T09:00:00Z"
+  },
+  {
+    "id": "prod-005",
+    "slug": "custom-engraved-ceramic-coffee-mug-set",
+    "name": {
+      "ar": "طقم فناجين قهوة خزفية بالاسم المخصص",
+      "en": "Custom Name Engraved Ceramic Coffee Mugs"
+    },
+    "summary": {
+      "ar": "طقم فنجانين قهوة مصنوعين يدويًا مع إمكانية كتابة اسمك عليهما.",
+      "en": "Set of 2 handcrafted ceramic coffee mugs with custom Arabic calligraphic name engraving."
+    },
+    "description": {
+      "ar": "فناجين قهوة خزفية مريحة للمسك ومطلية بألوان هادئة آمنة للمشروبات الساخنة. يمكنك تخصيص الطبق أو الفنجان بحفر اسمك أو إهداء مميز بخط عربي يدوي.",
+      "en": "Ergonomic ceramic coffee mug pair finished in satin glaze. Personalize with your name or a special message engraved in hand-written Arabic calligraphy."
+    },
+    "story": {
+      "ar": "تقوم منى بحفر الاسم المطلوب يدويًا في الفخار قبل طلاؤه وحرقه ليدوم التخصيص للأبد.",
+      "en": "Mona hand-engraves your desired name onto the wet clay body prior to glazing and final kiln firing."
+    },
+    "price": 550,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/custom-engraved-ceramic-coffee-mug-set-1.webp",
+        "alt": {
+          "ar": "طقم فناجين قهوة خزفية محفور عليها اسم",
+          "en": "Pair of personalized ceramic coffee mugs with engraved name"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/custom-engraved-ceramic-coffee-mug-set-2.webp",
+        "alt": {
+          "ar": "اسم محفور يدويًا على جانب فنجان الخزف",
+          "en": "Close up of personalized engraved Arabic name on mug"
+        },
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "craftId": "craft-pottery",
+    "artisanId": "artisan-mona-fayoum",
+    "governorate": {
+      "slug": "faiyum",
+      "name": {
+        "ar": "الفيوم",
+        "en": "Faiyum"
+      }
+    },
+    "materials": [
+      {
+        "ar": "خزف حجري ومادة جلاز حرارية",
+        "en": "Stoneware Clay & Thermal Glaze"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 10,
+      "heightCm": 9,
+      "depthCm": 10,
+      "weightGrams": 650
+    },
+    "madeToOrder": true,
+    "leadTimeDays": 7,
+    "stock": 0,
+    "customizable": true,
+    "customizationOptions": [
+      {
+        "key": "engraved_name",
+        "label": {
+          "ar": "الاسم أو العبارة المطلوبة للحفر",
+          "en": "Name or text to engrave"
+        },
+        "type": "text",
+        "required": true,
+        "maxLength": 20
+      }
+    ],
+    "rating": 5,
+    "reviewCount": 14,
+    "badges": [
+      "giftable",
+      "new"
+    ],
+    "createdAt": "2026-08-01T16:00:00Z"
+  },
+  {
+    "id": "prod-006",
+    "slug": "authentic-zeir-water-cooler-pottery",
+    "name": {
+      "ar": "زير فخاري صعيدي بحامل خشبي",
+      "en": "Authentic Upper Egyptian Zeir Clay Water Cooler"
+    },
+    "summary": {
+      "ar": "زير فخاري كبير لتنقبة وتبريد الماء بطريقة التبخير التقليدية.",
+      "en": "Large authentic clay water cooler with wooden stand for natural filtration."
+    },
+    "description": {
+      "ar": "وعاء الزير التقليدي المصنوع من الفخار المسامي الثقيل. يساعد على ترشيح مياه الشرب وتبريدها طبيعيًا بنظام التبخير الفخاري التقليدي، ويأتي بحامل خشبي متين.",
+      "en": "Traditional large porous clay Zeir vessel. Purifies and cools water through natural evaporation, seated on a sturdy solid wood base."
+    },
+    "story": {
+      "ar": "صنع الحاج هاشم هذا الزير بأسلوبه التراثي المعتمد على الطمي النيلي الأصيل ذي الكثافة العالية.",
+      "en": "Hag Hashem builds these heavy-duty cooling jars using high-density Nile clay recipes unchanged for centuries."
+    },
+    "price": 1150,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/authentic-zeir-water-cooler-pottery-1.webp",
+        "alt": {
+          "ar": "زير فخاري تقليدي مع حامل خشبي",
+          "en": "Traditional Egyptian clay Zeir cooler with wooden stand"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/authentic-zeir-water-cooler-pottery-2.webp",
+        "alt": {
+          "ar": "تفاصيل خامة الفخار المسامي للزير",
+          "en": "Texture detail of porous terracotta clay Zeir surface"
+        },
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "craftId": "craft-pottery",
+    "artisanId": "artisan-hag-hashem",
+    "governorate": {
+      "slug": "qena",
+      "name": {
+        "ar": "قنا",
+        "en": "Qena"
+      }
+    },
+    "materials": [
+      {
+        "ar": "فخار قناوي مسامي وخشب زان",
+        "en": "Porous Qena Clay & Beech Wood"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 38,
+      "heightCm": 65,
+      "depthCm": 38,
+      "weightGrams": 6500
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 5,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 4.7,
+    "reviewCount": 19,
+    "badges": [],
+    "createdAt": "2026-06-05T08:20:00Z"
+  },
+  {
+    "id": "prod-007",
+    "slug": "hand-engraved-brass-serving-tray",
+    "name": {
+      "ar": "صينية نحاس أصفر منقوشة يدويًا زخارف إسلامية",
+      "en": "Hand-Engraved Islamic Geometric Brass Tray"
+    },
+    "summary": {
+      "ar": "صينية نحاسية ثقيلة منقوشة بالكامل بإزميل النقاش الأصيل.",
+      "en": "Heavy brass serving tray deeply hand-engraved with Arabesque geometric patterns."
+    },
+    "description": {
+      "ar": "صينية تقديم فاخرة من النحاس الأصفر الخالص، منقوشة بأسلوب الأسطى مصطفى الحرفي الأصيل. تتزين ببحرة هندسية معقدة وحواف متموجة مشغولة بدقة عالية.",
+      "en": "Luxurious serving tray in solid yellow brass. Intricately hand-hammered with a central Arabesque star pattern and scalloped decorative rim."
+    },
+    "story": {
+      "ar": "أمضى الأسطى مصطفى أكثر من 28 ساعة عمل في نقش تفاصيل هذه الصينية بورشة خان الخليلي.",
+      "en": "Usta Moustafa devoted over 28 hours of meticulous chisel hammering to complete this heirloom tray."
+    },
+    "price": 2400,
+    "compareAtPrice": 2800,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/hand-engraved-brass-serving-tray-1.webp",
+        "alt": {
+          "ar": "صينية نحاسية دائرية منقوشة بنقوش عربية",
+          "en": "Round brass serving tray deeply hand-engraved with Islamic patterns"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/hand-engraved-brass-serving-tray-2.webp",
+        "alt": {
+          "ar": "تفاصيل نقش الإزميل والمطرقة على النحاس الأصفر",
+          "en": "Close-up of hand-hammered chisel details on brass surface"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/hand-engraved-brass-serving-tray-3.webp",
+        "alt": {
+          "ar": "صينية نحاس أصفر منقوشة يدويًا زخارف إسلامية بالمقياس",
+          "en": "Hand-Engraved Islamic Geometric Brass Tray shown to scale"
+        },
+        "width": 1200,
+        "height": 1500,
+        "kind": "scale"
+      },
+      {
+        "src": "/images/products/hand-engraved-brass-serving-tray-4.webp",
+        "alt": {
+          "ar": "صينية نحاس أصفر منقوشة يدويًا زخارف إسلامية في الاستخدام",
+          "en": "Hand-Engraved Islamic Geometric Brass Tray in use"
+        },
+        "width": 1200,
+        "height": 1500,
+        "kind": "lifestyle"
+      }
+    ],
+    "craftId": "craft-copperware",
+    "artisanId": "artisan-usta-moustafa",
+    "governorate": {
+      "slug": "cairo",
+      "name": {
+        "ar": "القاهرة",
+        "en": "Cairo"
+      }
+    },
+    "materials": [
+      {
+        "ar": "نحاس أصفر خالص ثقيل",
+        "en": "Solid Yellow Brass"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 45,
+      "heightCm": 3,
+      "depthCm": 45,
+      "weightGrams": 2800
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 8,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 5,
+    "reviewCount": 31,
+    "badges": [
+      "bestseller",
+      "giftable"
+    ],
+    "createdAt": "2026-06-15T12:00:00Z"
+  },
+  {
+    "id": "prod-008",
+    "slug": "custom-engraved-brass-serving-plate",
+    "name": {
+      "ar": "طبق تقديم نحاسي محفور بالاسم والإهداء",
+      "en": "Custom Name Engraved Brass Presentation Plate"
+    },
+    "summary": {
+      "ar": "طبق نحاسي فاخر يمكنك حفر اسم عائلتك أو عبارة إهداء عليه.",
+      "en": "Solid brass decorative plate customizable with your family name or personalized inscription."
+    },
+    "description": {
+      "ar": "طبق تذكاري من النحاس الخالص المطفي أو اللامع. يتميز بإمكانية حفر اسمك أو شعارك أو عبارة تهنئة بخط الثلث العربي يدويًا في منتصف الطبق.",
+      "en": "Solid brass accent plate with polished finish. Features custom central engraving of names, family monograms, or greetings in classical Arabic calligraphy."
+    },
+    "story": {
+      "ar": "ينقش الأسطى مصطفى الأسماء المطلوبة باستخدام الإزميل التقليدي لضمان عمق النقش وثباته مدى الحياة.",
+      "en": "Usta Moustafa hand-carves each requested name with traditional chisels to ensure enduring depth and authenticity."
+    },
+    "price": 1850,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/custom-engraved-brass-serving-plate-1.webp",
+        "alt": {
+          "ar": "طبق نحاسي فاخر محفور عليه اسم عربي بالمنتصف",
+          "en": "Custom engraved brass presentation plate with Arabic calligraphy"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/custom-engraved-brass-serving-plate-2.webp",
+        "alt": {
+          "ar": "لقطة قريبة للحفر العربي على النحاس",
+          "en": "Detailed close-up of custom carved Arabic name on brass"
+        },
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "craftId": "craft-copperware",
+    "artisanId": "artisan-usta-moustafa",
+    "governorate": {
+      "slug": "cairo",
+      "name": {
+        "ar": "القاهرة",
+        "en": "Cairo"
+      }
+    },
+    "materials": [
+      {
+        "ar": "نحاس أصفر مصقول",
+        "en": "Polished Solid Brass"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 35,
+      "heightCm": 2,
+      "depthCm": 35,
+      "weightGrams": 1600
+    },
+    "madeToOrder": true,
+    "leadTimeDays": 5,
+    "stock": 0,
+    "customizable": true,
+    "customizationOptions": [
+      {
+        "key": "arabic_inscription",
+        "label": {
+          "ar": "الاسم أو العبارة المراد نقشها على الطبق",
+          "en": "Name or text to be hand-engraved"
+        },
+        "type": "text",
+        "required": true,
+        "maxLength": 35
+      }
+    ],
+    "rating": 4.9,
+    "reviewCount": 22,
+    "badges": [
+      "giftable",
+      "limited"
+    ],
+    "createdAt": "2026-07-22T15:10:00Z"
+  },
+  {
+    "id": "prod-009",
+    "slug": "hammered-copper-pendant-light-fixture",
+    "name": {
+      "ar": "نجفة نحاسية مطروقة يدويًا تصميم مودرن",
+      "en": "Modern Hand-Hammered Copper Pendant Light"
+    },
+    "summary": {
+      "ar": "وحدة إضاءة معلقة من النحاس الأحمر المطروق بأسلوب عصري.",
+      "en": "Contemporary dome pendant light hand-hammered from pure red copper."
+    },
+    "description": {
+      "ar": "وحدة إضاءة دائرية تعكس الضوء الدافئ بفضل السطح الداخلي المطروق يدويًا. تضفي جوًا دافئًا وأنيقًا على طاولات الطعام وغرف المعيشة.",
+      "en": "Dome-shaped copper pendant featuring a hand-hammered interior texture that casts a warm, golden glow across dining and living areas."
+    },
+    "story": {
+      "ar": "قام كريم الصيني بتركيب وطرق خامة النحاس الأحمر وتشكيلها في أسلوب هندسي معاصر يناسب الديكورات الحديثة.",
+      "en": "Karim El-Seini expertly hammered raw red copper sheets into this minimalist, light-diffusing fixture."
+    },
+    "price": 3200,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/hammered-copper-pendant-light-fixture-1.webp",
+        "alt": {
+          "ar": "نجفة نحاس معلقة تعكس إضاءة دافئة",
+          "en": "Modern hand-hammered copper dome pendant light"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/hammered-copper-pendant-light-fixture-2.webp",
+        "alt": {
+          "ar": "الملمس المطروق للنحاس الأحمر من الداخل",
+          "en": "Close up view of the hand-hammered interior copper texture"
+        },
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "craftId": "craft-copperware",
+    "artisanId": "artisan-karim-al-seini",
+    "governorate": {
+      "slug": "cairo",
+      "name": {
+        "ar": "القاهرة",
+        "en": "Cairo"
+      }
+    },
+    "materials": [
+      {
+        "ar": "نحاس أحمر ومكونات كهربائية معتمدة",
+        "en": "Red Copper & Certified Electrical Fitting"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 40,
+      "heightCm": 30,
+      "depthCm": 40,
+      "weightGrams": 2200
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 6,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 4.8,
+    "reviewCount": 17,
+    "badges": [
+      "new"
+    ],
+    "createdAt": "2026-08-10T18:00:00Z"
+  },
+  {
+    "id": "prod-010",
+    "slug": "traditional-copper-ibrik-tea-pot",
+    "name": {
+      "ar": "إبريق شاي نحاسي تقليدي مطعّم بالفضة",
+      "en": "Traditional Silver-Inlaid Copper Tea Ibrik"
+    },
+    "summary": {
+      "ar": "إبريق نحاسي كلاسيكي لتحضير وتقديم الشاي على الفحم.",
+      "en": "Classic Egyptian copper teapot adorned with fine silver thread inlay."
+    },
+    "description": {
+      "ar": "إبريق شاي أصيل مصنوع من النحاس الأحمر ومكحل بالفضة. مبطن من الداخل بطبقة القصدير الصحية المخصصة لتحضير غلي الشاي والقهوة بأمان تام.",
+      "en": "Authentic copper teapot featuring delicate silver wire inlay work. Tin-lined inside for safe daily brewing over fire or stovetop."
+    },
+    "story": {
+      "ar": "يستخدم الأسطى مصطفى تقنية تطعيم النحاس بالفضة التقليدية لتبدو قطعة الأبريق كتحفة من العصر المملوكي.",
+      "en": "Usta Moustafa revives Mamluk-era silver inlay on copper techniques to form this classic brewing vessel."
+    },
+    "price": 1450,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/traditional-copper-ibrik-tea-pot-1.webp",
+        "alt": {
+          "ar": "إبريق نحاس شرقي مزخرف ومطعم بالفضة",
+          "en": "Traditional ornate silver-inlaid copper teapot"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/traditional-copper-ibrik-tea-pot-2.webp",
+        "alt": {
+          "ar": "فوهة إبريق النحاس والتفاصيل الفضية المنقوشة",
+          "en": "Detailed spout view of silver inlaid copper teapot"
+        },
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "craftId": "craft-copperware",
+    "artisanId": "artisan-usta-moustafa",
+    "governorate": {
+      "slug": "cairo",
+      "name": {
+        "ar": "القاهرة",
+        "en": "Cairo"
+      }
+    },
+    "materials": [
+      {
+        "ar": "نحاس أحمر، خيوط فضة، بطانة قصدير",
+        "en": "Red Copper, Silver Wire & Food-Grade Tin Lining"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 24,
+      "heightCm": 26,
+      "depthCm": 14,
+      "weightGrams": 1100
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 11,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 4.7,
+    "reviewCount": 26,
+    "badges": [
+      "giftable"
+    ],
+    "createdAt": "2026-06-18T10:45:00Z"
+  },
+  {
+    "id": "prod-011",
+    "slug": "engraved-brass-incense-burner-makhbara",
+    "name": {
+      "ar": "مبخرة نحاسية منقوشة بقاعدة ثابتة",
+      "en": "Hand-Engraved Brass Incense Burner (Makhbara)"
+    },
+    "summary": {
+      "ar": "مبخرة نحاسية مخروطة ومنقوشة يدويًا للعود والبخور.",
+      "en": "Ornate hand-engraved brass incense burner for bakhoor and oud."
+    },
+    "description": {
+      "ar": "مبخرة نحاس أصفر ثقيلة بتفاصيل مفرغة تسمح بتصاعد دخان البخور بسلاسة. تتميز بقاعدة متينة وغطاء هرمي منقوش يدويًا بالكامل.",
+      "en": "Solid brass bakhoor burner featuring hand-pierced lid ventilation. Designed with a sturdy pedestal base and detailed geometric engraving."
+    },
+    "story": {
+      "ar": "قام كريم بتفريغ أجزاء الغطاء بالمبرد اليدوي لتسهيل خروج العطر والنفحات بشكل متناسق.",
+      "en": "Karim hand-pierced the lattice lid structure with traditional jeweler files to release incense smoke evenly."
+    },
+    "price": 720,
+    "compareAtPrice": 890,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/engraved-brass-incense-burner-makhbara-1.webp",
+        "alt": {
+          "ar": "مبخرة نحاسية منقوشة ذات غطاء مخروطي",
+          "en": "Traditional hand-engraved brass incense burner with lid"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/engraved-brass-incense-burner-makhbara-2.webp",
+        "alt": {
+          "ar": "دخان البخور يتصاعد من ثقوب المبخرة النحاسية",
+          "en": "Incense smoke rising from hand-pierced brass burner lid"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/engraved-brass-incense-burner-makhbara-3.webp",
+        "alt": {
+          "ar": "مبخرة نحاسية منقوشة بقاعدة ثابتة بالمقياس",
+          "en": "Hand-Engraved Brass Incense Burner (Makhbara) shown to scale"
+        },
+        "width": 1200,
+        "height": 1500,
+        "kind": "scale"
+      },
+      {
+        "src": "/images/products/engraved-brass-incense-burner-makhbara-4.webp",
+        "alt": {
+          "ar": "مبخرة نحاسية منقوشة بقاعدة ثابتة في الاستخدام",
+          "en": "Hand-Engraved Brass Incense Burner (Makhbara) in use"
+        },
+        "width": 1200,
+        "height": 1500,
+        "kind": "lifestyle"
+      }
+    ],
+    "craftId": "craft-copperware",
+    "artisanId": "artisan-karim-al-seini",
+    "governorate": {
+      "slug": "cairo",
+      "name": {
+        "ar": "القاهرة",
+        "en": "Cairo"
+      }
+    },
+    "materials": [
+      {
+        "ar": "نحاس أصفر مصقول",
+        "en": "Polished Brass"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 12,
+      "heightCm": 22,
+      "depthCm": 12,
+      "weightGrams": 850
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 15,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 4.9,
+    "reviewCount": 38,
+    "badges": [
+      "bestseller",
+      "giftable"
+    ],
+    "createdAt": "2026-07-04T13:20:00Z"
+  },
+  {
+    "id": "prod-012",
+    "slug": "minimalist-brass-table-candle-holder",
+    "name": {
+      "ar": "شمعدان نحاسي مطروق تصميم أصيل",
+      "en": "Hand-Hammered Solid Brass Candlestick Holder"
+    },
+    "summary": {
+      "ar": "شمعدان نحاسي ثقيل مشغول يدويًا لإضاءة دافئة على المائدة.",
+      "en": "Heavy solid brass candlestick holder with hand-hammered facets."
+    },
+    "description": {
+      "ar": "شمعدان طاولة مصمت مصنوع من النحاس الأصفر الملمع. يتميز بسطحه المطروق الذي يعكس أضواء الشموع برومانسية وأناقة على مائدة الطعام.",
+      "en": "Solid brass pillar candlestick holder featuring subtle hammered facets. Adds warm ambiance and classic elegance to table settings."
+    },
+    "story": {
+      "ar": "صمم كريم هذا الشمعدان بدمج البساطة المعاصرة مع الملمس اليدوي المجهد لخامة النحاس الأصيل.",
+      "en": "Karim sculpted this candle holder combining modern silhouette lines with raw, tactile brass hammering."
+    },
+    "price": 490,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/minimalist-brass-table-candle-holder-1.webp",
+        "alt": {
+          "ar": "شمعدان نحاسي ثقيل على مائدة خشبية",
+          "en": "Solid hammered brass candle holder on wooden table"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/minimalist-brass-table-candle-holder-2.webp",
+        "alt": {
+          "ar": "لقطة قريبة للشمعدان النحاسي مع شمعة مضاءة",
+          "en": "Close up of lit candle on hand-hammered brass base"
+        },
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "craftId": "craft-copperware",
+    "artisanId": "artisan-karim-al-seini",
+    "governorate": {
+      "slug": "cairo",
+      "name": {
+        "ar": "القاهرة",
+        "en": "Cairo"
+      }
+    },
+    "materials": [
+      {
+        "ar": "نحاس أصفر ثقيل",
+        "en": "Solid Brass"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 10,
+      "heightCm": 18,
+      "depthCm": 10,
+      "weightGrams": 700
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 12,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 4.5,
+    "reviewCount": 11,
+    "badges": [],
+    "createdAt": "2026-08-15T11:00:00Z"
+  },
+  {
+    "id": "prod-013",
+    "slug": "akhmim-pure-cotton-shawl-throw",
+    "name": {
+      "ar": "شال قطني أخميمي يدوي ناصع البياض",
+      "en": "Akhmim Pure Egyptian Cotton Handloom Shawl"
+    },
+    "summary": {
+      "ar": "شال قطني خفيف ونفاذ للسيور مصنوع على النول اليدوي بسوهاج.",
+      "en": "Breathable Egyptian cotton shawl woven on traditional handlooms in Sohag."
+    },
+    "description": {
+      "ar": "شال ومفرش خفيف مصنوع 100% من أجود أنواع القطن المصري طويل التيلة. ينسج في أخميم بنول خشبي يدوي ويعطي ملمسًا ناعمًا ومريحًا للارتداء والاستخدام.",
+      "en": "Woven from 100% long-staple Egyptian cotton on wooden pit-looms. Supremely soft, breathable, and versatile as a throw blanket or neck wrap."
+    },
+    "story": {
+      "ar": "غزل عم متولي هذا الشال باستخدام خيوط غزل محلي ونسج أطرافه بشراشيب مبرومة يدويًا.",
+      "en": "Am Metwally hand-wove this shawl using unbleached natural yarns and hand-twisted fringe details."
+    },
+    "price": 620,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/akhmim-pure-cotton-shawl-throw-1.webp",
+        "alt": {
+          "ar": "شال قطني أخميمي أبيض ذو شراشيب يدوي",
+          "en": "White Akhmim pure Egyptian cotton handloom shawl"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/akhmim-pure-cotton-shawl-throw-2.webp",
+        "alt": {
+          "ar": "تفاصيل نسيج خيوط القطن على النول اليدوي",
+          "en": "Close up texture of hand-woven cotton thread pattern"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/akhmim-pure-cotton-shawl-throw-3.webp",
+        "alt": {
+          "ar": "شال قطني أخميمي يدوي ناصع البياض بالمقياس",
+          "en": "Akhmim Pure Egyptian Cotton Handloom Shawl shown to scale"
+        },
+        "width": 1200,
+        "height": 1500,
+        "kind": "scale"
+      },
+      {
+        "src": "/images/products/akhmim-pure-cotton-shawl-throw-4.webp",
+        "alt": {
+          "ar": "شال قطني أخميمي يدوي ناصع البياض في الاستخدام",
+          "en": "Akhmim Pure Egyptian Cotton Handloom Shawl in use"
+        },
+        "width": 1200,
+        "height": 1500,
+        "kind": "lifestyle"
+      }
+    ],
+    "craftId": "craft-weaving",
+    "artisanId": "artisan-am-metwally",
+    "governorate": {
+      "slug": "sohag",
+      "name": {
+        "ar": "سوهاج",
+        "en": "Sohag"
+      }
+    },
+    "materials": [
+      {
+        "ar": "100% قطن مصري طويل التيلة",
+        "en": "100% Egyptian Long-Staple Cotton"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 90,
+      "heightCm": 200,
+      "weightGrams": 380
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 20,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 4.9,
+    "reviewCount": 45,
+    "badges": [
+      "bestseller",
+      "giftable"
+    ],
+    "createdAt": "2026-06-08T09:30:00Z"
+  },
+  {
+    "id": "prod-014",
+    "slug": "handwoven-cotton-table-runner-sohag",
+    "name": {
+      "ar": "رنر طاولة قطني مفرغ بنقوش أخميم",
+      "en": "Handwoven Cotton Table Runner from Akhmim"
+    },
+    "summary": {
+      "ar": "رنر طاولة طويل بنسج يدوي متين وألوان ترابية هادئة.",
+      "en": "Long handwoven cotton table runner featuring subtle geometric weave patterns."
+    },
+    "description": {
+      "ar": "مفرش طاولة طويل منسوج من القطن الصافي بألوان متباينة تحاكي طبيعة الصعيد. يضفي لمسة شرقية دافئة على طاولات السفرة والإنتريه.",
+      "en": "Long dining table runner woven from unbleached cotton and dyed yarns. Perfect accent for rustic and contemporary interior dining spaces."
+    },
+    "story": {
+      "ar": "نسجت زينب هذا الرنر معتمدة على توزيع التناغم في درجات الألوان الطبيعية دون استخدام صبغات كيميائية ضارة.",
+      "en": "Zeinab combined naturally dyed cotton threads to craft this balanced pattern on her home loom."
+    },
+    "price": 450,
+    "compareAtPrice": 550,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/handwoven-cotton-table-runner-sohag-1.webp",
+        "alt": {
+          "ar": "رنر قطني يدوي منسوج ومفرود على طاولة سفرة",
+          "en": "Handwoven Akhmim cotton runner displayed on dining table"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/handwoven-cotton-table-runner-sohag-2.webp",
+        "alt": {
+          "ar": "تفاصيل الحافة والشراشيب المبرومة للرنر القطني",
+          "en": "Detail view of woven edge and tassels on cotton runner"
+        },
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "craftId": "craft-weaving",
+    "artisanId": "artisan-zeinab-sohag",
+    "governorate": {
+      "slug": "sohag",
+      "name": {
+        "ar": "سوهاج",
+        "en": "Sohag"
+      }
+    },
+    "materials": [
+      {
+        "ar": "قطن مصري طبيعي غزل يدوي",
+        "en": "Natural Egyptian Spun Cotton"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 40,
+      "heightCm": 160,
+      "weightGrams": 420
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 16,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 4.8,
+    "reviewCount": 23,
+    "badges": [
+      "giftable"
+    ],
+    "createdAt": "2026-06-25T14:00:00Z"
+  },
+  {
+    "id": "prod-015",
+    "slug": "custom-monogram-handwoven-throw-blanket",
+    "name": {
+      "ar": "بطانية ديكور قطنية مع حرف منسوج مخصص",
+      "en": "Custom Monogram Woven Cotton Throw Blanket"
+    },
+    "summary": {
+      "ar": "غطاء كنب قطني ثقيل ينسج فيه الحرف الأول من اسمك يدويًا.",
+      "en": "Heavy handloom cotton throw blanket customized with your woven initials."
+    },
+    "description": {
+      "ar": "بطانية ديكورية وشال كنب ثقيل ومريح مصمم للدفء والأناقة. يمكنك طلب نسج حرفك الأول أو حرف عائلتك بخيوط ملونة في زاوية البطانية أثناء النسيج.",
+      "en": "Heavyweight sofa throw blanket woven on a pit loom. Personalize with your custom initial woven directly into the corner during loom setup."
+    },
+    "story": {
+      "ar": "يقوم عم متولي بتعديل خيوط السداء واللحمة خصيصًا لتضمين حرفك العربي أو الإنجليزي في نسيج البطانية.",
+      "en": "Am Metwally manually sets the warp threads on his loom to integrate your personalized letter seamlessly."
+    },
+    "price": 1200,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/custom-monogram-handwoven-throw-blanket-1.webp",
+        "alt": {
+          "ar": "بطانية قطنية منسوجة مع حرف عربي مخصص بالحافة",
+          "en": "Handwoven cotton throw blanket personalized with custom initials"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/custom-monogram-handwoven-throw-blanket-2.webp",
+        "alt": {
+          "ar": "لقطة قريبة للحرف المنسوج يدويًا على خيط القطن",
+          "en": "Close up view of custom loom-woven letter on cotton blanket"
+        },
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "craftId": "craft-weaving",
+    "artisanId": "artisan-am-metwally",
+    "governorate": {
+      "slug": "sohag",
+      "name": {
+        "ar": "سوهاج",
+        "en": "Sohag"
+      }
+    },
+    "materials": [
+      {
+        "ar": "قطن مصري غزل ناعم سميك",
+        "en": "Heavyweight Soft Egyptian Cotton Yarn"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 130,
+      "heightCm": 180,
+      "weightGrams": 1100
+    },
+    "madeToOrder": true,
+    "leadTimeDays": 8,
+    "stock": 0,
+    "customizable": true,
+    "customizationOptions": [
+      {
+        "key": "initial_letter",
+        "label": {
+          "ar": "الحرف الأول المطلوب نسجه (عربي أو إنجليزي)",
+          "en": "Monogram initial letter to weave"
+        },
+        "type": "text",
+        "required": true,
+        "maxLength": 3
+      }
+    ],
+    "rating": 5,
+    "reviewCount": 9,
+    "badges": [
+      "new",
+      "giftable"
+    ],
+    "createdAt": "2026-08-05T10:00:00Z"
+  },
+  {
+    "id": "prod-016",
+    "slug": "egyptian-flatweave-cotton-kilim-rug",
+    "name": {
+      "ar": "كليم قطني يدوي بنقوش هندسية حديثة",
+      "en": "Egyptian Handloom Cotton Flatweave Kilim Rug"
+    },
+    "summary": {
+      "ar": "سجادة كليم خفيفة منسوجة يدويًا من خيوط القطن المتينة.",
+      "en": "Durable cotton flatweave kilim rug featuring modern minimalist geometry."
+    },
+    "description": {
+      "ar": "سجادة كليم قطنية سهلة التنظيف والغسيل، منسوجة يدويًا بكثافة خيوط عالية تجعلها متينة ومناسبة لغرف النوم والمعيشة ذات الطراز الحديث.",
+      "en": "Easy-care handwoven cotton kilim rug. High thread density yields exceptional durability with a lightweight, reversible modern design."
+    },
+    "story": {
+      "ar": "دمجت زينب خبرتها في نسيج أخميم لتصميم هذا الكليم العصري الذي يلبي احتياجات البيوت الحديثة.",
+      "en": "Zeinab merged traditional Akhmim loom skills with clean Scandinavian-inspired design palette."
+    },
+    "price": 1600,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/egyptian-flatweave-cotton-kilim-rug-1.webp",
+        "alt": {
+          "ar": "سجادة كليم قطنية منسوجة بنقش مدرج",
+          "en": "Handwoven Egyptian cotton flatweave kilim rug"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/egyptian-flatweave-cotton-kilim-rug-2.webp",
+        "alt": {
+          "ar": "تفاصيل زاوية الكليم القطني المنسوج بدقة",
+          "en": "Close up of tight cotton flatweave stitches on kilim corner"
+        },
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "craftId": "craft-weaving",
+    "artisanId": "artisan-zeinab-sohag",
+    "governorate": {
+      "slug": "sohag",
+      "name": {
+        "ar": "سوهاج",
+        "en": "Sohag"
+      }
+    },
+    "materials": [
+      {
+        "ar": "100% قطن مصري معاد تدويره وغزل ممتاز",
+        "en": "100% Premium Egyptian Cotton Yarn"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 120,
+      "heightCm": 180,
+      "weightGrams": 2400
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 7,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 4.7,
+    "reviewCount": 20,
+    "badges": [],
+    "createdAt": "2026-07-18T11:20:00Z"
+  },
+  {
+    "id": "prod-017",
+    "slug": "traditional-linen-table-napkin-set-4",
+    "name": {
+      "ar": "طقم فوط سفرة كتان منسوجة (4 قطع)",
+      "en": "Handwoven Linen Dining Napkin Set of 4"
+    },
+    "summary": {
+      "ar": "طقم مكون من 4 فوط سفرة كتانية ناعمة فائقة الامتصاص.",
+      "en": "Set of 4 absorbent handwoven pure linen napkins with fringe trim."
+    },
+    "description": {
+      "ar": "فوط سفرة مصنوعة من ألياف الكتان الطبيعي المنسوج يدويًا. تزداد نعومة وجمالاً مع كل غسلة وتضيف لمسة طبيعية وراقية لمائدتك.",
+      "en": "Set of four pure linen dining napkins woven on handlooms. Highly absorbent and durable, softening beautifully over repeated washes."
+    },
+    "story": {
+      "ar": "تستخدم زينب خيوط الكتان المصري الطبيعي لتقديم منتجات صديقة للبيئة وتدوم لعقود.",
+      "en": "Zeinab sources local Egyptian flax yarn to craft eco-friendly, long-lasting dining textiles."
+    },
+    "price": 380,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/traditional-linen-table-napkin-set-4-1.webp",
+        "alt": {
+          "ar": "طقم فوط سفرة كتان مطوية أنيقة على مائدة",
+          "en": "Set of four folded pure linen dining napkins on rustic table"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/traditional-linen-table-napkin-set-4-2.webp",
+        "alt": {
+          "ar": "تفاصيل ملمس ألياف الكتان المنسوج يدويًا",
+          "en": "Close up texture view of natural woven linen fabric"
+        },
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "craftId": "craft-weaving",
+    "artisanId": "artisan-zeinab-sohag",
+    "governorate": {
+      "slug": "sohag",
+      "name": {
+        "ar": "سوهاج",
+        "en": "Sohag"
+      }
+    },
+    "materials": [
+      {
+        "ar": "100% كتان مصري طبيعي",
+        "en": "100% Natural Egyptian Linen"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 40,
+      "heightCm": 40,
+      "weightGrams": 280
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 25,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 4.8,
+    "reviewCount": 16,
+    "badges": [
+      "giftable"
+    ],
+    "createdAt": "2026-06-30T16:40:00Z"
+  },
+  {
+    "id": "prod-018",
+    "slug": "heavy-woven-cotton-floor-cushion",
+    "name": {
+      "ar": "وسادة أرضية قطنية نسيج ثقيل (بوف)",
+      "en": "Heavy Woven Cotton Floor Cushion Pouf"
+    },
+    "summary": {
+      "ar": "وسادة جلوس أرضية متينة مريحة نسيج يدوي صعيدي.",
+      "en": "Substantial floor seating cushion handwoven from heavy cotton yarns."
+    },
+    "description": {
+      "ar": "وسادة أرضية ممتازة للجلوس والاسترخاء، منسوجة بأسلوب أخميمي متين يتحمل الاستخدام اليومي ومحشوة بحشوة مريحة قابلة للفك والغسيل.",
+      "en": "Comfortable floor seating pouf wrapped in thick handloom cotton textile. Designed with a removable inner core for easy cleaning."
+    },
+    "story": {
+      "ar": "قام عم متولي بنسج الغطاء الخارجي الملون باستخدام أغزل القطن السميكة لضمان المتانة الشديدة.",
+      "en": "Am Metwally wove the sturdy exterior cover using heavy-gauge cotton yarns engineered for longevity."
+    },
+    "price": 890,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/heavy-woven-cotton-floor-cushion-1.webp",
+        "alt": {
+          "ar": "وسادة أرضية قطنية ثقيلة في زاوية معيشة",
+          "en": "Heavy handwoven cotton floor cushion pouf in living space"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/heavy-woven-cotton-floor-cushion-2.webp",
+        "alt": {
+          "ar": "لقطة قريبة لغرز النسيج القطني السميك",
+          "en": "Detail view of thick handwoven cotton cushion cover texture"
+        },
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "craftId": "craft-weaving",
+    "artisanId": "artisan-am-metwally",
+    "governorate": {
+      "slug": "sohag",
+      "name": {
+        "ar": "سوهاج",
+        "en": "Sohag"
+      }
+    },
+    "materials": [
+      {
+        "ar": "غلاف قطني ثقيل وحشوة ألياف مريحة",
+        "en": "Heavy Cotton Canvas & Fiber Cushion Fill"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 50,
+      "heightCm": 25,
+      "depthCm": 50,
+      "weightGrams": 2100
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 8,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 4.6,
+    "reviewCount": 12,
+    "badges": [],
+    "createdAt": "2026-07-28T08:15:00Z"
+  },
+  {
+    "id": "prod-019",
+    "slug": "sinai-hand-embroidered-cushion-cover",
+    "name": {
+      "ar": "غطاء وسادة مطرز يدويًا بغرزة سيناوية",
+      "en": "Hand-Embroidered Bedouin Sinai Cushion Cover"
+    },
+    "summary": {
+      "ar": "وسادة ديكور مطرزة يدويًا بالكامل بغرز الماركة السيناوية التراثية.",
+      "en": "Throw pillow cover richly hand-stitched with Sinai Bedouin cross-stitch motifs."
+    },
+    "description": {
+      "ar": "خدادية ديكورية ممتازة مطرزة بدقة متناهية بخيوط ملونة زاهية تعكس ثقافة صحراء سيناء. كل قطعة تستغرق أيامًا من العمل اليدوي الصبور.",
+      "en": "Exquisite decorative cushion cover adorned with traditional Sinai Bedouin geometric embroidery. Crafted over several days of painstaking hand-stitching."
+    },
+    "story": {
+      "ar": "قامت أم سليمان مع إحدى سيدات العريش بتطريز هذه الخدادية مستخدمة رموز البركة والخير البدوية.",
+      "en": "Um Suleiman and her collective in Arish hand-stitched this piece using traditional Sinai symbols of blessing."
+    },
+    "price": 950,
+    "compareAtPrice": 1100,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/sinai-hand-embroidered-cushion-cover-1.webp",
+        "alt": {
+          "ar": "وسادة مطرزة يدويًا بغرز سيناوية ملونة",
+          "en": "Hand-embroidered Sinai Bedouin cross-stitch cushion cover"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/sinai-hand-embroidered-cushion-cover-2.webp",
+        "alt": {
+          "ar": "تفاصيل غرزة الماركة السيناوية على القماش",
+          "en": "Close up view of intricate Sinai cross-stitch embroidery"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/sinai-hand-embroidered-cushion-cover-3.webp",
+        "alt": {
+          "ar": "غطاء وسادة مطرز يدويًا بغرزة سيناوية بالمقياس",
+          "en": "Hand-Embroidered Bedouin Sinai Cushion Cover shown to scale"
+        },
+        "width": 1200,
+        "height": 1500,
+        "kind": "scale"
+      },
+      {
+        "src": "/images/products/sinai-hand-embroidered-cushion-cover-4.webp",
+        "alt": {
+          "ar": "غطاء وسادة مطرز يدويًا بغرزة سيناوية في الاستخدام",
+          "en": "Hand-Embroidered Bedouin Sinai Cushion Cover in use"
+        },
+        "width": 1200,
+        "height": 1500,
+        "kind": "lifestyle"
+      }
+    ],
+    "craftId": "craft-embroidery",
+    "artisanId": "artisan-um-suleiman",
+    "governorate": {
+      "slug": "north-sinai",
+      "name": {
+        "ar": "شمال سيناء",
+        "en": "North Sinai"
+      }
+    },
+    "materials": [
+      {
+        "ar": "قماش أيتامين قطني وخيوط تطريز ثابتة الألوان",
+        "en": "Cotton Canvas Fabric & Colorfast Embroidery Floss"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 45,
+      "heightCm": 45,
+      "weightGrams": 320
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 12,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 5,
+    "reviewCount": 33,
+    "badges": [
+      "bestseller",
+      "giftable"
+    ],
+    "createdAt": "2026-06-10T11:00:00Z"
+  },
+  {
+    "id": "prod-020",
+    "slug": "custom-embroidered-monogram-linen-pouch",
+    "name": {
+      "ar": "حقيبة مكياج كتان مطرزة بالاسم يدوياً",
+      "en": "Custom Embroidered Linen Makeup Pouch"
+    },
+    "summary": {
+      "ar": "حقيبة صغيرة من الكتان مطرزة بورد سينـاوي واسمك الشخصي.",
+      "en": "Personalized linen cosmetic pouch hand-stitched with floral Sinai motifs and your name."
+    },
+    "description": {
+      "ar": "حقيبة إكسسوارات ومكياج مصنوعة من الكتان المقوى ومزودة بسحاب متين. تطرز يدويًا باسمك مع ورود سيناوية زاهية الألوان كهدية شخصية ممتازة.",
+      "en": "Sturdy linen cosmetic pouch featuring zipper closure. Customized with your name hand-embroidered alongside traditional Sinai floral accents."
+    },
+    "story": {
+      "ar": "تطرز أم سليمان الاسم المطلوب برعاية ودقة لتشعر صاحبة الحقيبة بتميز واقتناء قطعة فريدة.",
+      "en": "Um Suleiman carefully stitches your custom name alongside delicate desert motifs for a personalized luxury accessory."
+    },
+    "price": 390,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/custom-embroidered-monogram-linen-pouch-1.webp",
+        "alt": {
+          "ar": "حقيبة كتان صغيرة مطرزة يدويًا مع اسم مخصص",
+          "en": "Linen makeup pouch with custom hand-embroidered name and Sinai flowers"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/custom-embroidered-monogram-linen-pouch-2.webp",
+        "alt": {
+          "ar": "لقطة قريبة لغرز التطريز اليدوي على حقيبة الكتان",
+          "en": "Close up of hand embroidery detail on linen zip pouch"
+        },
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "craftId": "craft-embroidery",
+    "artisanId": "artisan-um-suleiman",
+    "governorate": {
+      "slug": "north-sinai",
+      "name": {
+        "ar": "شمال سيناء",
+        "en": "North Sinai"
+      }
+    },
+    "materials": [
+      {
+        "ar": "كتان مصري وحرير صناعي للتطريز",
+        "en": "Egyptian Linen & Silky Embroidery Thread"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 22,
+      "heightCm": 15,
+      "depthCm": 6,
+      "weightGrams": 140
+    },
+    "madeToOrder": true,
+    "leadTimeDays": 6,
+    "stock": 0,
+    "customizable": true,
+    "customizationOptions": [
+      {
+        "key": "embroidery_name",
+        "label": {
+          "ar": "الاسم المطلوب تطريزه على الحقيبة",
+          "en": "Name to hand-embroider on pouch"
+        },
+        "type": "text",
+        "required": true,
+        "maxLength": 15
+      }
+    ],
+    "rating": 4.9,
+    "reviewCount": 18,
+    "badges": [
+      "giftable",
+      "new"
+    ],
+    "createdAt": "2026-08-02T12:00:00Z"
+  },
+  {
+    "id": "prod-021",
+    "slug": "siwa-embroidered-silk-thread-scarf",
+    "name": {
+      "ar": "شال سيوية مطرز بخيوط الحرير الملونة",
+      "en": "Siwan Hand-Embroidered Silk Thread Scarf"
+    },
+    "summary": {
+      "ar": "شال أسود فاخر مطرز يدويًا بأسلوب واحة سيوة الأصيل.",
+      "en": "Elegant black scarf intricately embroidered with colorful Siwan silk threads."
+    },
+    "description": {
+      "ar": "شال أسود راقٍ مطرز بألوان الشمس والواحة المبهجة مثل الأصفر والبرتقالي والأخضر. يعبر عن جمال الزخارف الأمازيغية التراثية في سيوة.",
+      "en": "Stunning black wrap embroidered in traditional Siwan sun tones—vibrant yellow, orange, and green threads crafted in Amazigh geometric forms."
+    },
+    "story": {
+      "ar": "تستغرق فاطمة السيوية أسبوعين لتطريز أطراف هذا الشال برؤية فنية مستوحاة من أعراس سيوة.",
+      "en": "Fatma Al-Siwiyya spends two weeks hand-embroidering the borders of each scarf using historic oasis wedding motifs."
+    },
+    "price": 1100,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/siwa-embroidered-silk-thread-scarf-1.webp",
+        "alt": {
+          "ar": "شال أسود مطرز يدويًا بألوان زاهية من سيوة",
+          "en": "Hand-embroidered black Siwa scarf with vibrant silk threads"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/siwa-embroidered-silk-thread-scarf-2.webp",
+        "alt": {
+          "ar": "تفاصيل زخارف الحرير السيوية على طرف الشال",
+          "en": "Detailed close-up of Siwan silk embroidery pattern on scarf border"
+        },
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "craftId": "craft-embroidery",
+    "artisanId": "artisan-fatma-siwa",
+    "governorate": {
+      "slug": "matrouh",
+      "name": {
+        "ar": "مطروح",
+        "en": "Matrouh"
+      }
+    },
+    "materials": [
+      {
+        "ar": "قماش فيسكوز ناعم وخيوط حريرية",
+        "en": "Soft Viscose Fabric & Rayon Silk Threads"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 70,
+      "heightCm": 190,
+      "weightGrams": 220
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 9,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 4.8,
+    "reviewCount": 27,
+    "badges": [
+      "giftable",
+      "limited"
+    ],
+    "createdAt": "2026-07-05T09:40:00Z"
+  },
+  {
+    "id": "prod-022",
+    "slug": "hand-embroidered-wall-hanging-tapestry",
+    "name": {
+      "ar": "لوحة جدارية معلقة مطرزة يدوياً بالتراث المصري",
+      "en": "Hand-Embroidered Wall Hanging Tapestry"
+    },
+    "summary": {
+      "ar": "معلقة جدارية من القماش المطرز يدويًا بأشكال مستوحاة من الريف.",
+      "en": "Decorative fabric wall hanging panel hand-embroidered with Egyptian rural folklore motifs."
+    },
+    "description": {
+      "ar": "لوحة قماشية معلقة بحامل خشبي وشراشيب، مطرزة بالكامل بغرز يدوية تروي مشاهد من الريف المصري والنيل. تفصيلة ديكورية دافئة وجذابة للمنازل.",
+      "en": "Tapestry wall hanging with wooden mounting rod. Hand-stitched with vibrant folk tales depicting rural Egyptian life and Nile scenery."
+    },
+    "story": {
+      "ar": "جمعت فاطمة غرز التراث الريفي والسيوى لصنع هذه اللوحة الجدارية المليئة بالتفاصيل والحكايات.",
+      "en": "Fatma combined traditional folk stitches to map out this whimsical fabric narrative panel."
+    },
+    "price": 1400,
+    "compareAtPrice": 1650,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/hand-embroidered-wall-hanging-tapestry-1.webp",
+        "alt": {
+          "ar": "لوحة قماشية معلقة مطرزة يدوياً على حائط",
+          "en": "Hand-embroidered folk art wall tapestry hanging on wall"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/hand-embroidered-wall-hanging-tapestry-2.webp",
+        "alt": {
+          "ar": "تفاصيل الغرز الملونة وشراشيب اللوحة المعلقة",
+          "en": "Close up of colorful hand stitching and fringe on wall tapestry"
+        },
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "craftId": "craft-embroidery",
+    "artisanId": "artisan-fatma-siwa",
+    "governorate": {
+      "slug": "matrouh",
+      "name": {
+        "ar": "مطروح",
+        "en": "Matrouh"
+      }
+    },
+    "materials": [
+      {
+        "ar": "قماش كتان ثقيل وحامل خشب زيتون",
+        "en": "Heavy Linen Fabric & Olive Wood Rod"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 50,
+      "heightCm": 80,
+      "weightGrams": 680
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 4,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 4.9,
+    "reviewCount": 15,
+    "badges": [
+      "giftable"
+    ],
+    "createdAt": "2026-06-22T13:10:00Z"
+  },
+  {
+    "id": "prod-023",
+    "slug": "bedouin-embroidered-tote-bag",
+    "name": {
+      "ar": "حقيبة يد قماشية (توت باج) مطرزة سيناوي",
+      "en": "Bedouin Embroidered Cotton Tote Bag"
+    },
+    "summary": {
+      "ar": "حقيبة قماشية واسعة وعملية متوجة بتطريز سيناوي يدوي.",
+      "en": "Spacious canvas tote bag featuring an authentic hand-embroidered Sinai front pocket."
+    },
+    "description": {
+      "ar": "حقيبة تسوق ويومية من القماش السميك مع جيب أمامي مطرز بالكامل يدويًا بغرزة سيناوية. تجمع بين العملية والمظهر التراثي العصري.",
+      "en": "Durable heavy canvas daily tote bag with a striking hand-embroidered Bedouin pocket panel. Combines everyday functionality with artisan flair."
+    },
+    "story": {
+      "ar": "نسقت أم سليمان جيب التطريز اليدوي ليكون قطعة بارزة تزيد الحقيبة جمالاً وتفردًا.",
+      "en": "Um Suleiman created these embroidered pocket inserts to turn everyday canvas totes into wearable heritage art."
+    },
+    "price": 480,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/bedouin-embroidered-tote-bag-1.webp",
+        "alt": {
+          "ar": "حقيبة توت باج قماشية بجيب مطرز سيناوي",
+          "en": "Canvas tote bag with hand-embroidered Sinai pocket detail"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/bedouin-embroidered-tote-bag-2.webp",
+        "alt": {
+          "ar": "لقطة قريبة لجيب التطريز السيناوي على الحقيبة",
+          "en": "Close up view of Bedouin cross-stitch pocket panel"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/bedouin-embroidered-tote-bag-3.webp",
+        "alt": {
+          "ar": "حقيبة يد قماشية (توت باج) مطرزة سيناوي بالمقياس",
+          "en": "Bedouin Embroidered Cotton Tote Bag shown to scale"
+        },
+        "width": 1200,
+        "height": 1500,
+        "kind": "scale"
+      },
+      {
+        "src": "/images/products/bedouin-embroidered-tote-bag-4.webp",
+        "alt": {
+          "ar": "حقيبة يد قماشية (توت باج) مطرزة سيناوي في الاستخدام",
+          "en": "Bedouin Embroidered Cotton Tote Bag in use"
+        },
+        "width": 1200,
+        "height": 1500,
+        "kind": "lifestyle"
+      }
+    ],
+    "craftId": "craft-embroidery",
+    "artisanId": "artisan-um-suleiman",
+    "governorate": {
+      "slug": "north-sinai",
+      "name": {
+        "ar": "شمال سيناء",
+        "en": "North Sinai"
+      }
+    },
+    "materials": [
+      {
+        "ar": "قماش كاندفاس قطني ثقيل وخيوط تطريز",
+        "en": "Heavy Cotton Canvas & Embroidery Threads"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 38,
+      "heightCm": 42,
+      "depthCm": 10,
+      "weightGrams": 350
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 15,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 4.7,
+    "reviewCount": 31,
+    "badges": [
+      "bestseller"
+    ],
+    "createdAt": "2026-07-12T15:30:00Z"
+  },
+  {
+    "id": "prod-024",
+    "slug": "embroidered-linen-table-runner-siwa",
+    "name": {
+      "ar": "رنر طاولة كتان مطرز بزخارف واحة سيوة",
+      "en": "Siwan Embroidered Linen Table Runner"
+    },
+    "summary": {
+      "ar": "مفرش طاولة كتان مطرز من الأطراف بأسلوب سيوة التراثي.",
+      "en": "Natural linen table runner hand-stitched with authentic Siwan geometric borders."
+    },
+    "description": {
+      "ar": "رنر طاولة مصنوع من الكتان البيج الطبيعي ومطرز يدويًا على الجانبين بزخارف سيوية متناسقة. يعطي لمسة فخامة دافئة لمائدتك في المناسبات.",
+      "en": "Pure natural beige linen runner finished with intricate hand-embroidered border panels along both ends. Adds earthy elegance to any tabletop."
+    },
+    "story": {
+      "ar": "تستوحي فاطمة ألوان هذا المفرش من شمس غروب واحة سيوة وزيتونها الشهير.",
+      "en": "Fatma draws color inspiration for these border patterns from Siwa's sunset skies and olive groves."
+    },
+    "price": 820,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/embroidered-linen-table-runner-siwa-1.webp",
+        "alt": {
+          "ar": "رنر طاولة كتان مطرز أطرافه بزخارف سيوة",
+          "en": "Linen table runner with hand-embroidered Siwan border designs"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/embroidered-linen-table-runner-siwa-2.webp",
+        "alt": {
+          "ar": "تفاصيل تطريز الحافة الملونة على قماش الكتان",
+          "en": "Close up of colorful Siwan embroidery stitches on linen runner edge"
+        },
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "craftId": "craft-embroidery",
+    "artisanId": "artisan-fatma-siwa",
+    "governorate": {
+      "slug": "matrouh",
+      "name": {
+        "ar": "مطروح",
+        "en": "Matrouh"
+      }
+    },
+    "materials": [
+      {
+        "ar": "100% كتان مصري وخيوط حريرية",
+        "en": "100% Egyptian Linen & Silky Threads"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 40,
+      "heightCm": 150,
+      "weightGrams": 310
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 11,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 4.8,
+    "reviewCount": 19,
+    "badges": [
+      "giftable"
+    ],
+    "createdAt": "2026-08-08T11:45:00Z"
+  },
+  {
+    "id": "prod-025",
+    "slug": "mother-of-pearl-inlaid-wooden-jewelry-box",
+    "name": {
+      "ar": "صندوق مجوهرات خشبي مطعم بالصدف الطبيعي",
+      "en": "Mother-of-Pearl Inlaid Wooden Jewelry Box"
+    },
+    "summary": {
+      "ar": "صندوق مجوهرات من خشب السرسوع مطعم بالكامل بقطع الصدف.",
+      "en": "Handmade rosewood jewelry box elaborately inlaid with natural mother-of-pearl."
+    },
+    "description": {
+      "ar": "صندوق هدايا ومجوهرات مبطن بالقطيفة الحمراء الفاخرة، مصنوع من خشب السرسوع الصلب ومطعم بدقة متناهية بقطع الصدف البحري الطبيعي في تصميم أرابيسك أصيل.",
+      "en": "Exquisite jewelry chest lined with rich crimson velvet. Handcrafted from solid Sissoo wood and meticulously encrusted with iridescent natural sea mother-of-pearl."
+    },
+    "story": {
+      "ar": "يعمل عم جمال بأدواته التقليدية لتقطيع رقائق الصدف ولصقها حبة بحبة على السطح الخشبي.",
+      "en": "Amm Gamal carefully cuts sea shells into micro tesserae and hand-places each piece into carved hardwood grooves."
+    },
+    "price": 1950,
+    "compareAtPrice": 2300,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/mother-of-pearl-inlaid-wooden-jewelry-box-1.webp",
+        "alt": {
+          "ar": "صندوق مجوهرات خشبي مطعم بالصدف الطبيعي",
+          "en": "Wooden jewelry box inlaid with natural iridescent mother-of-pearl"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/mother-of-pearl-inlaid-wooden-jewelry-box-2.webp",
+        "alt": {
+          "ar": "الصندوق الخشبي مفتوح يظهر البطانة القطيفة الحمراء",
+          "en": "Opened inlaid wooden box showing red velvet lining"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/mother-of-pearl-inlaid-wooden-jewelry-box-3.webp",
+        "alt": {
+          "ar": "صندوق مجوهرات خشبي مطعم بالصدف الطبيعي بالمقياس",
+          "en": "Mother-of-Pearl Inlaid Wooden Jewelry Box shown to scale"
+        },
+        "width": 1200,
+        "height": 1500,
+        "kind": "scale"
+      },
+      {
+        "src": "/images/products/mother-of-pearl-inlaid-wooden-jewelry-box-4.webp",
+        "alt": {
+          "ar": "صندوق مجوهرات خشبي مطعم بالصدف الطبيعي في الاستخدام",
+          "en": "Mother-of-Pearl Inlaid Wooden Jewelry Box in use"
+        },
+        "width": 1200,
+        "height": 1500,
+        "kind": "lifestyle"
+      }
+    ],
+    "craftId": "craft-woodwork",
+    "artisanId": "artisan-amm-gamal",
+    "governorate": {
+      "slug": "cairo",
+      "name": {
+        "ar": "القاهرة",
+        "en": "Cairo"
+      }
+    },
+    "materials": [
+      {
+        "ar": "خشب سرسوع، صدف بحري طبيعي، قطيفة",
+        "en": "Sissoo Wood, Natural Mother-of-Pearl & Velvet"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 20,
+      "heightCm": 10,
+      "depthCm": 14,
+      "weightGrams": 950
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 7,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 5,
+    "reviewCount": 40,
+    "badges": [
+      "bestseller",
+      "giftable"
+    ],
+    "createdAt": "2026-06-14T08:30:00Z"
+  },
+  {
+    "id": "prod-026",
+    "slug": "custom-engraved-wooden-backgammon-board",
+    "name": {
+      "ar": "طاولة زهر خشبية مطعمة مع حفر الاسم",
+      "en": "Custom Engraved Inlaid Wooden Backgammon Set"
+    },
+    "summary": {
+      "ar": "طاولة زهر فاخرة مطعمة بالصدف مع إمكانية حفر اسمك على الخشب.",
+      "en": "Luxury inlaid wooden backgammon board customizable with a custom laser/hand-carved name plate."
+    },
+    "description": {
+      "ar": "طاولة زهر وشطرنج مصنعة من الخشب الطبيعي ومطعمة بالصدف والأخشاب الثمينة. تتميز بإمكانية حفر اسمك أو إهداء خاص على إطارها الخارجي بدقة متناهية.",
+      "en": "Artisanal backgammon and chess board set with mother-of-pearl mosaic work. Customize with a hand-carved name inscription along the outer hardwood frame."
+    },
+    "story": {
+      "ar": "يصنع عم جمال الطاولة بطرق النجارة المصرية الكلاسيكية مع حفر الاسم المطلوب بخط يدوي جميل.",
+      "en": "Amm Gamal builds the folding board with classical joinery and hand-carves requested custom name inscriptions."
+    },
+    "price": 3400,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/custom-engraved-wooden-backgammon-board-1.webp",
+        "alt": {
+          "ar": "طاولة زهر خشبية مطعمة بالصدف مفتوحة مع الأقشاط",
+          "en": "Custom inlaid wooden backgammon board open with playing checkers"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/custom-engraved-wooden-backgammon-board-2.webp",
+        "alt": {
+          "ar": "تفاصيل حفر الاسم على الخشب المصرى المظلم",
+          "en": "Close up of personalized name carved into backgammon wooden frame"
+        },
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "craftId": "craft-woodwork",
+    "artisanId": "artisan-amm-gamal",
+    "governorate": {
+      "slug": "cairo",
+      "name": {
+        "ar": "القاهرة",
+        "en": "Cairo"
+      }
+    },
+    "materials": [
+      {
+        "ar": "خشب زان، خشب جوز، صدف أبيض",
+        "en": "Beech Wood, Walnut & White Mother-of-Pearl"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 50,
+      "heightCm": 8,
+      "depthCm": 25,
+      "weightGrams": 3200
+    },
+    "madeToOrder": true,
+    "leadTimeDays": 10,
+    "stock": 0,
+    "customizable": true,
+    "customizationOptions": [
+      {
+        "key": "player_name",
+        "label": {
+          "ar": "الاسم المراد حفره على الطاولة",
+          "en": "Name to engrave on backgammon frame"
+        },
+        "type": "text",
+        "required": true,
+        "maxLength": 25
+      }
+    ],
+    "rating": 4.9,
+    "reviewCount": 21,
+    "badges": [
+      "giftable",
+      "limited"
+    ],
+    "createdAt": "2026-07-15T10:00:00Z"
+  },
+  {
+    "id": "prod-027",
+    "slug": "hand-turned-hardwood-salad-bowl-damietta",
+    "name": {
+      "ar": "سلطانية تقديم من خشب السرسوع المخروط",
+      "en": "Hand-Turned Solid Hardwood Salad Bowl"
+    },
+    "summary": {
+      "ar": "سلطانية تقديم كبيرة مصنوعة من قطعة خشب سرسوع مصمتة.",
+      "en": "Large hand-turned serving bowl sculpted from a single solid block of native hardwood."
+    },
+    "description": {
+      "ar": "سلطانية تقديم فاخرة مخروطة يدويًا من قطعة واحدة من خشب السرسوع المصري الثمين. معالجة بزيوت طبيعية ناعمة وآمنة تمامًا لتلامس الأطعمة والسلطات.",
+      "en": "Large salad serving bowl lathe-turned from a solid piece of rich Egyptian Sissoo hardwood. Finished with food-grade natural oils that accentuate the wood grain."
+    },
+    "story": {
+      "ar": "يقوم طارق الدمياطي بخرط خشب السرسوع على المخرطة اليدوية وتلميعه بشمع النحل الطبيعي.",
+      "en": "Tarek turns raw hardwood blocks on his workshop lathe and hand-polishes each bowl with organic beeswax."
+    },
+    "price": 980,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/hand-turned-hardwood-salad-bowl-damietta-1.webp",
+        "alt": {
+          "ar": "سلطانية خشبية دائرية معزولة بزيوت طبيعية",
+          "en": "Hand-turned solid wooden salad bowl with natural grain finish"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/hand-turned-hardwood-salad-bowl-damietta-2.webp",
+        "alt": {
+          "ar": "جزع الخشب الطبيعي الظاهر في السلطانية المخروطة",
+          "en": "Top view of smooth carved hardwood grain in serving bowl"
+        },
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "craftId": "craft-woodwork",
+    "artisanId": "artisan-tarek-damietta",
+    "governorate": {
+      "slug": "damietta",
+      "name": {
+        "ar": "دمياط",
+        "en": "Damietta"
+      }
+    },
+    "materials": [
+      {
+        "ar": "خشب سرسوع مصمت وشمع نحل آمن للطعام",
+        "en": "Solid Sissoo Hardwood & Food-Grade Beeswax"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 28,
+      "heightCm": 12,
+      "depthCm": 28,
+      "weightGrams": 1400
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 13,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 4.8,
+    "reviewCount": 25,
+    "badges": [
+      "giftable"
+    ],
+    "createdAt": "2026-06-28T14:15:00Z"
+  },
+  {
+    "id": "prod-028",
+    "slug": "rustic-olive-wood-cutting-board-damietta",
+    "name": {
+      "ar": "لوح تقطيع وتقديم من خشب الزيتون الطبيعي",
+      "en": "Rustic Olive Wood Cutting & Serving Board"
+    },
+    "summary": {
+      "ar": "لوح تقطيع خشبي سميك بحواف طبيعية لتقديم الأجبان واللحوم.",
+      "en": "Thick live-edge olive wood board for kitchen prep and charcuterie serving."
+    },
+    "description": {
+      "ar": "لوح تقطيع فاخر ذو حواف حرة وطبيعية مصنوع من خشب الزيتون المعمر. يتميز بمقاومته للبكتيريا وقوة سطحه ضد خدوش السكاكين مظهرًا عروق الخشب الطبيعية.",
+      "en": "Live-edge olive wood presentation board with natural antibacterial properties. Ideal for charcuterie, bread cutting, and rustic table presentation."
+    },
+    "story": {
+      "ar": "يختار طارق ألواح الزيتون الجافة بعناية ويقوم بصقلها يدويًا مع الحفاظ على حواش شكل الشجرة الأصلي.",
+      "en": "Tarek hand-selects aged olive slabs, carefully sanding and sealing them while preserving the bark's organic contour."
+    },
+    "price": 650,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/rustic-olive-wood-cutting-board-damietta-1.webp",
+        "alt": {
+          "ar": "لوح تقطيع خشب زيتون بحواف طبيعية ثقيل",
+          "en": "Live-edge olive wood charcuterie cutting board"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/rustic-olive-wood-cutting-board-damietta-2.webp",
+        "alt": {
+          "ar": "عروق خشب الزيتون الطبيعية الملمعة بالزيت",
+          "en": "Close up of rich olive wood grain patterns"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/rustic-olive-wood-cutting-board-damietta-3.webp",
+        "alt": {
+          "ar": "لوح تقطيع وتقديم من خشب الزيتون الطبيعي بالمقياس",
+          "en": "Rustic Olive Wood Cutting & Serving Board shown to scale"
+        },
+        "width": 1200,
+        "height": 1500,
+        "kind": "scale"
+      },
+      {
+        "src": "/images/products/rustic-olive-wood-cutting-board-damietta-4.webp",
+        "alt": {
+          "ar": "لوح تقطيع وتقديم من خشب الزيتون الطبيعي في الاستخدام",
+          "en": "Rustic Olive Wood Cutting & Serving Board in use"
+        },
+        "width": 1200,
+        "height": 1500,
+        "kind": "lifestyle"
+      }
+    ],
+    "craftId": "craft-woodwork",
+    "artisanId": "artisan-tarek-damietta",
+    "governorate": {
+      "slug": "damietta",
+      "name": {
+        "ar": "دمياط",
+        "en": "Damietta"
+      }
+    },
+    "materials": [
+      {
+        "ar": "خشب زيتون مصري طبيعي",
+        "en": "Natural Egyptian Olive Wood"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 22,
+      "heightCm": 40,
+      "depthCm": 3,
+      "weightGrams": 1800
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 19,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 4.7,
+    "reviewCount": 36,
+    "badges": [
+      "bestseller"
+    ],
+    "createdAt": "2026-07-08T09:00:00Z"
+  },
+  {
+    "id": "prod-029",
+    "slug": "carved-wooden-mashrabiya-wall-mirror",
+    "name": {
+      "ar": "مرآة جدارية بإطار مشربية خشبي منقوش",
+      "en": "Carved Wooden Mashrabiya Wall Mirror"
+    },
+    "summary": {
+      "ar": "مرآة حائط بإطار خرط خشبي مستوحى من المشربية المصرية.",
+      "en": "Decorative wall mirror framed in traditionally turned Mashrabiya latticework."
+    },
+    "description": {
+      "ar": "مرآة حائط أنيقة تحيط بها وحدة خرط خشبي تقليدية تماثل المشربيات القاهرية التراثية. تضفي اتساعًا وعمقًا شرقيًا ساحرًا على المداخل والصالونات.",
+      "en": "Statement wall mirror encased in meticulously hand-turned wood latticework inspired by historic Cairo's Mashrabiya windows."
+    },
+    "story": {
+      "ar": "قام طارق بخرط وتجميع العشرات من البكرات الخشبية الصغيرة لتشكيل هذا الإطار المعقد.",
+      "en": "Tarek hand-turned dozens of tiny wooden spools to assemble this historic latticework mirror frame."
+    },
+    "price": 2100,
+    "compareAtPrice": 2500,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/carved-wooden-mashrabiya-wall-mirror-1.webp",
+        "alt": {
+          "ar": "مرآة جدارية ذات إطار مشربية خشبي محفور",
+          "en": "Wall mirror encased in hand-carved wooden Mashrabiya frame"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/carved-wooden-mashrabiya-wall-mirror-2.webp",
+        "alt": {
+          "ar": "تفاصيل بكرات الخرط الخشبي للمشربية",
+          "en": "Close up view of turned wood spools in mirror frame"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/carved-wooden-mashrabiya-wall-mirror-3.webp",
+        "alt": {
+          "ar": "مرآة جدارية بإطار مشربية خشبي منقوش بالمقياس",
+          "en": "Carved Wooden Mashrabiya Wall Mirror shown to scale"
+        },
+        "width": 1200,
+        "height": 1500,
+        "kind": "scale"
+      },
+      {
+        "src": "/images/products/carved-wooden-mashrabiya-wall-mirror-4.webp",
+        "alt": {
+          "ar": "مرآة جدارية بإطار مشربية خشبي منقوش في الاستخدام",
+          "en": "Carved Wooden Mashrabiya Wall Mirror in use"
+        },
+        "width": 1200,
+        "height": 1500,
+        "kind": "lifestyle"
+      }
+    ],
+    "craftId": "craft-woodwork",
+    "artisanId": "artisan-tarek-damietta",
+    "governorate": {
+      "slug": "damietta",
+      "name": {
+        "ar": "دمياط",
+        "en": "Damietta"
+      }
+    },
+    "materials": [
+      {
+        "ar": "خشب زان طبيعي ومرآة بلجي المزة",
+        "en": "Natural Beech Wood & Premium Mirror Glass"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 55,
+      "heightCm": 75,
+      "depthCm": 4,
+      "weightGrams": 4100
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 5,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 4.9,
+    "reviewCount": 14,
+    "badges": [
+      "giftable"
+    ],
+    "createdAt": "2026-08-01T17:00:00Z"
+  },
+  {
+    "id": "prod-030",
+    "slug": "hand-carved-wooden-coaster-set-holder",
+    "name": {
+      "ar": "طقم كوستر خشب مطعم بالصدف (6 قطع)",
+      "en": "Handcrafted Wooden Coaster Set of 6 with Holder"
+    },
+    "summary": {
+      "ar": "طقم كوستر خشبي دائرية مطعمة بالصدف لحماية الطاولات.",
+      "en": "Set of 6 wooden drink coasters inlaid with mother-of-pearl accents in a matching box."
+    },
+    "description": {
+      "ar": "طقم مكون من 6 كواسترات خشبية لحماية الطاولات من حرارة الأكواب. مطعمة بنجمة صدفية صغيرة في المنتصف وتأتي في علبة حفظ خشبية أنيقة بنفس الطراز.",
+      "en": "Set of 6 round hardwood drink coasters stored in a matching inlaid box. Features a central mother-of-pearl star accent on each coaster."
+    },
+    "story": {
+      "ar": "يقوم عم جمال بصنع كل كوستر يدويًا وتنعيم حوافه ليكون قطعة ديكور لطيفة ومفيدة على طاولة الضيافة.",
+      "en": "Amm Gamal hand-turns and sands each coaster, setting delicate pearl stars into the wood surface."
+    },
+    "price": 520,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/hand-carved-wooden-coaster-set-holder-1.webp",
+        "alt": {
+          "ar": "طقم كواستر خشبية مطعمة بالصدف داخل حاملها",
+          "en": "Set of 6 inlaid wooden drink coasters inside matching wooden holder"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/hand-carved-wooden-coaster-set-holder-2.webp",
+        "alt": {
+          "ar": "كوستر خشبي مفرد يظهر النجمة الصدفية بالمنتصف",
+          "en": "Single wooden coaster with central mother-of-pearl star"
+        },
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "craftId": "craft-woodwork",
+    "artisanId": "artisan-amm-gamal",
+    "governorate": {
+      "slug": "cairo",
+      "name": {
+        "ar": "القاهرة",
+        "en": "Cairo"
+      }
+    },
+    "materials": [
+      {
+        "ar": "خشب زان وصدف طبيعي",
+        "en": "Beech Wood & Natural Mother-of-Pearl"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 11,
+      "heightCm": 6,
+      "depthCm": 11,
+      "weightGrams": 450
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 22,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 4.6,
+    "reviewCount": 28,
+    "badges": [
+      "giftable"
+    ],
+    "createdAt": "2026-07-20T12:00:00Z"
+  },
+  {
+    "id": "prod-031",
+    "slug": "handblown-recycled-glass-water-carafe-set",
+    "name": {
+      "ar": "دورق زجاج منفوخ يدويًا مع كوبين",
+      "en": "Handblown Blown Glass Carafe & Tumbler Set"
+    },
+    "summary": {
+      "ar": "طقم دورق مياه زجاجي شفاف مصنوع بالنفخ الحر التقليدي.",
+      "en": "Artisanal handblown recycled glass carafe complete with two drinking tumblers."
+    },
+    "description": {
+      "ar": "طقم دورق مياه وأكواب مصمم بعناية بالغة بالنفخ الحر أمام فرن اللهب. يتميز بالفقاعات المائية الصغيرة ولون الزجاج الشفاف الفريد الذي يبرد المياه ويكسبها مظهرًا نقيًا.",
+      "en": "Handblown recycled glass beverage set featuring characteristic tiny embedded air bubbles. Light green tinted natural glass with smooth organic rims."
+    },
+    "story": {
+      "ar": "ينفخ الشيخ حسن الزجاج الذائب بمهارة وسرعة قبل أن يبرد، مستخدمًا أدوات النفخ الخشبية القديمة.",
+      "en": "Sheikh Hassan free-blows molten recycled glass using wooden paddles to shape each carafe individually."
+    },
+    "price": 580,
+    "compareAtPrice": 690,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/handblown-recycled-glass-water-carafe-set-1.webp",
+        "alt": {
+          "ar": "دورق زجاجي منفوخ يدويًا مع كوبين للماء",
+          "en": "Handblown green-tinted glass water carafe with two glasses"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/handblown-recycled-glass-water-carafe-set-2.webp",
+        "alt": {
+          "ar": "فقاعات الهواء الدقيقة في الزجاج المنفوخ اليدوي",
+          "en": "Close up of artisan air bubbles in handblown glass texture"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/handblown-recycled-glass-water-carafe-set-3.webp",
+        "alt": {
+          "ar": "دورق زجاج منفوخ يدويًا مع كوبين بالمقياس",
+          "en": "Handblown Blown Glass Carafe & Tumbler Set shown to scale"
+        },
+        "width": 1200,
+        "height": 1500,
+        "kind": "scale"
+      },
+      {
+        "src": "/images/products/handblown-recycled-glass-water-carafe-set-4.webp",
+        "alt": {
+          "ar": "دورق زجاج منفوخ يدويًا مع كوبين في الاستخدام",
+          "en": "Handblown Blown Glass Carafe & Tumbler Set in use"
+        },
+        "width": 1200,
+        "height": 1500,
+        "kind": "lifestyle"
+      }
+    ],
+    "craftId": "craft-glass-mosaic",
+    "artisanId": "artisan-sheikh-hassan-glass",
+    "governorate": {
+      "slug": "cairo",
+      "name": {
+        "ar": "القاهرة",
+        "en": "Cairo"
+      }
+    },
+    "materials": [
+      {
+        "ar": "100% زجاج معاد تدويره منفوخ حراريًا",
+        "en": "100% Handblown Recycled Glass"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 14,
+      "heightCm": 26,
+      "depthCm": 14,
+      "weightGrams": 1200
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 17,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 4.8,
+    "reviewCount": 37,
+    "badges": [
+      "bestseller",
+      "giftable"
+    ],
+    "createdAt": "2026-06-11T13:00:00Z"
+  },
+  {
+    "id": "prod-032",
+    "slug": "custom-color-stained-glass-mosaic-table-lamp",
+    "name": {
+      "ar": "أباجورة موزاييك زجاجي ملون مع خيار اللون",
+      "en": "Custom Stained Glass Mosaic Table Lamp"
+    },
+    "summary": {
+      "ar": "مصباح طاولة من الموزاييك الزجاجي يمكنك اختيار درجته اللونية.",
+      "en": "Handmade stained glass mosaic table lamp customizable with your preferred primary accent color."
+    },
+    "description": {
+      "ar": "مصباح طاولة ساحر يرسل إضاءات ملونة دافئة على الجدران. يتشكل من مئات قطع الزجاج الملون الملصقة يدويًا، مع إمكانية اختيار اللون الغالب على الموزاييك عند الطلب.",
+      "en": "Atmospheric mosaic table lamp projecting dazzling ambient patterns. Hand-assembled with cut glass tesserae with customizable dominant color scheme options."
+    },
+    "story": {
+      "ar": "تنسق نرمين قطع الزجاج وتثبتها على الكُرة الزجاجية لتخلق تأثيرات ضوئية تشبه القناديل التاريخية.",
+      "en": "Nermine hand-sets each colored glass tile around a blown glass globe to forge mesmerizing light projections."
+    },
+    "price": 1750,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/custom-color-stained-glass-mosaic-table-lamp-1.webp",
+        "alt": {
+          "ar": "مصباح موزاييك زجاجي مضيء يعكس ألوانًا ساحرة",
+          "en": "Illuminated mosaic stained glass table lamp casting colored light"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/custom-color-stained-glass-mosaic-table-lamp-2.webp",
+        "alt": {
+          "ar": "تفاصيل تجميع قطع الزجاج الملون على الأباجورة",
+          "en": "Close up detail of hand-set glass mosaic tesserae on lamp"
+        },
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "craftId": "craft-glass-mosaic",
+    "artisanId": "artisan-nermine-mosaic",
+    "governorate": {
+      "slug": "alexandria",
+      "name": {
+        "ar": "الإسكندرية",
+        "en": "Alexandria"
+      }
+    },
+    "materials": [
+      {
+        "ar": "زجاج ملون، قاعدة نحاسية، سلك كهربائي",
+        "en": "Stained Glass, Brass Base & Electrical Fixtures"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 20,
+      "heightCm": 38,
+      "depthCm": 20,
+      "weightGrams": 1650
+    },
+    "madeToOrder": true,
+    "leadTimeDays": 5,
+    "stock": 0,
+    "customizable": true,
+    "customizationOptions": [
+      {
+        "key": "primary_color",
+        "label": {
+          "ar": "اللون الغالب المطلوب للموزاييك",
+          "en": "Primary glass mosaic color theme"
+        },
+        "type": "choice",
+        "required": true,
+        "choices": [
+          {
+            "value": "blue_turquoise",
+            "label": {
+              "ar": "أزرق وتركواز بحري",
+              "en": "Sea Blue & Turquoise"
+            }
+          },
+          {
+            "value": "warm_amber_red",
+            "label": {
+              "ar": "عنبري وأحمر دافئ",
+              "en": "Warm Amber & Red"
+            }
+          },
+          {
+            "value": "emerald_green",
+            "label": {
+              "ar": "أخضر زمردي",
+              "en": "Emerald Green"
+            }
+          }
+        ]
+      }
+    ],
+    "rating": 4.9,
+    "reviewCount": 28,
+    "badges": [
+      "giftable",
+      "new"
+    ],
+    "createdAt": "2026-07-30T14:00:00Z"
+  },
+  {
+    "id": "prod-033",
+    "slug": "handblown-colored-glass-tea-cups-set-6",
+    "name": {
+      "ar": "طقم استكانات شاي زجاج ملون يدوي (6 أكواب)",
+      "en": "Handblown Stained Glass Tea Cup Set of 6"
+    },
+    "summary": {
+      "ar": "طقم 6 أكواب شاي شرقية من الزجاج المنفوخ الملون.",
+      "en": "Set of 6 traditional handblown tinted glass tea cups with scalloped saucers."
+    },
+    "description": {
+      "ar": "طقم تقديم شاي شرقي رائع مكون من 6 أكواب زجاجية ملونة بالنفخ الحر، مع أطباق تقديم شفافة صغيرة. يضيف بهجة خاصة لجمعات الشاي والقهوة.",
+      "en": "Set of 6 colorful handblown glass tea cups with matching clear glass saucers. Light, durable, and tinted in nostalgic Khan el-Khalili colors."
+    },
+    "story": {
+      "ar": "ينفخ الشيخ حسن كل كوب على حدة، مع مراعاة تناسق الحجم والتصاميم اليدوية الفريدة.",
+      "en": "Sheikh Hassan hand-blows each cup individually, ensuring uniform volume with artisanal uniqueness."
+    },
+    "price": 750,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/handblown-colored-glass-tea-cups-set-6-1.webp",
+        "alt": {
+          "ar": "طقم 6 أكواب شاي زجاجية ملونة مع أطباقها",
+          "en": "Set of 6 handblown colorful glass tea cups with saucers"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/handblown-colored-glass-tea-cups-set-6-2.webp",
+        "alt": {
+          "ar": "انعكاس الإضاءة على الزجاج الملون لأكواب الشاي",
+          "en": "Light reflecting through tinted handblown glass tea cup"
+        },
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "craftId": "craft-glass-mosaic",
+    "artisanId": "artisan-sheikh-hassan-glass",
+    "governorate": {
+      "slug": "cairo",
+      "name": {
+        "ar": "القاهرة",
+        "en": "Cairo"
+      }
+    },
+    "materials": [
+      {
+        "ar": "زجاج ملون منفوخ حرارياً",
+        "en": "Handblown Tinted Glass"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 6,
+      "heightCm": 9,
+      "depthCm": 6,
+      "weightGrams": 850
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 14,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 4.7,
+    "reviewCount": 24,
+    "badges": [
+      "giftable"
+    ],
+    "createdAt": "2026-06-25T10:10:00Z"
+  },
+  {
+    "id": "prod-034",
+    "slug": "hanging-mosaic-glass-candle-lantern",
+    "name": {
+      "ar": "فانوس موزاييك زجاجي معلق للشموع",
+      "en": "Hanging Mosaic Glass Candle Lantern"
+    },
+    "summary": {
+      "ar": "قنديل معلق من الموزاييك الزجاجي للشموع والإضاءة الهادئة.",
+      "en": "Hanging stained glass mosaic lantern designed for pillar candles or fairy lights."
+    },
+    "description": {
+      "ar": "فانوس معلق ذو سلسلة نحاسية، مطعم بالكامل بموزاييك زجاجي ملون. عند وضع شمعة بداخله يعطي انعكاسات ضوئية دافئة ومبهجة في الحدائق والشرفات.",
+      "en": "Hanging tea-light lantern with brass chain and cap. Encrusted with colorful glass mosaic tiles that emit warm geometric light reflections."
+    },
+    "story": {
+      "ar": "تجمع نرمين قطع الزجاج بأسلوب هندسي دقيق ليتوازن الفانوس ويتألق عند التعليق.",
+      "en": "Nermine carefully balances tesserae placement so the lantern hangs perfectly level while illuminated."
+    },
+    "price": 640,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/hanging-mosaic-glass-candle-lantern-1.webp",
+        "alt": {
+          "ar": "فانوس موزاييك ملون معلق بسلسلة نحاسية",
+          "en": "Hanging glass mosaic candle lantern with brass chain"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/hanging-mosaic-glass-candle-lantern-2.webp",
+        "alt": {
+          "ar": "إضاءة الشمعة تظهر من خلال الزجاج الملون",
+          "en": "Candle light glowing through stained glass mosaic tiles"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/hanging-mosaic-glass-candle-lantern-3.webp",
+        "alt": {
+          "ar": "فانوس موزاييك زجاجي معلق للشموع بالمقياس",
+          "en": "Hanging Mosaic Glass Candle Lantern shown to scale"
+        },
+        "width": 1200,
+        "height": 1500,
+        "kind": "scale"
+      }
+    ],
+    "craftId": "craft-glass-mosaic",
+    "artisanId": "artisan-nermine-mosaic",
+    "governorate": {
+      "slug": "alexandria",
+      "name": {
+        "ar": "الإسكندرية",
+        "en": "Alexandria"
+      }
+    },
+    "materials": [
+      {
+        "ar": "قطع زجاج ملون، هيكل نحاس وسلسلة تعليق",
+        "en": "Stained Glass Tiles & Brass Hanging Chain"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 15,
+      "heightCm": 28,
+      "depthCm": 15,
+      "weightGrams": 980
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 11,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 4.8,
+    "reviewCount": 16,
+    "badges": [],
+    "createdAt": "2026-07-02T16:00:00Z"
+  },
+  {
+    "id": "prod-035",
+    "slug": "handblown-glass-perfume-bottle-vintage",
+    "name": {
+      "ar": "زجاجة عطر تقليدية من الزجاج المنفوخ والمذهب",
+      "en": "Vintage Handblown Egyptian Glass Perfume Bottle"
+    },
+    "summary": {
+      "ar": "قارورة عطر زجاجية منفوخة يدويًا ومزينة بطلاء الذهب.",
+      "en": "Delicate handblown Egyptian glass perfume bottle embellished with 12k gold accents."
+    },
+    "description": {
+      "ar": "قارورة عطر كلاسيكية رقيقة مصنوعة يدويًا بالكامل من الزجاج الحراري الخفيف والمزخرف بلمسات ذهبية عيار 12. تحفة ديكورية رائعة لطاولة الزينة.",
+      "en": "Classic Egyptian perfume vial blown from borosilicate glass. Hand-painted with 12k gold luster detailing, ideal for essential oils or vanity display."
+    },
+    "story": {
+      "ar": "ينفخ الشيخ حسن هذه الزجاجات الدقيقة برائحة التراث الخانخليلي القديم.",
+      "en": "Sheikh Hassan delicate-blows these vintage vials following Khan el-Khalili perfumery traditions."
+    },
+    "price": 320,
+    "compareAtPrice": 400,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/handblown-glass-perfume-bottle-vintage-1.webp",
+        "alt": {
+          "ar": "قارورة عطر زجاجية منفوخة مزينة بلمسات ذهبية",
+          "en": "Handblown delicate glass perfume bottle with gold detailing"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/handblown-glass-perfume-bottle-vintage-2.webp",
+        "alt": {
+          "ar": "سدادة الزجاجة المنفوخة والزخارف الذهبية",
+          "en": "Close up of gold leaf accents on glass perfume bottle stopper"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/handblown-glass-perfume-bottle-vintage-3.webp",
+        "alt": {
+          "ar": "زجاجة عطر تقليدية من الزجاج المنفوخ والمذهب بالمقياس",
+          "en": "Vintage Handblown Egyptian Glass Perfume Bottle shown to scale"
+        },
+        "width": 1200,
+        "height": 1500,
+        "kind": "scale"
+      },
+      {
+        "src": "/images/products/handblown-glass-perfume-bottle-vintage-4.webp",
+        "alt": {
+          "ar": "زجاجة عطر تقليدية من الزجاج المنفوخ والمذهب في الاستخدام",
+          "en": "Vintage Handblown Egyptian Glass Perfume Bottle in use"
+        },
+        "width": 1200,
+        "height": 1500,
+        "kind": "lifestyle"
+      }
+    ],
+    "craftId": "craft-glass-mosaic",
+    "artisanId": "artisan-sheikh-hassan-glass",
+    "governorate": {
+      "slug": "cairo",
+      "name": {
+        "ar": "القاهرة",
+        "en": "Cairo"
+      }
+    },
+    "materials": [
+      {
+        "ar": "زجاج حراري خفيف وطلاء ذهب عيار 12",
+        "en": "Borosilicate Glass & 12k Gold Luster Paint"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 6,
+      "heightCm": 16,
+      "depthCm": 6,
+      "weightGrams": 180
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 30,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 4.6,
+    "reviewCount": 50,
+    "badges": [
+      "bestseller",
+      "giftable"
+    ],
+    "createdAt": "2026-06-02T09:00:00Z"
+  },
+  {
+    "id": "prod-036",
+    "slug": "decorative-stained-glass-mosaic-wall-clock",
+    "name": {
+      "ar": "ساعة حائط موزاييك زجاجي ملون يدويًا",
+      "en": "Handcrafted Stained Glass Mosaic Wall Clock"
+    },
+    "summary": {
+      "ar": "ساعة حائط دائرية مصنوعة من الموزاييك الزجاجي الملون.",
+      "en": "Vibrant round wall clock crafted from hand-cut stained glass mosaic tiles."
+    },
+    "description": {
+      "ar": "ساعة حائط فريدة تعمل بآلية هادئة بدون صوت. تتزين واجهتها بقطع زجاجية ملونة مقطوعة ومصفوفة يدويًا بأسلوب ساحر يجعلها لوحة وساعة في وقت واحد.",
+      "en": "Silent sweep movement wall clock featuring a face hand-set with radiant stained glass tesserae. Functions as both a timepiece and striking wall art."
+    },
+    "story": {
+      "ar": "قطعت نرمين كل حبة زجاج ورتبتها بعناية لتشكيل أرقام ودرجات الساعة الضوئية.",
+      "en": "Nermine precision-cut each stained glass wedge to compose the colorful radial clock face."
+    },
+    "price": 1250,
+    "currency": "EGP",
+    "images": [
+      {
+        "src": "/images/products/decorative-stained-glass-mosaic-wall-clock-1.webp",
+        "alt": {
+          "ar": "ساعة حائط دائرية من الموزاييك الزجاجي الملون",
+          "en": "Round wall clock made with colorful stained glass mosaic design"
+        },
+        "width": 1200,
+        "height": 1500
+      },
+      {
+        "src": "/images/products/decorative-stained-glass-mosaic-wall-clock-2.webp",
+        "alt": {
+          "ar": "عقارب الساعة الذهبية والتفاصيل الزجاجية حولها",
+          "en": "Close up view of golden hands on stained glass mosaic clock face"
+        },
+        "width": 1200,
+        "height": 1500
+      }
+    ],
+    "craftId": "craft-glass-mosaic",
+    "artisanId": "artisan-nermine-mosaic",
+    "governorate": {
+      "slug": "alexandria",
+      "name": {
+        "ar": "الإسكندرية",
+        "en": "Alexandria"
+      }
+    },
+    "materials": [
+      {
+        "ar": "زجاج ملون، قاعدة خشبية وآلية ساعة صامتة",
+        "en": "Stained Glass, Wood Base & Silent Quartz Movement"
+      }
+    ],
+    "dimensions": {
+      "widthCm": 35,
+      "heightCm": 35,
+      "depthCm": 4,
+      "weightGrams": 1400
+    },
+    "madeToOrder": false,
+    "leadTimeDays": 0,
+    "stock": 8,
+    "customizable": false,
+    "customizationOptions": [],
+    "rating": 4.9,
+    "reviewCount": 22,
+    "badges": [
+      "giftable"
+    ],
+    "createdAt": "2026-08-04T13:30:00Z"
+  }
+]

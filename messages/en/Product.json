@@ -1,0 +1,15 @@
+{
+    "badges": {
+        "new": "New",
+        "bestseller": "Bestseller",
+        "limited": "Limited stock",
+        "giftable": "Great for gifts"
+    },
+    "discount": "{percent}% off",
+    "soldOut": "Sold out",
+    "madeToOrder": "Made to order",
+    "leadTime": "{days, plural, one {Ready in # day} other {Ready in # days}}",
+    "rating": "Rated {rating} out of 5 from {count} reviews",
+    "chooseOptionsFor": "Choose options for {name}",
+    "viewProduct": "View {name}"
+}

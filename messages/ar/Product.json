@@ -1,0 +1,15 @@
+{
+    "badges": {
+        "new": "جديد",
+        "bestseller": "الأكثر مبيعًا",
+        "limited": "كمية محدودة",
+        "giftable": "مناسب للهدايا"
+    },
+    "discount": "خصم {percent}%",
+    "soldOut": "نفدت الكمية",
+    "madeToOrder": "صُنع حسب الطلب",
+    "leadTime": "{days, plural, =1 {تجهيز يوم} =2 {تجهيز يومين} few {تجهيز {days} أيام} many {تجهيز {days} يومًا} other {تجهيز {days} يوم}}",
+    "rating": "التقييم {rating} من 5 بناءً على {count} تقييم",
+    "chooseOptionsFor": "اختر خيارات {name}",
+    "viewProduct": "عرض {name}"
+}

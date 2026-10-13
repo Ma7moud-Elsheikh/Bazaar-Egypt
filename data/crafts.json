@@ -1,0 +1,152 @@
+[
+    {
+        "id": "craft-pottery",
+        "slug": "pottery",
+        "name": {
+            "ar": "الفخار والخزف",
+            "en": "Pottery & Ceramics"
+        },
+        "tagline": {
+            "ar": "طين النيل يتشكل بيد الأسطورة",
+            "en": "Nile clay shaped by master hands"
+        },
+        "description": {
+            "ar": "صناعة الفخار والخزف اليدوي من أعرق الفنون المصرية التقليدية، حيث يتم تشكيل الطين المحلي وتحويله إلى أوانٍ وقطع فنية وفريدة تعكس تاريخ النيل الممتد عبر الأجيال.",
+            "en": "Handcrafted pottery and ceramics represent one of Egypt's most ancient artisanal traditions, shaping local clay into timeless functional and decorative artifacts."
+        },
+        "cover": {
+            "src": "/images/crafts/pottery.webp",
+            "alt": {
+                "ar": "تشكيل الفخار اليدوي على العجلة الفخارية",
+                "en": "Handcrafted pottery being shaped on a traditional potter's wheel"
+            },
+            "width": 1200,
+            "height": 1500
+        }
+    },
+    {
+        "id": "craft-copperware",
+        "slug": "copperware",
+        "name": {
+            "ar": "النحاسيات والنقش",
+            "en": "Copperware & Engraving"
+        },
+        "tagline": {
+            "ar": "بريق التاريخ المنسوج بالنحاس والفضة",
+            "en": "The timeless gleam of hand-engraved brass and copper"
+        },
+        "description": {
+            "ar": "فن النقش والطرأ على النحاس الأحمر والأصفر في قلب القاهرة التاريخية، حيث تحول الأيدي الماهرة المعادن الصماء إلى تحف فنية تزين المنازل الأصيلة.",
+            "en": "The delicate art of hand-engraving and hammering brass and copper in Old Cairo, transforming raw metals into intricate home showpieces."
+        },
+        "cover": {
+            "src": "/images/crafts/copperware.webp",
+            "alt": {
+                "ar": "صينية نحاسية منقوشة يدويًا بنقوش إسلامية",
+                "en": "Hand-engraved copper tray with Islamic geometric patterns"
+            },
+            "width": 1200,
+            "height": 1500
+        }
+    },
+    {
+        "id": "craft-weaving",
+        "slug": "weaving",
+        "name": {
+            "ar": "النسيج اليدوي والغزل",
+            "en": "Handloom Weaving"
+        },
+        "tagline": {
+            "ar": "خيوط القطن والحرير تروي حكايات الصعيد",
+            "en": "Cotton and silk threads weaving Upper Egyptian folklore"
+        },
+        "description": {
+            "ar": "فن النسيج على النول الخشبي التقليدي، الممتد في صعيد مصر وخصوصًا أخميم، لخلق مفارش وشيلان خفيفة ناصعة الألوان وبخيوط ناعمة ممتازة.",
+            "en": "Traditional wooden loom weaving rooted in Upper Egypt, creating vibrantly colored textiles, throws, and scarves from raw Egyptian cotton."
+        },
+        "cover": {
+            "src": "/images/crafts/weaving.webp",
+            "alt": {
+                "ar": "نول نسيج خشبي تقليدي بخيوط ملونة",
+                "en": "Traditional wooden loom with vibrant cotton threads"
+            },
+            "width": 1200,
+            "height": 1500
+        }
+    },
+    {
+        "id": "craft-embroidery",
+        "slug": "embroidery",
+        "name": {
+            "ar": "التطريز السيناوي واليدوي",
+            "en": "Hand Embroidery"
+        },
+        "tagline": {
+            "ar": "غرز من غزل الطبيعة والتراث السيناوي الأصيل",
+            "en": "Stitches of nature woven with authentic Bedouin heritage"
+        },
+        "description": {
+            "ar": "التطريز اليدوي الدقيق المعتمد على الغرز التقليدية والوحدات الزخرفية المستوحاة من الطبيعة الصحراوية في سيناء والتراث الريفي المصري.",
+            "en": "Exquisite hand embroidery utilizing traditional cross-stitches and desert motifs passed down through generations of Egyptian women."
+        },
+        "cover": {
+            "src": "/images/crafts/embroidery.webp",
+            "alt": {
+                "ar": "تطريز سيناوي يدوي بدقيق الغرز الملونة",
+                "en": "Detailed Sinai hand embroidery featuring traditional motifs"
+            },
+            "width": 1200,
+            "height": 1500
+        }
+    },
+    {
+        "id": "craft-woodwork",
+        "slug": "woodwork",
+        "name": {
+            "ar": "النجارة والخرط الخشبي",
+            "en": "Woodwork & Marquetry"
+        },
+        "tagline": {
+            "ar": "دفء الخشب الطبيعي المطعّم بالصدف",
+            "en": "Warm natural woods inlaid with iridescent mother-of-pearl"
+        },
+        "description": {
+            "ar": "أعمال التطعيم بالصدف والخرط الخشبي اليدوي باستخدام أجود أنواع خشب السرسوع والزان، التي تعكس مهارة النجارة المصرية التاريخية.",
+            "en": "Fine woodworking, wood turning, and mother-of-pearl inlay craft using natural hardwoods to create heirloom quality decorative objects."
+        },
+        "cover": {
+            "src": "/images/crafts/woodwork.webp",
+            "alt": {
+                "ar": "صندوق خشبي مطعم بالصدف الطبيعي",
+                "en": "Handcrafted wooden box inlaid with mother-of-pearl"
+            },
+            "width": 1200,
+            "height": 1500
+        }
+    },
+    {
+        "id": "craft-glass-mosaic",
+        "slug": "glass-mosaic",
+        "name": {
+            "ar": "الزجاج المنفوخ والموزاييك",
+            "en": "Blown Glass & Mosaic"
+        },
+        "tagline": {
+            "ar": "انعكاسات الضوء واللون في زجاج مصنوع باللهب",
+            "en": "Dancing light and color captured in handblown glass"
+        },
+        "description": {
+            "ar": "فن نفخ الزجاج يدويًا وتجميعه في وحدات موزاييك ملونة، صُنع بأساليب تقليدية تعيد إحياء قناديل وحليات خان الخليلي التاريخية.",
+            "en": "Handblown glass craft and mosaic assembly, reviving traditional Khan el-Khalili lighting and decorative glass artworks."
+        },
+        "cover": {
+            "src": "/images/crafts/glass-mosaic.webp",
+            "alt": {
+                "ar": "قنديل زجاجي ملون وموزاييك معلق",
+                "en": "Handcrafted stained glass mosaic lantern"
+            },
+            "width": 1200,
+            "height": 1500
+        }
+    }
+]

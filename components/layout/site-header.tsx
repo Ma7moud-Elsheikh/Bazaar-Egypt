@@ -7,6 +7,7 @@ import { getTranslations } from 'next-intl/server';
 import { LocaleSwitcher } from './locale-switcher';
 import { MobileNav } from './mobile-nav';
 import { NavLink } from './nav-link';
+import { WishlistLink } from './wishlist-link';
 
 const NAV = [
     { href: '/', key: 'home' },
@@ -21,6 +22,8 @@ export async function SiteHeader() {
     const tc = await getTranslations('Common');
 
     const items = NAV.map((item) => ({ href: item.href, label: t(item.key) }));
+    // قايمة الموبايل فيها المفضلة كمان (على الديسكتوب ليها أيقونة)
+    const mobileItems = [...items, { href: '/wishlist', label: t('wishlist') }];
     // على الديسكتوب الشعار هو رابط الرئيسية، و«عن بازار مصر» من 1280px
     const desktopItems = NAV.filter((item) => item.href !== '/');
 
@@ -61,8 +64,9 @@ export async function SiteHeader() {
                     <div className="hidden lg:block">
                         <LocaleSwitcher />
                     </div>
+                    <WishlistLink />
                     <CartButton />
-                    <MobileNav items={items} />
+                    <MobileNav items={mobileItems} />
                 </div>
             </div>
         </header>

@@ -5,7 +5,7 @@ import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 import type { Product } from '@/lib/schemas/catalog';
 import { formatPrice, localize } from '@/lib/utils/format';
-import { getTranslations } from 'next-intl/server';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 
 type Props = {
@@ -20,8 +20,9 @@ type Props = {
 const SIZES = '(min-width: 1280px) 25vw, (min-width: 1024px) 33vw, 50vw';
 const BADGE_ORDER = ['bestseller', 'new', 'limited', 'giftable'] as const;
 
-export async function ProductCard({ product, locale, craftName, eager = false }: Props) {
-    const t = await getTranslations('Product');
+// مكوّن عادي (مش async) عشان يشتغل في الـ Server وفي الـ Client معًا
+export function ProductCard({ product, locale, craftName, eager = false }: Props) {
+    const t = useTranslations('Product');
     const [primary, secondary] = product.images;
     const name = localize(product.name, locale);
     const href = `/shop/${product.slug}`;

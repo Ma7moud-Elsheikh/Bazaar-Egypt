@@ -1,4 +1,19 @@
 {
     "add": "Add {name} to wishlist",
-    "remove": "Remove {name} from wishlist"
-}   
+    "remove": "Remove {name} from wishlist",
+    "open": "Wishlist",
+    "openWithCount": "Wishlist, {count, plural, one {# item} other {# items}}",
+    "metaTitle": "Wishlist",
+    "eyebrow": "Wishlist",
+    "title": "Your favorite products",
+    "subtitle": "The pieces you saved to come back to. Saved on your device.",
+    "count": "{count, plural, one {# product} other {# products}}",
+    "emptyTitle": "No products in your wishlist yet",
+    "emptyText": "Tap the heart on any product to save it here.",
+    "emptyCta": "Discover products",
+    "addAll": "Add available items to cart",
+    "clearAll": "Clear wishlist",
+    "skippedNote": "{count} of the products were not added to the cart because they need you to choose options or are out of stock. Open them from their page.",
+    "error": "Couldn't load your wishlist. Try refreshing the page.",
+    "recentTitle": "Recently viewed"
+}

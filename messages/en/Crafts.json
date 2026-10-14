@@ -1,0 +1,20 @@
+{
+    "metaTitle": "Egyptian handmade crafts",
+    "metaDescription": "Discover Egyptian handmade crafts: pottery, copperware, textiles, embroidery, woodwork and mosaic glass, and meet the artisans who make them.",
+    "breadcrumb": "Breadcrumb",
+    "eyebrow": "Crafts",
+    "title": "Egyptian crafts passed down through generations",
+    "subtitle": "Handmade crafts, each with its own history, style and artisans who keep it alive.",
+    "listLabel": "Crafts list",
+    "productsCount": "{count, plural, =0 {No products} one {# product} other {# products}}",
+    "artisansCount": "{count, plural, =0 {No artisans} one {# artisan} other {# artisans}}",
+    "detailEyebrow": "Craft",
+    "heroCta": "Shop {craft}",
+    "artisansTitle": "{craft} artisans",
+    "artisansSubtitle": "The people who keep this craft alive and make its pieces by hand.",
+    "viewAllArtisans": "All artisans",
+    "productsTitle": "Pieces of {craft}",
+    "viewAllProducts": "View all {craft} products",
+    "noProducts": "There are no products in this craft right now.",
+    "otherCraftsTitle": "Discover other crafts"
+}

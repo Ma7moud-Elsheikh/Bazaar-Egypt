@@ -1,10 +1,11 @@
 {
-  "home": "الرئيسية",
-  "shop": "المتجر",
-  "crafts": "الحرف",
-  "artisans": "الحرفيون",
-  "about": "عن بازار مصر",
-  "openMenu": "فتح القائمة",
-  "closeMenu": "إغلاق القائمة",
-  "mainNavigation": "التنقل الرئيسي"
+    "home": "الرئيسية",
+    "shop": "المتجر",
+    "crafts": "الحرف",
+    "artisans": "الحرفيون",
+    "about": "عن بازار مصر",
+    "wishlist": "المفضلة",
+    "openMenu": "فتح القائمة",
+    "closeMenu": "إغلاق القائمة",
+    "mainNavigation": "التنقل الرئيسي"
 }

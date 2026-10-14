@@ -5,6 +5,7 @@ import { Governorates } from '@/components/home/governorates';
 import { Hero } from '@/components/home/hero';
 import { ProductShelves } from '@/components/home/product-shelves';
 import { TrustStrip } from '@/components/home/trust-strip';
+import { RecentlyViewed } from '@/components/wishlist/recently-viewed';
 import { routing, type Locale } from '@/i18n/routing';
 import { api } from '@/lib/api';
 import { HOME_LIMITS } from '@/lib/home-config';
@@ -60,6 +61,7 @@ export default async function HomePage({ params }: Props) {
             <ArtisanStories artisans={artisans} crafts={crafts} locale={locale} />
             <GiftGuide crafts={crafts} locale={locale} />
             <Governorates products={popular} locale={locale} />
+            <RecentlyViewed />
             <FaqSupport returnDays={shipping.returnDays} />
         </>
     );

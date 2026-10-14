@@ -124,3 +124,10 @@ Response: `[{ id: cod | card | fawry | wallet | instapay, label: {ar,en}, descri
 
 The home page uses a single call: `GET /products?sort=popular&pageSize=48`, then derives bestsellers (badge `bestseller` first), newest (by `createdAt`), gifts (badge `giftable`) and governorate counts.
 Recommended additions on the backend: a `badge` query parameter on `GET /products` (`new` | `bestseller` | `limited` | `giftable`) and a `sort=popular` that ranks by sales, so these shelves do not need to load the whole catalog.
+
+## Products by ids (v2)
+
+### GET /products?ids=
+
+Query: `ids` (comma separated product ids, max 48) and `pageSize` (up to 48).
+Response: `Paginated<Product>` containing only the products that exist. Used by the wishlist and "recently viewed" (the lists live in the customer's browser).

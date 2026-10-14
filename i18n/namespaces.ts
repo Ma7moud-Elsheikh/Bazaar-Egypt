@@ -16,5 +16,8 @@ export const NAMESPACES = [
     'ProductPage',
     'Purchase',
     'Checkout',
-    'Order'
+    'Order',
+    'Crafts',
+    'Artisans',
+    'Pages'
 ] as const;

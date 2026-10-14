@@ -8,6 +8,7 @@ import { JsonLd } from '@/components/seo/json-ld';
 import { RecommendedProducts } from '@/components/shop/recommended-products';
 import { AmbientBackground } from '@/components/ui/ambient-background';
 import { StarIcon } from '@/components/ui/icons';
+import { RecentlyViewed } from '@/components/wishlist/recently-viewed';
 import { Link } from '@/i18n/navigation';
 import { routing, type Locale } from '@/i18n/routing';
 import { api } from '@/lib/api';
@@ -270,6 +271,8 @@ export default async function ProductPage({ params }: Props) {
                     </div>
                 </div>
             )}
+
+            <RecentlyViewed currentId={product.id} />
         </div>
     );
 }

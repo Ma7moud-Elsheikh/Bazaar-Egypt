@@ -1,3 +1,4 @@
+import { getProductsByIds } from './by-ids';
 import { getPaymentMethods, getProductReviews, getShippingConfig, placeOrder } from './extras';
 import * as http from './http';
 import * as mock from './mock';
@@ -9,6 +10,7 @@ type Extras = {
     getProductReviews: typeof getProductReviews;
     getShippingConfig: typeof getShippingConfig;
     getPaymentMethods: typeof getPaymentMethods;
+    getProductsByIds: typeof getProductsByIds;
 };
 
 export const api: CatalogApi & Extras = {
@@ -16,6 +18,7 @@ export const api: CatalogApi & Extras = {
     getProductReviews,
     getShippingConfig,
     getPaymentMethods,
+    getProductsByIds,
     createOrder: placeOrder
 };
 

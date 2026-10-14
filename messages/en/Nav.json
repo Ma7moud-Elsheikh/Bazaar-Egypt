@@ -1,10 +1,11 @@
 {
-  "home": "Home",
-  "shop": "Shop",
-  "crafts": "Crafts",
-  "artisans": "Artisans",
-  "about": "About",
-  "openMenu": "Open menu",
-  "closeMenu": "Close menu",
-  "mainNavigation": "Main navigation"
+    "home": "Home",
+    "shop": "Shop",
+    "crafts": "Crafts",
+    "artisans": "Artisans",
+    "about": "About",
+    "wishlist": "Wishlist",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNavigation": "Main navigation"
 }

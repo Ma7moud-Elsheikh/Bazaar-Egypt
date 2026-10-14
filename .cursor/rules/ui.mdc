@@ -19,3 +19,7 @@ alwaysApply: false
 
 - Product page lives in `app/[locale]/shop/[slug]/page.tsx` and `components/product/*`. Gallery, purchase panel and similar interactive parts are small client components. Description, accordion, artisan story and reviews are Server Components.
 - Use native `<details>` for accordions, native `<dialog>` for lightboxes and drawers, and CSS `scroll-snap` for carousels. No UI libraries.
+
+
+- List pages read filters from `searchParams` and validate them; filtered URLs are `noindex, follow`.
+- Detail pages: `generateStaticParams` returns only the page's own params (e.g. `{ slug }`, never `locale`), data is loaded through `cache()` shared by `generateMetadata` and the page, missing data calls `notFound()`, and every detail page ships a BreadcrumbList JSON-LD plus its entity JSON-LD (CollectionPage, Person, Product).

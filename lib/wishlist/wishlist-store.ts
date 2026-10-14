@@ -1,8 +1,10 @@
 import { useSyncExternalStore } from 'react';
 
 const STORAGE_KEY = 'bazaar-egypt:wishlist';
+// قيمة ثابتة لسنابشوت السيرفر (مصفوفة جديدة في كل مرة بتعمل خطأ في React)
+const EMPTY: string[] = [];
 
-let ids: string[] = [];
+let ids: string[] = EMPTY;
 let hydrated = false;
 let storageBound = false;
 const listeners = new Set<() => void>();
@@ -60,6 +62,14 @@ export const wishlistActions = {
         emit();
     },
 
+    remove(productId: string) {
+        ensureHydrated();
+        if (!ids.includes(productId)) return;
+        ids = ids.filter((id) => id !== productId);
+        write(ids);
+        emit();
+    },
+
     clear() {
         ensureHydrated();
         ids = [];
@@ -97,6 +107,6 @@ export function useWishlistIds(): string[] {
             ensureHydrated();
             return ids;
         },
-        () => []
+        () => EMPTY
     );
 }

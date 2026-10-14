@@ -1,0 +1,396 @@
+{
+    "common": {
+        "breadcrumb": "Breadcrumb",
+        "toc": "On this page",
+        "updated": "Last updated: {date}"
+    },
+    "about": {
+        "metaTitle": "About Bazaar Egypt",
+        "metaDescription": "Bazaar Egypt is a platform for authentic Egyptian handmade crafts: pieces made by artisans from all over Egypt, delivered to your door.",
+        "eyebrow": "About Bazaar Egypt",
+        "title": "A platform for authentic Egyptian handmade crafts",
+        "subtitle": "We showcase pieces made by artisans from Upper Egypt to the Delta, tell the story of each maker, and deliver the pieces to your home.",
+        "storyTitle": "Our story",
+        "story": [
+            "Every governorate in Egypt has a craft passed down through generations: pottery in Qena, copperwork in Old Cairo, weaving in Akhmim, embroidery in Sinai. These crafts are not just products, they are identity and history.",
+            "Bazaar Egypt was created to bring these crafts together in one place, so anyone in Egypt can reach and buy them, and learn who made them and how."
+        ],
+        "howTitle": "How it works",
+        "how": [
+            {
+                "title": "We showcase crafts and artisans",
+                "text": "We list handmade pieces from authentic Egyptian crafts, each with its maker's name and story."
+            },
+            {
+                "title": "You choose and order easily",
+                "text": "Browse by craft, governorate or search, order without an account, and pay on delivery."
+            },
+            {
+                "title": "We deliver to your door",
+                "text": "We deliver to every governorate in Egypt, and the time and cost for yours are shown before you confirm."
+            }
+        ],
+        "valuesTitle": "What we believe in",
+        "values": [
+            {
+                "title": "Authenticity",
+                "text": "Handmade pieces that carry their maker's mark and the identity of their place."
+            },
+            {
+                "title": "Transparency",
+                "text": "The total price, delivery time and returns policy are clear before you buy."
+            },
+            {
+                "title": "Story",
+                "text": "Every piece has a story, and we introduce you to the artisan who made it."
+            }
+        ],
+        "ctaTitle": "Start your journey with Egyptian crafts",
+        "ctaText": "Discover the pieces, or talk to us if you want a custom design.",
+        "ctaShop": "Shop now",
+        "ctaContact": "Contact us"
+    },
+    "faq": {
+        "metaTitle": "Frequently asked questions",
+        "metaDescription": "Answers to the most common questions about ordering, payment, delivery, returns and gifts at Bazaar Egypt.",
+        "eyebrow": "Help",
+        "title": "Frequently asked questions",
+        "intro": "We gathered the questions we get most. If you can't find your answer, talk to us.",
+        "moreTitle": "Can't find your answer?",
+        "moreText": "Send us your question and we will reply.",
+        "moreCta": "Contact us",
+        "groups": [
+            {
+                "title": "Ordering",
+                "items": [
+                    {
+                        "q": "How do I order?",
+                        "a": "Choose a product and add it to your cart, then press \"Checkout\" and enter your details and address. You don't need an account."
+                    },
+                    {
+                        "q": "Do I need to create an account?",
+                        "a": "No, you can order without signing up."
+                    },
+                    {
+                        "q": "How do I know my order was placed?",
+                        "a": "You will see a confirmation page with your order number and details. Keep the number and send it to us if you need any help."
+                    }
+                ]
+            },
+            {
+                "title": "Payment and delivery",
+                "items": [
+                    {
+                        "q": "What payment methods are available?",
+                        "a": "Cash on delivery: you pay the courier in cash when your order arrives. Any other payment methods appear at checkout when they are available."
+                    },
+                    {
+                        "q": "How long does delivery take and how much does it cost?",
+                        "a": "We deliver to every governorate in Egypt, and time and cost vary by governorate. See the Shipping page for details, and they also appear on the product page and in the cart."
+                    },
+                    {
+                        "q": "When is shipping free?",
+                        "a": "Shipping is free for orders whose products total {threshold} or more (excluding gift wrapping)."
+                    }
+                ]
+            },
+            {
+                "title": "Products and gifts",
+                "items": [
+                    {
+                        "q": "What does \"made to order\" mean?",
+                        "a": "The piece is made after you order it, so it needs a preparation time that is shown on the product page and in the cart."
+                    },
+                    {
+                        "q": "Can I personalize a product, like engraving a name?",
+                        "a": "Some products can be personalized, and the options appear on the product page."
+                    },
+                    {
+                        "q": "Will the piece look exactly like the photo?",
+                        "a": "Pieces are handmade, so there may be small differences between the piece and the photo. That is part of the nature of handmade work."
+                    },
+                    {
+                        "q": "Can I order a gift-wrapped piece?",
+                        "a": "Yes, choose \"Add gift wrapping\" on the product page and write your message. The wrapping price is shown there."
+                    },
+                    {
+                        "q": "Can I request a custom design?",
+                        "a": "Our artisans accept custom requests. Talk to us and tell us what you have in mind."
+                    }
+                ]
+            },
+            {
+                "title": "Returns and help",
+                "items": [
+                    {
+                        "q": "How long is the return window?",
+                        "a": "{days} days from the delivery date. Details are on the Returns page."
+                    },
+                    {
+                        "q": "What if there is a problem with my piece?",
+                        "a": "Contact us as soon as possible with your order number and clear photos of the piece, and we will help."
+                    }
+                ]
+            }
+        ]
+    },
+    "shipping": {
+        "metaTitle": "Shipping and delivery",
+        "metaDescription": "Learn the delivery cost and time for every governorate in Egypt, and the free shipping terms at Bazaar Egypt.",
+        "eyebrow": "Help",
+        "title": "Shipping and delivery",
+        "intro": "We deliver to every governorate in Egypt. Cost and time depend on your governorate.",
+        "tableTitle": "Delivery cost and time",
+        "colZone": "Zone",
+        "colGovernorates": "Governorates",
+        "colFee": "Shipping cost",
+        "colEta": "Delivery time",
+        "etaValue": "{min} to {max} days",
+        "zoneNames": {
+            "greater-cairo": "Greater Cairo",
+            "delta": "Delta and Alexandria",
+            "canal": "Canal cities",
+            "upper-egypt": "Upper Egypt and Faiyum",
+            "remote": "Remote areas"
+        },
+        "sections": [
+            {
+                "heading": "Free shipping",
+                "paragraphs": [
+                    "Shipping is free for orders whose products total {threshold} or more. Gift wrapping fees do not count toward this amount."
+                ]
+            },
+            {
+                "heading": "Order preparation",
+                "paragraphs": [
+                    "Ready-made products are prepared within a day. \"Made to order\" products need a preparation time shown on the product page and in the cart, and it is added to the delivery time."
+                ]
+            },
+            {
+                "heading": "Arrival date",
+                "paragraphs": [
+                    "The date shown when you buy is an estimate, calculated from your order date, the preparation time and the delivery time for your governorate."
+                ]
+            },
+            {
+                "heading": "Receiving and paying",
+                "paragraphs": [
+                    "If you chose cash on delivery, have the required amount ready in cash for the courier."
+                ]
+            },
+            {
+                "heading": "If there is a delay or a problem",
+                "paragraphs": ["Contact us with your order number and we will follow up with you."]
+            }
+        ]
+    },
+    "returns": {
+        "metaTitle": "Returns policy",
+        "metaDescription": "The return window and how to request a return at Bazaar Egypt.",
+        "eyebrow": "Help",
+        "title": "Returns policy",
+        "intro": "We want you to feel comfortable when you buy. Here are the return steps and window.",
+        "sections": [
+            {
+                "heading": "Return window",
+                "paragraphs": [
+                    "You can request a return within {days} days of receiving your order."
+                ]
+            },
+            {
+                "heading": "General conditions",
+                "list": [
+                    "The piece must be in its original condition and unused.",
+                    "Keep your order number and send it to us with your request.",
+                    "For made-to-order or personalized products, we review return requests case by case."
+                ]
+            },
+            {
+                "heading": "How to request a return",
+                "list": [
+                    "Contact us from the \"Contact us\" page.",
+                    "Send us your order number, photos of the piece and the reason for the return.",
+                    "We will review your request and reply with the next steps."
+                ]
+            },
+            {
+                "heading": "Refunds",
+                "paragraphs": [
+                    "The refund method depends on how you paid, and we agree on it with you when we review your request."
+                ]
+            },
+            {
+                "heading": "A damaged or faulty piece",
+                "paragraphs": [
+                    "If a piece arrives faulty or damaged, contact us as soon as possible with clear photos and your order number."
+                ]
+            }
+        ]
+    },
+    "privacy": {
+        "metaTitle": "Privacy policy",
+        "metaDescription": "What data Bazaar Egypt collects, how we use it, and your rights.",
+        "eyebrow": "Legal",
+        "title": "Privacy policy",
+        "intro": "We respect your privacy. This page explains what data we collect and why we use it.",
+        "sections": [
+            {
+                "heading": "Data we collect",
+                "list": [
+                    "Order details: name, mobile number, email (optional), governorate, city, address and order notes.",
+                    "Order contents: products, quantities, personalization details and gift message.",
+                    "The messages you send us when you contact us."
+                ]
+            },
+            {
+                "heading": "How we use your data",
+                "list": [
+                    "To prepare and deliver your order.",
+                    "To contact you about your order.",
+                    "To answer your questions."
+                ]
+            },
+            {
+                "heading": "Sharing data",
+                "paragraphs": [
+                    "We share the delivery details needed (name, mobile number and address) with the shipping provider so they can deliver your order. We do not sell your data."
+                ]
+            },
+            {
+                "heading": "Data stored in your browser",
+                "paragraphs": [
+                    "Your cart, wishlist, recent searches and chosen governorate are saved on your device and are not sent to anyone. You can clear them from your browser settings.",
+                    "Your order summary is kept temporarily in the browser tab so it can be shown on the confirmation page, and it is cleared when you close the tab."
+                ]
+            },
+            {
+                "heading": "Your rights",
+                "paragraphs": ["You can ask to see, correct or delete your data by contacting us."]
+            },
+            {
+                "heading": "Data protection",
+                "paragraphs": [
+                    "We limit access to your data to the people who need it to fulfill your order."
+                ]
+            },
+            {
+                "heading": "Contact",
+                "paragraphs": ["For any privacy question, contact us from the \"Contact us\" page."]
+            },
+            {
+                "heading": "Policy updates",
+                "paragraphs": [
+                    "We may update this page, and the date of the last update is shown at the top."
+                ]
+            }
+        ]
+    },
+    "terms": {
+        "metaTitle": "Terms and conditions",
+        "metaDescription": "The terms for using Bazaar Egypt and placing orders.",
+        "eyebrow": "Legal",
+        "title": "Terms and conditions",
+        "intro": "By using the site and placing an order, you agree to these terms.",
+        "sections": [
+            {
+                "heading": "Acceptance",
+                "paragraphs": [
+                    "Using the site or placing an order means you have read and agreed to these terms."
+                ]
+            },
+            {
+                "heading": "Products and prices",
+                "paragraphs": [
+                    "Prices are in Egyptian pounds. We try to show photos and descriptions accurately, and pieces are handmade, so there may be small differences between a piece and its photos.",
+                    "The confirmed price is the one shown when you confirm your order, and we reserve the right to change prices and offers."
+                ]
+            },
+            {
+                "heading": "Orders",
+                "paragraphs": [
+                    "Placing an order is an offer to buy. We review the order and may contact you to confirm its details. We may refuse or cancel an order if a product is unavailable or if the details are incorrect."
+                ]
+            },
+            {
+                "heading": "Payment",
+                "paragraphs": [
+                    "Payment is currently cash on delivery to the courier. Any other payment methods appear at checkout when they are available."
+                ]
+            },
+            {
+                "heading": "Shipping and delivery",
+                "paragraphs": [
+                    "Delivery dates are estimates. Cost and time details are on the \"Shipping and delivery\" page."
+                ]
+            },
+            {
+                "heading": "Returns",
+                "paragraphs": [
+                    "The returns policy published on the \"Returns policy\" page applies."
+                ]
+            },
+            {
+                "heading": "Personalized products",
+                "paragraphs": [
+                    "Personalized products are made according to the details you enter, and you are responsible for their accuracy."
+                ]
+            },
+            {
+                "heading": "Intellectual property",
+                "paragraphs": [
+                    "The site's content, including photos, text and design, belongs to Bazaar Egypt or is licensed to it, and may not be copied or used without permission."
+                ]
+            },
+            {
+                "heading": "Limitation of liability",
+                "paragraphs": [
+                    "We do our best to keep the site error-free, but temporary faults or downtime may occur."
+                ]
+            },
+            {
+                "heading": "Governing law",
+                "paragraphs": [
+                    "These terms are governed by the laws of the Arab Republic of Egypt."
+                ]
+            },
+            {
+                "heading": "Contact",
+                "paragraphs": [
+                    "For any question about these terms, contact us from the \"Contact us\" page."
+                ]
+            }
+        ]
+    },
+    "contact": {
+        "metaTitle": "Contact us",
+        "metaDescription": "Contact Bazaar Egypt about an order, a product, or a custom design request.",
+        "eyebrow": "Contact us",
+        "title": "We'd love to hear from you",
+        "subtitle": "Have a question about an order or a product, or want a custom design? Talk to us.",
+        "channelsTitle": "Ways to reach us",
+        "whatsapp": "WhatsApp",
+        "whatsappText": "For questions and custom requests",
+        "email": "Email",
+        "phone": "Phone",
+        "noChannels": "Contact details will appear here soon.",
+        "formTitle": "Send your message",
+        "formIntro": "Fill in the details and we will open WhatsApp with a ready message for you to send.",
+        "greeting": "Hello Bazaar Egypt",
+        "nameLabel": "Name",
+        "topicLabel": "Topic",
+        "topics": {
+            "order": "Question about an order",
+            "custom": "Custom design request",
+            "product": "Question about a product",
+            "other": "Something else"
+        },
+        "orderLabel": "Order number (optional)",
+        "messageLabel": "Your message",
+        "submit": "Continue on WhatsApp",
+        "noWhatsapp": "Contacting us through WhatsApp is not available right now.",
+        "errors": {
+            "name": "Enter your name",
+            "message": "Enter your message (at least 10 characters)"
+        }
+    }
+}

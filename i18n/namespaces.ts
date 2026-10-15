@@ -19,5 +19,6 @@ export const NAMESPACES = [
     'Order',
     'Crafts',
     'Artisans',
-    'Pages'
+    'Pages',
+    'Errors'
 ] as const;

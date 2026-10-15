@@ -1,0 +1,9 @@
+{
+    "title": "Something went wrong",
+    "text": "We couldn't load this page. Try again, and contact us if the problem continues.",
+    "retry": "Try again",
+    "home": "Back to home",
+    "contact": "Contact us",
+    "reference": "Reference: {digest}",
+    "loading": "Loading..."
+}

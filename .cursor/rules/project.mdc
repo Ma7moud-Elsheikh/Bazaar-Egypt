@@ -53,3 +53,6 @@ Next.js 16 App Router, TypeScript strict, Tailwind v4 (tokens in `app/globals.cs
 
 - Mutations (placing orders, forms) go through Server Actions in `lib/actions/*` that re-validate everything with zod and never trust client prices. Client-side validation is for UX only and uses translation keys, never hardcoded messages.
 - Phone numbers are normalized with `normalizeEgyptPhone()` from `lib/utils/phone.ts` before validation and storage.
+
+- Every route that loads data has a `loading.tsx` (client component using `useTranslations("Errors")`) and errors are handled by `app/[locale]/error.tsx`. Skeletons reuse `ProductCardSkeleton`.
+- Private pages (cart, checkout, order, wishlist, search) are excluded from `app/sitemap.ts` and disallowed in `app/robots.ts`.

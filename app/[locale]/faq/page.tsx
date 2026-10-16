@@ -2,6 +2,7 @@ import { Breadcrumbs } from '@/components/product/breadcrumbs';
 import { JsonLd } from '@/components/seo/json-ld';
 import { AmbientBackground } from '@/components/ui/ambient-background';
 import { ChevronIcon } from '@/components/ui/icons';
+import { Reveal } from '@/components/ui/reveal';
 import { Link } from '@/i18n/navigation';
 import { routing, type Locale } from '@/i18n/routing';
 import { api } from '@/lib/api';
@@ -68,26 +69,28 @@ export default async function FaqPage({ params }: Props) {
             <section className="px-4 pb-24 sm:px-8">
                 <div className="mx-auto max-w-3xl space-y-12">
                     {groups.map((group, groupIndex) => (
-                        <section key={group.title} aria-labelledby={`faq-group-${groupIndex}`}>
-                            <h2
-                                id={`faq-group-${groupIndex}`}
-                                className="font-display text-2xl font-bold sm:text-3xl"
-                            >
-                                {group.title}
-                            </h2>
+                        <Reveal key={group.title}>
+                            <section aria-labelledby={`faq-group-${groupIndex}`}>
+                                <h2
+                                    id={`faq-group-${groupIndex}`}
+                                    className="font-display text-2xl font-bold sm:text-3xl"
+                                >
+                                    {group.title}
+                                </h2>
 
-                            <div className="mt-4 border-t border-line">
-                                {group.items.map((item) => (
-                                    <details key={item.q} className="group border-b border-line">
-                                        <summary className="flex min-h-14 cursor-pointer list-none items-center justify-between gap-4 py-4 font-display text-lg font-bold [&::-webkit-details-marker]:hidden">
-                                            {item.q}
-                                            <ChevronIcon className="size-5 shrink-0 text-muted transition duration-300 group-open:rotate-90 rtl:-scale-x-100" />
-                                        </summary>
-                                        <p className="pb-5 leading-8 text-fg/90">{item.a}</p>
-                                    </details>
-                                ))}
-                            </div>
-                        </section>
+                                <div className="mt-4 border-t border-line">
+                                    {group.items.map((item) => (
+                                        <details key={item.q} className="group border-b border-line">
+                                            <summary className="flex min-h-14 cursor-pointer list-none items-center justify-between gap-4 py-4 font-display text-lg font-bold [&::-webkit-details-marker]:hidden">
+                                                {item.q}
+                                                <ChevronIcon className="size-5 shrink-0 text-muted transition duration-300 group-open:rotate-90 rtl:-scale-x-100" />
+                                            </summary>
+                                            <p className="pb-5 leading-8 text-fg/90">{item.a}</p>
+                                        </details>
+                                    ))}
+                                </div>
+                            </section>
+                        </Reveal>
                     ))}
 
                     <aside className="glass rounded-[1.75rem] p-6 text-center sm:p-8">

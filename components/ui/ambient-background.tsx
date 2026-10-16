@@ -7,8 +7,16 @@ type Props = {
 };
 
 const BLOBS = {
-    dark: ['bg-copper/55', 'bg-clay/65', 'bg-gold/35'],
-    light: ['bg-copper-light/45', 'bg-clay/25', 'bg-gold/30']
+    dark: [
+        'bg-[radial-gradient(closest-side,rgb(184_115_51/0.55),transparent)]',
+        'bg-[radial-gradient(closest-side,rgb(165_73_47/0.65),transparent)]',
+        'bg-[radial-gradient(closest-side,rgb(217_164_65/0.35),transparent)]'
+    ],
+    light: [
+        'bg-[radial-gradient(closest-side,rgb(215_154_91/0.45),transparent)]',
+        'bg-[radial-gradient(closest-side,rgb(165_73_47/0.25),transparent)]',
+        'bg-[radial-gradient(closest-side,rgb(217_164_65/0.3),transparent)]'
+    ]
 } as const;
 
 /** الأب لازم يكون: relative isolate overflow-hidden */
@@ -20,12 +28,10 @@ export function AmbientBackground({ pattern = false, tone = 'dark', className = 
             aria-hidden
             className={`pointer-events-none absolute inset-0 -z-10 overflow-hidden ${className}`}
         >
-            <div className={`absolute -top-32 -start-32 size-[34rem] rounded-full blur-2xl ${a}`} />
-            <div className={`absolute top-1/3 -end-40 size-[30rem] rounded-full blur-2xl ${b}`} />
-            <div
-                className={`absolute -bottom-40 start-1/4 size-[26rem] rounded-full blur-2xl ${c}`}
-            />
-            {pattern && <div className="absolute inset-0 bg-lattice mask-fade opacity-10" />}
+            <div className={`absolute -top-48 -start-48 size-[44rem] rounded-full ${a}`} />
+            <div className={`absolute top-1/4 -end-56 size-[40rem] rounded-full ${b}`} />
+            <div className={`absolute -bottom-56 start-1/4 size-[34rem] rounded-full ${c}`} />
+            {pattern && <div className="absolute inset-0 bg-lattice mask-fade opacity-20" />}
         </div>
     );
 }

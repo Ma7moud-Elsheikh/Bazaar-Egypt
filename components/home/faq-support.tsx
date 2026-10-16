@@ -1,4 +1,5 @@
 import { ChevronIcon } from '@/components/ui/icons';
+import { Reveal } from '@/components/ui/reveal';
 import { Link } from '@/i18n/navigation';
 import { whatsappLink } from '@/lib/site';
 import { getTranslations } from 'next-intl/server';
@@ -14,7 +15,7 @@ export async function FaqSupport({ returnDays }: Props) {
     return (
         <section aria-labelledby="faq-title" className="px-4 py-16 sm:px-8 sm:py-24">
             <div className="mx-auto grid max-w-6xl gap-10 lg:grid-cols-12">
-                <div className="lg:col-span-7">
+                <Reveal className="lg:col-span-7">
                     <h2 id="faq-title" className="font-display text-3xl font-bold sm:text-4xl">
                         {t('faqTitle')}
                     </h2>
@@ -39,9 +40,9 @@ export async function FaqSupport({ returnDays }: Props) {
                     >
                         {t('faqAll')}
                     </Link>
-                </div>
+                </Reveal>
 
-                <aside className="glass h-fit rounded-[1.75rem] p-6 sm:p-8 lg:col-span-5">
+                <Reveal as="aside" className="glass h-fit rounded-[1.75rem] p-6 sm:p-8 lg:col-span-5">
                     <h3 className="font-display text-2xl font-bold">{t('supportTitle')}</h3>
                     <p className="mt-2 text-muted">{t('supportText')}</p>
                     {whatsapp && (
@@ -54,7 +55,7 @@ export async function FaqSupport({ returnDays }: Props) {
                             {t('supportCta')}
                         </a>
                     )}
-                </aside>
+                </Reveal>
             </div>
         </section>
     );

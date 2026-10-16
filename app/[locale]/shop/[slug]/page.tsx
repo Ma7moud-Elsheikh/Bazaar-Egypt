@@ -8,6 +8,7 @@ import { JsonLd } from '@/components/seo/json-ld';
 import { RecommendedProducts } from '@/components/shop/recommended-products';
 import { AmbientBackground } from '@/components/ui/ambient-background';
 import { StarIcon } from '@/components/ui/icons';
+import { Reveal } from '@/components/ui/reveal';
 import { RecentlyViewed } from '@/components/wishlist/recently-viewed';
 import { Link } from '@/i18n/navigation';
 import { routing, type Locale } from '@/i18n/routing';
@@ -260,7 +261,7 @@ export default async function ProductPage({ params }: Props) {
             {reviews && <Reviews reviews={reviews} locale={locale} />}
 
             {related.length > 0 && (
-                <div className="px-4 pb-24 sm:px-8">
+                <Reveal className="px-4 pb-24 sm:px-8">
                     <div className="mx-auto max-w-6xl">
                         <RecommendedProducts
                             title={t('relatedTitle')}
@@ -269,7 +270,7 @@ export default async function ProductPage({ params }: Props) {
                             crafts={crafts}
                         />
                     </div>
-                </div>
+                </Reveal>
             )}
 
             <RecentlyViewed currentId={product.id} />

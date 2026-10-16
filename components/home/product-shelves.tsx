@@ -1,4 +1,5 @@
 import { ProductCard } from '@/components/shop/product-card';
+import { Reveal } from '@/components/ui/reveal';
 import { Tabs, type TabItem } from '@/components/ui/tabs';
 import type { Locale } from '@/i18n/routing';
 import type { Craft, Product } from '@/lib/schemas/catalog';
@@ -19,14 +20,14 @@ export async function ProductShelves({ locale, crafts, bestsellers, newest, gift
 
     const grid = (products: Product[]) => (
         <ul className="grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-4">
-            {products.map((product) => (
-                <li key={product.id}>
+            {products.map((product, index) => (
+                <Reveal as="li" key={product.id} delay={Math.min(index, 6) * 60}>
                     <ProductCard
                         product={product}
                         locale={locale}
                         craftName={craftName.get(product.craftId)}
                     />
-                </li>
+                </Reveal>
             ))}
         </ul>
     );
@@ -63,10 +64,12 @@ export async function ProductShelves({ locale, crafts, bestsellers, newest, gift
     return (
         <section aria-labelledby="shelves-title" className="px-4 py-16 sm:px-8 sm:py-24">
             <div className="mx-auto max-w-6xl">
-                <h2 id="shelves-title" className="font-display text-3xl font-bold sm:text-4xl">
-                    {t('shelvesTitle')}
-                </h2>
-                <p className="mt-2 max-w-2xl text-muted">{t('shelvesSubtitle')}</p>
+                <Reveal>
+                    <h2 id="shelves-title" className="font-display text-3xl font-bold sm:text-4xl">
+                        {t('shelvesTitle')}
+                    </h2>
+                    <p className="mt-2 max-w-2xl text-muted">{t('shelvesSubtitle')}</p>
+                </Reveal>
 
                 <div className="mt-8">
                     <Tabs tabs={tabs} label={t('shelvesLabel')} />

@@ -1,5 +1,6 @@
 import { BrandLogo } from '@/components/brand/brand-logo';
 import { AmbientBackground } from '@/components/ui/ambient-background';
+import { Reveal } from '@/components/ui/reveal';
 import { Link } from '@/i18n/navigation';
 import { getTranslations } from 'next-intl/server';
 
@@ -42,7 +43,7 @@ export async function SiteFooter() {
             <AmbientBackground pattern />
 
             <div className="mx-auto max-w-6xl">
-                <div className="glass rounded-4xl p-8 sm:p-12">
+                <Reveal className="glass rounded-4xl p-8 sm:p-12">
                     <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
                         <div>
                             <Link href="/" aria-label={tc('brand')} className="inline-block">
@@ -75,7 +76,7 @@ export async function SiteFooter() {
                             </nav>
                         ))}
                     </div>
-                </div>
+                </Reveal>
 
                 <div className="mt-6 flex flex-col gap-2 px-2 text-sm text-fg/70 sm:flex-row sm:items-center sm:justify-between">
                     <p>

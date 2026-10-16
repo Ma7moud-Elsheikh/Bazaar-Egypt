@@ -1,3 +1,4 @@
+import { Reveal } from '@/components/ui/reveal';
 import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 import { GIFT_OCCASIONS } from '@/lib/home-config';
@@ -24,15 +25,17 @@ export async function GiftGuide({ crafts }: Props) {
             className="scroll-mt-28 px-4 py-16 sm:px-8 sm:py-24"
         >
             <div className="mx-auto max-w-6xl">
-                <p className="text-sm font-semibold text-accent">{t('giftsEyebrow')}</p>
-                <h2 id="gifts-title" className="mt-2 font-display text-3xl font-bold sm:text-4xl">
-                    {t('giftsTitle')}
-                </h2>
-                <p className="mt-2 max-w-2xl text-muted">{t('giftsSubtitle')}</p>
+                <Reveal>
+                    <p className="text-sm font-semibold text-accent">{t('giftsEyebrow')}</p>
+                    <h2 id="gifts-title" className="mt-2 font-display text-3xl font-bold sm:text-4xl">
+                        {t('giftsTitle')}
+                    </h2>
+                    <p className="mt-2 max-w-2xl text-muted">{t('giftsSubtitle')}</p>
+                </Reveal>
 
                 <ul className="mt-10 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-4">
-                    {cards.map(({ occasion, craft }) => (
-                        <li key={occasion.key}>
+                    {cards.map(({ occasion, craft }, index) => (
+                        <Reveal as="li" key={occasion.key} delay={Math.min(index, 6) * 60}>
                             <Link
                                 href={`/shop?craft=${craft.slug}&sort=popular`}
                                 className="group relative block aspect-[4/5] overflow-hidden rounded-card shadow-[0_10px_30px_rgb(43_29_20/0.12)]"
@@ -56,7 +59,7 @@ export async function GiftGuide({ crafts }: Props) {
                                     </p>
                                 </div>
                             </Link>
-                        </li>
+                        </Reveal>
                     ))}
                 </ul>
             </div>

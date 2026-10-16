@@ -4,6 +4,7 @@ import { RecommendedProducts } from '@/components/shop/recommended-products';
 import { AmbientBackground } from '@/components/ui/ambient-background';
 import { SearchIcon } from '@/components/ui/icons';
 import { Pagination } from '@/components/ui/pagination';
+import { Reveal } from '@/components/ui/reveal';
 import { Link } from '@/i18n/navigation';
 import { routing, type Locale } from '@/i18n/routing';
 import { api } from '@/lib/api';
@@ -218,13 +219,17 @@ export default async function SearchPage({ params, searchParams }: Props) {
 
                             <ul className="mt-6 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4">
                                 {result.items.map((product, index) => (
-                                    <li key={product.id}>
+                                    <Reveal
+                                        as="li"
+                                        key={product.id}
+                                        delay={Math.min(index, 6) * 60}
+                                    >
                                         <ProductCard
                                             product={product}
                                             locale={locale}
                                             eager={index < 4}
                                         />
-                                    </li>
+                                    </Reveal>
                                 ))}
                             </ul>
 

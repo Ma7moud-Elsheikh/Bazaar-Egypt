@@ -3,6 +3,7 @@ import { CashIcon, ChatIcon } from '@/components/product/icons';
 import { JsonLd } from '@/components/seo/json-ld';
 import { ContactForm } from '@/components/static/contact-form';
 import { AmbientBackground } from '@/components/ui/ambient-background';
+import { Reveal } from '@/components/ui/reveal';
 import { routing } from '@/i18n/routing';
 import { breadcrumbJsonLd } from '@/lib/jsonld';
 import { buildAlternates } from '@/lib/seo';
@@ -107,8 +108,12 @@ export default async function ContactPage({ params }: Props) {
                         {channels.length > 0 ? (
                             <ul className="mt-4 space-y-3">
                                 {channels.map(
-                                    ({ key, icon: Icon, title, text, href, external }) => (
-                                        <li key={key}>
+                                    ({ key, icon: Icon, title, text, href, external }, index) => (
+                                        <Reveal
+                                            as="li"
+                                            key={key}
+                                            delay={Math.min(index, 6) * 60}
+                                        >
                                             <a
                                                 href={href}
                                                 {...(external
@@ -132,7 +137,7 @@ export default async function ContactPage({ params }: Props) {
                                                     </span>
                                                 </span>
                                             </a>
-                                        </li>
+                                        </Reveal>
                                     )
                                 )}
                             </ul>

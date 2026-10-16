@@ -44,7 +44,7 @@ export function Tabs({ tabs, label }: Props) {
 
     return (
         <div>
-            <div role="tablist" aria-label={label} className="flex gap-2 overflow-x-auto p-2">
+            <div role="tablist" aria-label={label} className="flex gap-2 overflow-x-auto pb-1">
                 {tabs.map((tab, index) => (
                     <button
                         key={tab.id}
@@ -77,26 +77,31 @@ export function Tabs({ tabs, label }: Props) {
                     hidden={index !== active}
                     className="mt-6"
                 >
-                    {tab.panel}
+                    {/* بنرسم المحتوى للرف المفتوح بس: DOM وhydration أخف */}
+                    {index === active && (
+                        <>
+                            {tab.panel}
 
-                    {tab.cta && (
-                        <div className="mt-8 text-center">
-                            {tab.cta.href.startsWith('#') ? (
-                                <a
-                                    href={tab.cta.href}
-                                    className="btn-glass inline-flex h-12 items-center justify-center px-8 text-sm font-semibold"
-                                >
-                                    {tab.cta.label}
-                                </a>
-                            ) : (
-                                <Link
-                                    href={tab.cta.href}
-                                    className="btn-glass inline-flex h-12 items-center justify-center px-8 text-sm font-semibold"
-                                >
-                                    {tab.cta.label}
-                                </Link>
+                            {tab.cta && (
+                                <div className="mt-8 text-center">
+                                    {tab.cta.href.startsWith('#') ? (
+                                        <a
+                                            href={tab.cta.href}
+                                            className="btn-glass inline-flex h-12 items-center justify-center px-8 text-sm font-semibold"
+                                        >
+                                            {tab.cta.label}
+                                        </a>
+                                    ) : (
+                                        <Link
+                                            href={tab.cta.href}
+                                            className="btn-glass inline-flex h-12 items-center justify-center px-8 text-sm font-semibold"
+                                        >
+                                            {tab.cta.label}
+                                        </Link>
+                                    )}
+                                </div>
                             )}
-                        </div>
+                        </>
                     )}
                 </div>
             ))}

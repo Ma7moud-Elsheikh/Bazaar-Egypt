@@ -146,6 +146,9 @@ export const cartActions = {
               ];
 
         setState({ items, isOpen: openDrawer ? true : state.isOpen }, true);
+        if (typeof window !== 'undefined') {
+            window.dispatchEvent(new Event('cart:added'));
+        }
     },
 
     setQuantity(lineId: string, quantity: number) {

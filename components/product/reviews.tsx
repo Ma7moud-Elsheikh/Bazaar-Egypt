@@ -1,4 +1,5 @@
 import { StarIcon } from '@/components/ui/icons';
+import { Reveal } from '@/components/ui/reveal';
 import type { Locale } from '@/i18n/routing';
 import type { ReviewsResult } from '@/lib/schemas/review';
 import { localize } from '@/lib/utils/format';
@@ -37,9 +38,11 @@ export async function Reviews({ reviews, locale }: Props) {
             className="scroll-mt-28 px-4 py-16 sm:px-8"
         >
             <div className="mx-auto max-w-6xl">
-                <h2 id="reviews-title" className="font-display text-3xl font-bold">
-                    {t('reviewsTitle')}
-                </h2>
+                <Reveal>
+                    <h2 id="reviews-title" className="font-display text-3xl font-bold">
+                        {t('reviewsTitle')}
+                    </h2>
+                </Reveal>
 
                 {summary.count === 0 ? (
                     <p className="mt-4 text-muted">{t('noReviews')}</p>
@@ -62,8 +65,8 @@ export async function Reviews({ reviews, locale }: Props) {
 
                         {items.length > 0 && (
                             <ul className="mt-8 grid gap-4 lg:grid-cols-2">
-                                {items.map((review) => (
-                                    <li key={review.id}>
+                                {items.map((review, index) => (
+                                    <Reveal as="li" key={review.id} delay={Math.min(index, 6) * 60}>
                                         <article className="glass h-full rounded-[1.75rem] p-5 sm:p-6">
                                             <div className="flex items-center justify-between gap-3">
                                                 <Stars
@@ -133,7 +136,7 @@ export async function Reviews({ reviews, locale }: Props) {
                                                 </div>
                                             )}
                                         </article>
-                                    </li>
+                                    </Reveal>
                                 ))}
                             </ul>
                         )}

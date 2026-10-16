@@ -1,6 +1,7 @@
 import { ArtisanCard } from '@/components/artisans/artisan-card';
 import { JsonLd } from '@/components/seo/json-ld';
 import { AmbientBackground } from '@/components/ui/ambient-background';
+import { Reveal } from '@/components/ui/reveal';
 import { Link } from '@/i18n/navigation';
 import { routing, type Locale } from '@/i18n/routing';
 import { api } from '@/lib/api';
@@ -133,14 +134,14 @@ export default async function ArtisansPage({ params, searchParams }: Props) {
                         <p className="mt-6 text-muted">{t('emptyFiltered')}</p>
                     ) : (
                         <ul className="mt-6 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-                            {artisans.map((artisan) => (
-                                <li key={artisan.id}>
+                            {artisans.map((artisan, index) => (
+                                <Reveal as="li" key={artisan.id} delay={Math.min(index, 6) * 60}>
                                     <ArtisanCard
                                         artisan={artisan}
                                         craftName={craftName.get(artisan.craftId) ?? ''}
                                         locale={locale}
                                     />
-                                </li>
+                                </Reveal>
                             ))}
                         </ul>
                     )}

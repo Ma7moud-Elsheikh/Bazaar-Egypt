@@ -1,6 +1,7 @@
 'use client';
 
 import { ProductCard } from '@/components/shop/product-card';
+import { Reveal } from '@/components/ui/reveal';
 import type { Locale } from '@/i18n/routing';
 import { useProductsByIds } from '@/lib/products/use-products-by-ids';
 import { recordView, useViewedIds } from '@/lib/recent/viewed-store';
@@ -30,14 +31,16 @@ export function RecentlyViewed({ currentId, limit = 4 }: Props) {
     return (
         <section aria-labelledby="recent-title" className="px-4 py-16 sm:px-8 sm:py-20">
             <div className="mx-auto max-w-6xl">
-                <h2 id="recent-title" className="font-display text-2xl font-bold sm:text-3xl">
-                    {t('recentTitle')}
-                </h2>
+                <Reveal>
+                    <h2 id="recent-title" className="font-display text-2xl font-bold sm:text-3xl">
+                        {t('recentTitle')}
+                    </h2>
+                </Reveal>
                 <ul className="mt-6 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-4">
-                    {products.map((product) => (
-                        <li key={product.id}>
+                    {products.map((product, index) => (
+                        <Reveal as="li" key={product.id} delay={Math.min(index, 6) * 60}>
                             <ProductCard product={product} locale={locale} />
-                        </li>
+                        </Reveal>
                     ))}
                 </ul>
             </div>

@@ -2,6 +2,7 @@ import { CartDrawer } from '@/components/cart/cart-drawer';
 import { SiteFooter } from '@/components/layout/site-footer';
 import { SiteHeader } from '@/components/layout/site-header';
 import { JsonLd } from '@/components/seo/json-ld';
+import { ScrollWatcher } from '@/components/ui/scroll-watcher';
 import { localeDir, routing } from '@/i18n/routing';
 import { IS_PRODUCTION, LOGO, OG_LOCALE, SITE_NAME, SITE_URL, THEME_COLOR } from '@/lib/site';
 import type { Metadata, Viewport } from 'next';
@@ -17,39 +18,42 @@ import {
 import { notFound } from 'next/navigation';
 import '../globals.css';
 
+// Reem Kufi وCormorant وInter خطوط variable: ملف واحد بدل ملف لكل وزن.
+// الخطوط اللي مش أساسية في اللغة العربية متتحملّش مسبقًا (preload: false).
 const reemKufi = Reem_Kufi({
-    subsets: ['arabic', 'latin'],
-    weight: ['400', '500', '600', '700'],
+    subsets: ['arabic'],
     variable: '--font-reem-kufi',
     display: 'swap'
 });
 
 const arefRuqaa = Aref_Ruqaa({
-    subsets: ['arabic', 'latin'],
-    weight: ['400', '700'],
+    subsets: ['arabic'],
+    weight: '400',
     variable: '--font-aref-ruqaa',
-    display: 'swap'
+    display: 'swap',
+    preload: false
 });
 
 const plexArabic = IBM_Plex_Sans_Arabic({
     subsets: ['arabic', 'latin'],
-    weight: ['400', '500', '600', '700'],
+    weight: ['400', '600'],
     variable: '--font-plex-arabic',
     display: 'swap'
 });
 
 const cormorant = Cormorant_Garamond({
     subsets: ['latin'],
-    weight: ['400', '500', '600', '700'],
     style: ['normal', 'italic'],
     variable: '--font-cormorant',
-    display: 'swap'
+    display: 'swap',
+    preload: false
 });
 
 const inter = Inter({
     subsets: ['latin'],
     variable: '--font-inter',
-    display: 'swap'
+    display: 'swap',
+    preload: false
 });
 
 type LocaleParams = { params: Promise<{ locale: string }> };
@@ -136,6 +140,7 @@ export default async function LocaleLayout({
             className={`${reemKufi.variable} ${arefRuqaa.variable} ${plexArabic.variable} ${cormorant.variable} ${inter.variable}`}
         >
             <body className="flex min-h-dvh flex-col antialiased">
+                <ScrollWatcher />
                 <JsonLd data={organizationJsonLd} />
                 <JsonLd data={websiteJsonLd} />
                 <NextIntlClientProvider>

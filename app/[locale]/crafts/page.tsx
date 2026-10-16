@@ -1,6 +1,7 @@
 import { CraftCard } from '@/components/crafts/craft-card';
 import { JsonLd } from '@/components/seo/json-ld';
 import { AmbientBackground } from '@/components/ui/ambient-background';
+import { Reveal } from '@/components/ui/reveal';
 import { routing, type Locale } from '@/i18n/routing';
 import { api } from '@/lib/api';
 import { buildAlternates } from '@/lib/seo';
@@ -108,15 +109,15 @@ export default async function CraftsPage({ params }: Props) {
                     </h2>
 
                     <ul className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-                        {crafts.map((craft) => (
-                            <li key={craft.id}>
+                        {crafts.map((craft, index) => (
+                            <Reveal as="li" key={craft.id} delay={Math.min(index, 6) * 60}>
                                 <CraftCard
                                     craft={craft}
                                     productsCount={productsCountByCraft.get(craft.id) ?? 0}
                                     artisansCount={artisansCountByCraft.get(craft.id) ?? 0}
                                     locale={locale}
                                 />
-                            </li>
+                            </Reveal>
                         ))}
                     </ul>
                 </div>

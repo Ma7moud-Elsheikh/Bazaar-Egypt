@@ -3,6 +3,7 @@ import { Breadcrumbs } from '@/components/product/breadcrumbs';
 import { JsonLd } from '@/components/seo/json-ld';
 import { ProductCard } from '@/components/shop/product-card';
 import { AmbientBackground } from '@/components/ui/ambient-background';
+import { Reveal } from '@/components/ui/reveal';
 import { Link } from '@/i18n/navigation';
 import { routing, type Locale } from '@/i18n/routing';
 import { api } from '@/lib/api';
@@ -165,12 +166,12 @@ export default async function CraftDetailPage({ params }: Props) {
                 <section className="px-4 py-16 sm:px-8">
                     <div className="mx-auto max-w-6xl">
                         <div className="flex flex-wrap items-end justify-between gap-4">
-                            <div>
+                            <Reveal>
                                 <h2 className="font-display text-3xl font-bold sm:text-4xl">
                                     {t('artisansTitle', { craft: craftName })}
                                 </h2>
                                 <p className="mt-2 max-w-xl text-muted">{t('artisansSubtitle')}</p>
-                            </div>
+                            </Reveal>
                             <Link
                                 href="/artisans"
                                 className="btn-glass inline-flex h-11 items-center justify-center px-6 text-sm font-semibold"
@@ -180,14 +181,14 @@ export default async function CraftDetailPage({ params }: Props) {
                         </div>
 
                         <ul className="mt-10 grid gap-5 md:grid-cols-3">
-                            {artisans.map((artisan) => (
-                                <li key={artisan.id}>
+                            {artisans.map((artisan, index) => (
+                                <Reveal as="li" key={artisan.id} delay={Math.min(index, 6) * 60}>
                                     <ArtisanCard
                                         artisan={artisan}
                                         craftName={craftName}
                                         locale={locale}
                                     />
-                                </li>
+                                </Reveal>
                             ))}
                         </ul>
                     </div>
@@ -196,9 +197,11 @@ export default async function CraftDetailPage({ params }: Props) {
 
             <section className="px-4 py-16 sm:px-8">
                 <div className="mx-auto max-w-6xl">
-                    <h2 className="font-display text-3xl font-bold sm:text-4xl">
-                        {t('productsTitle', { craft: craftName })}
-                    </h2>
+                    <Reveal>
+                        <h2 className="font-display text-3xl font-bold sm:text-4xl">
+                            {t('productsTitle', { craft: craftName })}
+                        </h2>
+                    </Reveal>
 
                     {products.length === 0 ? (
                         <p className="mt-6 text-muted">{t('noProducts')}</p>
@@ -206,14 +209,18 @@ export default async function CraftDetailPage({ params }: Props) {
                         <>
                             <ul className="mt-8 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-4">
                                 {products.map((product, index) => (
-                                    <li key={product.id}>
+                                    <Reveal
+                                        as="li"
+                                        key={product.id}
+                                        delay={Math.min(index, 6) * 60}
+                                    >
                                         <ProductCard
                                             product={product}
                                             craftName={craftName}
                                             locale={locale}
                                             eager={index < 4}
                                         />
-                                    </li>
+                                    </Reveal>
                                 ))}
                             </ul>
 
@@ -233,9 +240,11 @@ export default async function CraftDetailPage({ params }: Props) {
             {otherCrafts.length > 0 && (
                 <section className="px-4 pb-20 sm:px-8">
                     <div className="mx-auto max-w-6xl">
-                        <h2 className="font-display text-3xl font-bold sm:text-4xl">
-                            {t('otherCraftsTitle')}
-                        </h2>
+                        <Reveal>
+                            <h2 className="font-display text-3xl font-bold sm:text-4xl">
+                                {t('otherCraftsTitle')}
+                            </h2>
+                        </Reveal>
                         <nav
                             aria-label={t('otherCraftsTitle')}
                             className="mt-6 flex flex-wrap gap-2"

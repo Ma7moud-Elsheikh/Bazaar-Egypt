@@ -1,3 +1,4 @@
+import { Reveal } from '@/components/ui/reveal';
 import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 import { HOME_LIMITS } from '@/lib/home-config';
@@ -34,11 +35,13 @@ export async function Governorates({ products, locale }: Props) {
             className="bg-surface-2/50 px-4 py-16 sm:px-8 sm:py-20"
         >
             <div className="mx-auto max-w-6xl">
-                <p className="text-sm font-semibold text-accent">{t('govEyebrow')}</p>
-                <h2 id="gov-title" className="mt-2 font-display text-3xl font-bold sm:text-4xl">
-                    {t('govTitle')}
-                </h2>
-                <p className="mt-2 max-w-2xl text-muted">{t('govSubtitle')}</p>
+                <Reveal>
+                    <p className="text-sm font-semibold text-accent">{t('govEyebrow')}</p>
+                    <h2 id="gov-title" className="mt-2 font-display text-3xl font-bold sm:text-4xl">
+                        {t('govTitle')}
+                    </h2>
+                    <p className="mt-2 max-w-2xl text-muted">{t('govSubtitle')}</p>
+                </Reveal>
 
                 <ul className="mt-8 flex flex-wrap gap-3">
                     {list.map((governorate) => (

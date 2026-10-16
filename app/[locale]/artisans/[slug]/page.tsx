@@ -3,6 +3,7 @@ import { Breadcrumbs } from '@/components/product/breadcrumbs';
 import { JsonLd } from '@/components/seo/json-ld';
 import { ProductCard } from '@/components/shop/product-card';
 import { AmbientBackground } from '@/components/ui/ambient-background';
+import { Reveal } from '@/components/ui/reveal';
 import { Link } from '@/i18n/navigation';
 import { routing, type Locale } from '@/i18n/routing';
 import { api } from '@/lib/api';
@@ -172,9 +173,11 @@ export default async function ArtisanDetailPage({ params }: Props) {
 
             <section className="px-4 py-16 sm:px-8">
                 <div className="mx-auto max-w-6xl">
-                    <h2 className="font-display text-3xl font-bold sm:text-4xl">
-                        {t('storyTitle')}
-                    </h2>
+                    <Reveal>
+                        <h2 className="font-display text-3xl font-bold sm:text-4xl">
+                            {t('storyTitle')}
+                        </h2>
+                    </Reveal>
                     <blockquote
                         className={`mt-6 max-w-3xl border-s-2 border-accent ps-5 font-accent text-3xl leading-relaxed text-fg ${
                             locale === 'en' ? 'italic' : ''
@@ -187,9 +190,11 @@ export default async function ArtisanDetailPage({ params }: Props) {
 
             <section className="px-4 py-16 sm:px-8">
                 <div className="mx-auto max-w-6xl">
-                    <h2 className="font-display text-3xl font-bold sm:text-4xl">
-                        {t('productsTitle', { name })}
-                    </h2>
+                    <Reveal>
+                        <h2 className="font-display text-3xl font-bold sm:text-4xl">
+                            {t('productsTitle', { name })}
+                        </h2>
+                    </Reveal>
 
                     {products.length === 0 ? (
                         <p className="mt-6 text-muted">{t('noProducts', { name })}</p>
@@ -197,14 +202,18 @@ export default async function ArtisanDetailPage({ params }: Props) {
                         <>
                             <ul className="mt-8 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-4">
                                 {products.map((product, index) => (
-                                    <li key={product.id}>
+                                    <Reveal
+                                        as="li"
+                                        key={product.id}
+                                        delay={Math.min(index, 6) * 60}
+                                    >
                                         <ProductCard
                                             product={product}
                                             craftName={craftName}
                                             locale={locale}
                                             eager={index < 4}
                                         />
-                                    </li>
+                                    </Reveal>
                                 ))}
                             </ul>
 
@@ -226,18 +235,20 @@ export default async function ArtisanDetailPage({ params }: Props) {
             {moreArtisans.length > 0 && craft && (
                 <section className="px-4 pb-20 sm:px-8">
                     <div className="mx-auto max-w-6xl">
-                        <h2 className="font-display text-3xl font-bold sm:text-4xl">
-                            {t('moreArtisansTitle', { craft: craftName })}
-                        </h2>
+                        <Reveal>
+                            <h2 className="font-display text-3xl font-bold sm:text-4xl">
+                                {t('moreArtisansTitle', { craft: craftName })}
+                            </h2>
+                        </Reveal>
                         <ul className="mt-10 grid gap-5 md:grid-cols-3">
-                            {moreArtisans.map((item) => (
-                                <li key={item.id}>
+                            {moreArtisans.map((item, index) => (
+                                <Reveal as="li" key={item.id} delay={Math.min(index, 6) * 60}>
                                     <ArtisanCard
                                         artisan={item}
                                         craftName={craftName}
                                         locale={locale}
                                     />
-                                </li>
+                                </Reveal>
                             ))}
                         </ul>
                     </div>

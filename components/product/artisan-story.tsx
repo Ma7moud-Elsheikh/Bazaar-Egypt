@@ -1,5 +1,6 @@
 import { ProductCard } from '@/components/shop/product-card';
 import { AmbientBackground } from '@/components/ui/ambient-background';
+import { Reveal } from '@/components/ui/reveal';
 import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 import type { Artisan, Craft, Product } from '@/lib/schemas/catalog';
@@ -44,13 +45,15 @@ export async function ArtisanStory({ artisan, otherProducts, crafts, locale }: P
                     </div>
 
                     <div className="lg:col-span-8">
-                        <p className="text-sm font-semibold text-accent">{t('artisanEyebrow')}</p>
-                        <h2
-                            id="artisan-title"
-                            className="mt-2 font-display text-3xl font-bold sm:text-4xl"
-                        >
-                            {t('artisanTitle', { name })}
-                        </h2>
+                        <Reveal>
+                            <p className="text-sm font-semibold text-accent">{t('artisanEyebrow')}</p>
+                            <h2
+                                id="artisan-title"
+                                className="mt-2 font-display text-3xl font-bold sm:text-4xl"
+                            >
+                                {t('artisanTitle', { name })}
+                            </h2>
+                        </Reveal>
 
                         <ul className="mt-4 flex flex-wrap gap-2 text-sm">
                             <li className="glass rounded-full px-4 py-1.5">
@@ -88,14 +91,14 @@ export async function ArtisanStory({ artisan, otherProducts, crafts, locale }: P
                             {t('moreFromArtisan', { name })}
                         </h3>
                         <ul className="mt-6 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-4">
-                            {otherProducts.map((product) => (
-                                <li key={product.id}>
+                            {otherProducts.map((product, index) => (
+                                <Reveal as="li" key={product.id} delay={Math.min(index, 6) * 60}>
                                     <ProductCard
                                         product={product}
                                         locale={locale}
                                         craftName={craftName.get(product.craftId)}
                                     />
-                                </li>
+                                </Reveal>
                             ))}
                         </ul>
                     </div>

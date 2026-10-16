@@ -1,5 +1,6 @@
 import { JsonLd } from '@/components/seo/json-ld';
 import { AmbientBackground } from '@/components/ui/ambient-background';
+import { Reveal } from '@/components/ui/reveal';
 import { Link } from '@/i18n/navigation';
 import { routing } from '@/i18n/routing';
 import { breadcrumbJsonLd } from '@/lib/jsonld';
@@ -58,7 +59,7 @@ export default async function AboutPage({ params }: Props) {
             </section>
 
             <section aria-labelledby="story-title" className="px-4 py-16 sm:px-8 sm:py-24">
-                <div className="mx-auto max-w-3xl">
+                <Reveal className="mx-auto max-w-3xl">
                     <h2 id="story-title" className="font-display text-3xl font-bold sm:text-4xl">
                         {t('about.storyTitle')}
                     </h2>
@@ -67,7 +68,7 @@ export default async function AboutPage({ params }: Props) {
                             <p key={paragraph}>{paragraph}</p>
                         ))}
                     </div>
-                </div>
+                </Reveal>
             </section>
 
             {how.length > 0 && (
@@ -81,7 +82,12 @@ export default async function AboutPage({ params }: Props) {
                         </h2>
                         <ol className="mt-8 grid gap-5 md:grid-cols-3">
                             {how.map((step, index) => (
-                                <li key={step.title} className="glass rounded-[1.75rem] p-6">
+                                <Reveal
+                                    as="li"
+                                    key={step.title}
+                                    delay={Math.min(index, 6) * 60}
+                                    className="glass rounded-[1.75rem] p-6"
+                                >
                                     <span className="grid size-10 place-items-center rounded-full bg-brand font-bold text-on-brand">
                                         {index + 1}
                                     </span>
@@ -89,7 +95,7 @@ export default async function AboutPage({ params }: Props) {
                                         {step.title}
                                     </h3>
                                     <p className="mt-2 text-fg/85">{step.text}</p>
-                                </li>
+                                </Reveal>
                             ))}
                         </ol>
                     </div>
@@ -106,16 +112,18 @@ export default async function AboutPage({ params }: Props) {
                             {t('about.valuesTitle')}
                         </h2>
                         <ul className="mt-8 grid gap-5 md:grid-cols-3">
-                            {values.map((value) => (
-                                <li
+                            {values.map((value, index) => (
+                                <Reveal
+                                    as="li"
                                     key={value.title}
+                                    delay={Math.min(index, 6) * 60}
                                     className="rounded-[1.75rem] border border-line p-6"
                                 >
                                     <h3 className="font-display text-xl font-bold text-accent">
                                         {value.title}
                                     </h3>
                                     <p className="mt-2 text-fg/85">{value.text}</p>
-                                </li>
+                                </Reveal>
                             ))}
                         </ul>
                     </div>
@@ -128,7 +136,7 @@ export default async function AboutPage({ params }: Props) {
                 className="relative isolate overflow-hidden px-4 py-16 text-center sm:px-8 sm:py-24"
             >
                 <AmbientBackground />
-                <div className="mx-auto max-w-2xl">
+                <Reveal className="mx-auto max-w-2xl">
                     <h2 id="cta-title" className="font-display text-3xl font-bold sm:text-4xl">
                         {t('about.ctaTitle')}
                     </h2>
@@ -147,7 +155,7 @@ export default async function AboutPage({ params }: Props) {
                             {t('about.ctaContact')}
                         </Link>
                     </div>
-                </div>
+                </Reveal>
             </section>
         </>
     );

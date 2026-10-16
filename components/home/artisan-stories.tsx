@@ -1,4 +1,5 @@
 import { AmbientBackground } from '@/components/ui/ambient-background';
+import { Reveal } from '@/components/ui/reveal';
 import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 import { HOME_LIMITS } from '@/lib/home-config';
@@ -42,7 +43,7 @@ export async function ArtisanStories({ artisans, crafts, locale }: Props) {
 
             <div className="mx-auto max-w-6xl">
                 <div className="flex flex-wrap items-end justify-between gap-4">
-                    <div>
+                    <Reveal>
                         <p className="text-sm font-semibold text-accent">{t('artisansEyebrow')}</p>
                         <h2
                             id="artisans-title"
@@ -51,7 +52,7 @@ export async function ArtisanStories({ artisans, crafts, locale }: Props) {
                             {t('artisansTitle')}
                         </h2>
                         <p className="mt-2 max-w-xl text-fg/80">{t('artisansSubtitle')}</p>
-                    </div>
+                    </Reveal>
                     <Link
                         href="/artisans"
                         className="btn-glass inline-flex h-11 items-center px-6 text-sm font-semibold"
@@ -61,11 +62,11 @@ export async function ArtisanStories({ artisans, crafts, locale }: Props) {
                 </div>
 
                 <ul className="mt-10 grid gap-5 md:grid-cols-3">
-                    {picked.map((artisan) => {
+                    {picked.map((artisan, index) => {
                         const name = localize(artisan.name, locale);
 
                         return (
-                            <li key={artisan.id}>
+                            <Reveal as="li" key={artisan.id} delay={Math.min(index, 6) * 60}>
                                 <article className="glass flex h-full flex-col rounded-[1.75rem] p-3">
                                     <div className="relative aspect-square overflow-hidden rounded-[1.25rem]">
                                         <Image
@@ -102,7 +103,7 @@ export async function ArtisanStories({ artisans, crafts, locale }: Props) {
                                         </div>
                                     </div>
                                 </article>
-                            </li>
+                            </Reveal>
                         );
                     })}
                 </ul>
